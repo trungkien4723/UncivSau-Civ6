@@ -78,6 +78,19 @@ internal object DesktopLauncher {
             exitProcess(0)
         }
 
+        if (arg.contains("--civ6")) {
+            // Launch Civ6 clean minimal
+            Log.backend = DesktopLogBackend()
+            Display.platform = DesktopDisplay()
+            Fonts.fontImplementation = DesktopFont()
+            UncivFiles.saverLoader = if (LinuxX11SaverLoader.isRequired()) LinuxX11SaverLoader() else DesktopSaverLoader()
+            val config = Lwjgl3ApplicationConfiguration()
+            config.setTitle("UncivSau-Civ6")
+            config.setWindowedMode(1280, 720)
+            HardenGdxAudio(Civ6DesktopGame(config, customDataDir), config)
+            exitProcess(0)
+        }
+
         if (SharedLibraryLoader.os == Os.MacOsX) {
             Configuration.GLFW_LIBRARY_NAME.set("glfw_async")
             // Since LibGDX 1.13.1 on Mac you cannot call Lwjgl3ApplicationConfiguration.getPrimaryMonitor()
