@@ -1,0 +1,4347 @@
+[
+  {
+    "name": "Spectator",
+    "outerColor": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "name": "Barbarians",
+    "outerColor": [
+      168,
+      63,
+      63
+    ],
+    "innerColor": [
+      4,
+      4,
+      4
+    ],
+    "cities": [],
+    "spyNames": ["Barbarian"]
+  },
+  {
+    "name": "America",
+    "leaderName": "Abraham Lincoln",
+    "adjective": [
+      "American"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Scientific",
+    "personality": "George Washington",
+    "agenda": "Diplomatic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      28,
+      51,
+      119
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Manifest Destiny",
+    "uniques": [
+      "American unique Atomic era air unit that replaces the Fighter.  Gains +5Combat Strength against fighter aircraft, has +2 flight range, and gains [+50]% experience <after discovering [Advanced Flight]>",
+      "American unique Industrial era unit when Teddy Roosevelt is their leader that replaces the Cuirassiers.Culture is earned from kills on theirCapital's continent. +10Combat Strength when fighting on Hills. Lower maintenance cost.<Ballistics>"
+    ],
+    "cities": [
+      "Washington",
+      "New York",
+      "Boston",
+      "Philadelphia",
+      "Atlanta",
+      "Chicago",
+      "Seattle",
+      "San Francisco",
+      "Los Angeles",
+      "Houston",
+      "Portland",
+      "St. Louis",
+      "Miami",
+      "Buffalo",
+      "Detroit",
+      "New Orleans",
+      "Baltimore",
+      "Denver",
+      "Cincinnati",
+      "Dallas",
+      "Memphis",
+      "Cleveland",
+      "Kansas City",
+      "San Diego",
+      "Richmond",
+      "Las Vegas",
+      "Phoenix",
+      "Albuquerque",
+      "Minneapolis",
+      "Pittsburgh",
+      "Oakland",
+      "Tampa Bay",
+      "Orlando",
+      "Tacoma",
+      "Santa Fe",
+      "Olympia",
+      "Hunt Valley",
+      "Springfield",
+      "Palo Alto",
+      "Centralia",
+      "Spokane",
+      "Jacksonville",
+      "Savannah",
+      "Charleston",
+      "San Antonio",
+      "Birmingham",
+      "Anchorage",
+      "Sacramento",
+      "Reno",
+      "Salt Lake City",
+      "Boise",
+      "Milwaukee",
+      "Santa Cruz",
+      "Little Rock"
+    ],
+    "spyNames": [
+      "Cousin",
+      "Felix",
+      "Dennis",
+      "Edward",
+      "Prof. Rex",
+      "Eliza",
+      "Mary",
+      "Virginia",
+      "Scarlett",
+      "Barbara"
+    ]
+  },
+  {
+    "name": "Arabia",
+    "leaderName": "Saladin (Vizier)",
+    "adjective": [
+      "Arabian"
+    ],
+    "startBias": [
+      "Desert"
+    ],
+    "preferredVictoryType": "Scientific",
+    "personality": "Harun al-Rashid",
+    "agenda": "Piety",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      43,
+      88,
+      46
+    ],
+    "innerColor": [
+      146,
+      221,
+      10
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Trade Caravans",
+    "uniques": [
+      "Arabian unique Medieval era unit that replaces the Knight. Heals at the end of every turn, even after moving or attacking.<Stirrups>"
+    ],
+    "cities": [
+      "Mecca",
+      "Medina",
+      "Damascus",
+      "Baghdad",
+      "Najran",
+      "Kufah",
+      "Basra",
+      "Khurasan",
+      "Anjar",
+      "Fustat",
+      "Aden",
+      "Yamama",
+      "Muscat",
+      "Mansura",
+      "Bukhara",
+      "Fez",
+      "Shiraz",
+      "Merw",
+      "Balkh",
+      "Mosul",
+      "Aydab",
+      "Bayt",
+      "Suhar",
+      "Taif",
+      "Hama",
+      "Tabuk",
+      "Sana'a",
+      "Shihr",
+      "Tripoli",
+      "Tunis",
+      "Kairouan",
+      "Algiers",
+      "Oran"
+    ],
+    "spyNames": [
+      "Solhofaat",
+      "Khenzeer",
+      "Zarafah",
+      "Temsaah",
+      "Abyadh",
+      "Mostafa",
+      "Yusuf",
+      "Waddah",
+      "Sameera",
+      "Gamal"
+    ],
+    "uniqueBuildings": [
+      "Madrasa"
+    ]
+  },
+  {
+    "name": "Australia",
+    "leaderName": "John Curtin",
+    "adjective": [
+      "Australian"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "John Curtin",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Cultured"
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      0,
+      102,
+      179
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Land Down Under",
+    "uniques": [
+      "Unlocks the Builder ability to construct an Outback Station, unique to Australia.+1Food and +1Production. +1Food for each adjacent Pasture. AdditionalFood andProduction as you advance through the Technology and Civic Tree for adjacent Outback Stations and Pastures. Can only be built in Desert, Desert Hills, Grassland, and Plains tiles.",
+      "Australian unique Modern era unit that replaces Infantry. +10Combat Strength when fighting on Coastal tiles. +5Combat Strength when fighting on Neutral or Foreign Territory.<Replaceable Parts>"
+    ],
+    "cities": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Adelaide",
+      "Gold Coast",
+      "Newcastle",
+      "Hobart",
+      "Darwin",
+      "Wollongong",
+      "Geelong",
+      "Townsville",
+      "Cairns",
+      "Toowoomba",
+      "Ballarat",
+      "Bendigo",
+      "Albury",
+      "Launceston",
+      "Mackay",
+      "Rockhampton",
+      "Bunbury",
+      "Bundaberg",
+      "Coffs Harbour",
+      "Wagga Wagga",
+      "Hervey Bay",
+      "Mildura",
+      "Gladstone",
+      "Tweed Heads",
+      "Burnie"
+    ],
+    "spyNames": [
+      "Jack",
+      "Mary",
+      "Tom",
+      "Edith",
+      "Henry",
+      "Rose",
+      "Frank",
+      "Ivy",
+      "Bert",
+      "Nell"
+    ]
+  },
+  {
+    "name": "Aztec",
+    "leaderName": "Montezuma",
+    "adjective": [
+      "Aztec"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Montezuma",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      43,
+      102,
+      173
+    ],
+    "innerColor": [
+      255,
+      200,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Legend of the Five Suns",
+    "uniques": [
+      "Aztec unique Ancient era unit that replaces the Warrior.  Has a chance to capture other civilization's military units by turning them into Builders."
+    ],
+    "cities": [
+      "Tenochtitlan",
+      "Texcoco",
+      "Tlacopan",
+      "Tlatelolco",
+      "Teotihuacan",
+      "Xochicalco",
+      "Coyoacan",
+      "Chapultepec",
+      "Tula",
+      "Malinalco",
+      "Cuernavaca",
+      "Tamuin",
+      "Calixlahuaca",
+      "Tzintzuntzan",
+      "Campeche",
+      "Tlaxcala",
+      "Huaxtepec",
+      "Cuauhtitlan",
+      "Huexotla",
+      "Cempoala",
+      "Quiahuitztlan",
+      "Tuxpan",
+      "Oaxaca",
+      "Coatzacoalcos",
+      "Cholula",
+      "Acapulco",
+      "Zumpango",
+      "Atotonilco"
+    ],
+    "spyNames": [
+      "Cuauhtemoc",
+      "Cuitlahuac",
+      "Itzcoatl",
+      "Ahuitzotl",
+      "Tizoc",
+      "Axayacatl",
+      "Moctezuma I",
+      "Nezahualcoyotl",
+      "Tlacaelel",
+      "Cacamatzin"
+    ]
+  },
+  {
+    "name": "Babylon",
+    "leaderName": "Hammurabi",
+    "adjective": [
+      "Babylonian"
+    ],
+    "startBias": [
+      "Avoid [Tundra]"
+    ],
+    "preferredVictoryType": "Scientific",
+    "personality": "Nebuchadnezzar II",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      27,
+      53,
+      63
+    ],
+    "innerColor": [
+      213,
+      249,
+      255
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Ingenuity",
+    "uniques": [
+      "Babylonian unique Ancient era melee unit. +17Combat Strength against Heavy and Light Cavalry promotion class units. This unit has 3Movement and sight."
+    ],
+    "cities": [
+      "Babylon",
+      "Akkad",
+      "Dur-Kurigalzu",
+      "Nippur",
+      "Borsippa",
+      "Sippar",
+      "Opis",
+      "Mari",
+      "Shushan",
+      "Eshnunna",
+      "Ellasar",
+      "Erech",
+      "Kutha",
+      "Sirpurla",
+      "Neribtum",
+      "Ashur",
+      "Ninveh",
+      "Nimrud",
+      "Arbela",
+      "Nuzi",
+      "Arrapkha",
+      "Tutub",
+      "Shaduppum",
+      "Rapiqum",
+      "Mashkan Shapir",
+      "Tuttul",
+      "Ramad",
+      "Ana",
+      "Haradum",
+      "Agrab",
+      "Uqair",
+      "Gubba",
+      "Hafriyat",
+      "Nagar",
+      "Shubat Enlil",
+      "Urhai",
+      "Urkesh",
+      "Awan",
+      "Riblah",
+      "Tayma"
+    ],
+    "spyNames": [
+      "Rim-Sin II",
+      "Smerdis",
+      "Ilum-ma-ili",
+      "Peshgaldaramesh",
+      "Ur-zigurumaÅ¡",
+      "Semiramis",
+      "Em",
+      "Ishtar",
+      "Bilit Taauth",
+      "Aruru"
+    ],
+    "uniqueBuildings": [
+      "Palgum"
+    ]
+  },
+  {
+    "name": "Brazil",
+    "leaderName": "Pedro II",
+    "adjective": [
+      "Brazilian"
+    ],
+    "startBias": [
+      "Rainforest"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Pedro II",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      156,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Amazon",
+    "uniques": [
+      "Brazilian unique Industrial era unit that replaces the Battleship. Stronger than the Battleship. Unlocked by Nationalism."
+    ],
+    "cities": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador",
+      "Brasília",
+      "Fortaleza",
+      "Belo Horizonte",
+      "Manaus",
+      "Curitiba",
+      "Recife",
+      "Porto Alegre",
+      "Belém",
+      "Goiânia",
+      "São Luís",
+      "Maceió",
+      "Natal",
+      "Campinas",
+      "São Vicente",
+      "Santos",
+      "Olinda",
+      "Vitória",
+      "Florianópolis",
+      "João Pessoa",
+      "Aracaju",
+      "Cuiabá",
+      "Campo Grande",
+      "Teresina",
+      "Rio Branco",
+      "Macapá",
+      "Boa Vista",
+      "Palmas"
+    ],
+    "spyNames": [
+      "Carioca",
+      "Paulista",
+      "Mineiro",
+      "Gaúcho",
+      "Baiano",
+      "Cearense",
+      "Pernambucano",
+      "Paraense",
+      "Maranhense",
+      "Amazonense"
+    ]
+  },
+  {
+    "name": "Byzantium",
+    "leaderName": "Basil II",
+    "adjective": [
+      "Byzantine"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Theodora",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      114,
+      162,
+      233
+    ],
+    "innerColor": [
+      61,
+      0,
+      109
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Patriarchate of Constantinople",
+    "uniques": [
+      "Basil II's unique Medieval era unit that replaces the Knight. Land units within 1 tile of the Tagma receive +4Combat Strength orReligious Strength.<Divine Right>",
+      "Byzantine unique Classical era unit that replaces the Quadrireme that has additional range and receives +10Combat Strength against units.<Shipbuilding>"
+    ],
+    "cities": [
+      "Constantinople",
+      "Adrianople",
+      "Nicaea",
+      "Antioch",
+      "Varna",
+      "Ohrid",
+      "Nicomedia",
+      "Trebizond",
+      "Cherson",
+      "Sardica",
+      "Ani",
+      "Dyrrachium",
+      "Edessa",
+      "Chalcedon",
+      "Naissus",
+      "Bari",
+      "Iconium",
+      "Prilep",
+      "Samosata",
+      "Kars",
+      "Nicopolis",
+      "Theodosiopolis",
+      "Tyana",
+      "Gaza",
+      "Kerkyra",
+      "Phoenice",
+      "Selymbria",
+      "Sillyon",
+      "Chrysopolis",
+      "Vodena",
+      "Caesarea",
+      "Traianoupoli",
+      "Constantia",
+      "Athens",
+      "Patra",
+      "Korinthos"
+    ],
+    "spyNames": [
+      "Basil",
+      "Nikophoros",
+      "Demetrios",
+      "Philippos",
+      "Theophylaktos",
+      "Simonis",
+      "Zoe",
+      "Ioanno",
+      "Xene",
+      "Euphrosyne"
+    ]
+  },
+  {
+    "name": "Canada",
+    "leaderName": "Wilfrid Laurier",
+    "adjective": [
+      "Canadian"
+    ],
+    "startBias": [
+      "Tundra"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "personality": "Wilfrid Laurier",
+    "agenda": "Nature Lover",
+    "hiddenAgendas": [
+      "Cultured",
+      "Warmonger Hater",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      0,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Peacekeeper",
+    "uniques": [
+      "Unlocks the Builder ability to construct an Ice Hockey Rink, unique to Canada.+1Amenity. +1Culture for each adjacent Tundra, Tundra Hills, Snow, and Snow Hills tile. ProvidesTourism from Culture once Flight is unlocked. +2Food andProduction once the Professional Sports civic is unlocked. +4Culture if adjacent to a Stadium building. Can be built on Tundra, Tundra Hills, Snow, and Snow Hills. One per city. +2 Appeal.",
+      "Canadian unique Modern era unit. Can create 2 National Parks. +5Combat Strength when fighting within 2 tiles of a National Park. Additional +5Combat Strength when fighting within 2 tiles of a National Park you own.<Conservation>"
+    ],
+    "cities": [
+      "Ottawa",
+      "Toronto",
+      "Montreal",
+      "Vancouver",
+      "Calgary",
+      "Edmonton",
+      "Quebec City",
+      "Winnipeg",
+      "Hamilton",
+      "Kitchener",
+      "London",
+      "Halifax",
+      "Victoria",
+      "Oshawa",
+      "Windsor",
+      "Saskatoon",
+      "Regina",
+      "St. John's",
+      "Sherbrooke",
+      "Trois-Rivieres",
+      "Barrie",
+      "Kelowna",
+      "Sudbury",
+      "Kingston",
+      "Abbotsford",
+      "Thunder Bay",
+      "Saguenay",
+      "Guelph",
+      "Moncton",
+      "Brampton"
+    ],
+    "spyNames": [
+      "Wilfrid",
+      "Jeanne",
+      "Henri",
+      "Marie",
+      "George",
+      "Claire",
+      "Thomas",
+      "Lucie",
+      "Robert",
+      "Helene"
+    ],
+    "uniqueBuildings": [
+      "Ice Hockey Rink"
+    ]
+  },
+  {
+    "name": "China",
+    "leaderName": "Kublai Khan (China)",
+    "adjective": [
+      "Chinese"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Scientific",
+    "personality": "Wu Zetian",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      9,
+      112,
+      84
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Taoism",
+    "uniqueName": "Art of War",
+    "uniques": [
+      "Unlocks the Builder ability to construct the Great Wall, unique to China.+2Gold. Provides an increase toDefense. Bonus toGold if adjacent to other segments. AdditionalCulture andTourism as you advance through the Technology Tree for adjacent segments. Must be built in a line along the borders of your empire. Can only be pillaged (never destroyed) by natural disasters.",
+      "Chinese unique Medieval era unit. Ranged unit with aRange of 1 and high combat strength.<Machinery>"
+    ],
+    "cities": [
+      "Beijing",
+      "Shanghai",
+      "Guangzhou",
+      "Nanjing",
+      "Xian",
+      "Chengdu",
+      "Hangzhou",
+      "Tianjin",
+      "Macau",
+      "Shandong",
+      "Kaifeng",
+      "Ningbo",
+      "Baoding",
+      "Yangzhou",
+      "Harbin",
+      "Chongqing",
+      "Luoyang",
+      "Kunming",
+      "Taipei",
+      "Shenyang",
+      "Taiyuan",
+      "Tainan",
+      "Dalian",
+      "Lijiang",
+      "Wuxi",
+      "Suzhou",
+      "Maoming",
+      "Shaoguan",
+      "Yangjiang",
+      "Heyuan",
+      "Huangshi",
+      "Yichang",
+      "Yingtian",
+      "Xinyu",
+      "Xinzheng",
+      "Handan",
+      "Dunhuang",
+      "Gaoyu",
+      "Nantong",
+      "Weifang",
+      "Xikang"
+    ],
+    "spyNames": [
+      "Li",
+      "Chen",
+      "Zhang",
+      "Liu",
+      "Yang",
+      "Huang",
+      "Zhao",
+      "Wu",
+      "Zhou",
+      "Sun"
+    ]
+  },
+  {
+    "name": "Cree",
+    "leaderName": "Poundmaker",
+    "adjective": [
+      "Cree"
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Poundmaker",
+    "agenda": "Nature Lover",
+    "hiddenAgendas": [
+      "Cultured",
+      "Warmonger Hater",
+      "Piety"
+    ],
+    "outerColor": [
+      198,
+      137,
+      41
+    ],
+    "innerColor": [
+      0,
+      71,
+      49
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Nihithaw",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Mekewap, unique to Cree.Provides +1Production and +1Housing. +1Gold if adjacent to a Luxury resource.  For every 2 adjacent Bonus Resources +1Food.  AdditionalProduction,Gold,Food, andHousing as you advance through the Civics and Technology Tree. Must be placed adjacent to a Bonus or Luxury resource. Cannot be built adjacent to another Mekewap.",
+      "Cree unique Ancient era unit that replaces the Scout. Strong reconnaissance unit. Starts with 1 free promotion."
+    ],
+    "cities": [
+      "Saskatoon",
+      "Edmonton",
+      "Regina",
+      "Calgary",
+      "Winnipeg",
+      "Prince Albert",
+      "Battleford",
+      "Lloydminster",
+      "North Battleford",
+      "Red Deer",
+      "Medicine Hat",
+      "Moose Jaw",
+      "Swift Current",
+      "Yorkton",
+      "Brandon",
+      "Thompson",
+      "The Pas",
+      "Flin Flon",
+      "Cold Lake",
+      "Lloyd",
+      "Wetaskiwin",
+      "Camrose",
+      "Vermilion",
+      "Wainwright",
+      "St. Paul",
+      "Bonnyville",
+      "High Level",
+      "Peace River",
+      "Fort McMurray",
+      "Lac La Biche"
+    ],
+    "spyNames": [
+      "Pisim",
+      "Kohkuminaw",
+      "Nimosom",
+      "Wapan",
+      "Okosis",
+      "Nikawiy",
+      "Maskwa",
+      "Mahihkan",
+      "Piyesiw",
+      "Waskweyaw"
+    ],
+    "uniqueBuildings": [
+      "Mekewap"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "leaderName": "Cleopatra (Egyptian)",
+    "adjective": [
+      "Egyptian"
+    ],
+    "startBias": [
+      "Avoid [Jungle]",
+      "Avoid [Forest]"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Ramesses II",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      252,
+      3
+    ],
+    "innerColor": [
+      83,
+      0,
+      208
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Monument Builders",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Sphinx, unique to Egypt.+1Faith and +1Culture. +2 Appeal. +2Faith if next to a wonder. +1Culture if built on Floodplains. AdditionalCulture once Natural History is discovered. ProvidesTourism after researching Flight. Cannot be built next to another Sphinx. Cannot be built on Snow or Snow Hills.",
+      "Egyptian unique Ancient era ranged unit. 4Movement when starting in open terrain.<Wheel>"
+    ],
+    "cities": [
+      "Thebes",
+      "Memphis",
+      "Heliopolis",
+      "Elephantine",
+      "Alexandria",
+      "Pi-Ramesses",
+      "Giza",
+      "Byblos",
+      "Akhetaten",
+      "Hieraconpolis",
+      "Abydos",
+      "Asyut",
+      "Avaris",
+      "Lisht",
+      "Buto",
+      "Edfu",
+      "Pithom",
+      "Busiris",
+      "Kahun",
+      "Athribis",
+      "Mendes",
+      "Elashmunein",
+      "Tanis",
+      "Bubastis",
+      "Oryx",
+      "Sebennytus",
+      "Akhmin",
+      "Karnak",
+      "Luxor",
+      "El Kab",
+      "Armant",
+      "Balat",
+      "Ellahun",
+      "Hawara",
+      "Dashur",
+      "Damanhur",
+      "Abusir",
+      "Herakleopolis",
+      "Akoris",
+      "Benihasan",
+      "Badari",
+      "Hermopolis",
+      "Amrah",
+      "Koptos",
+      "Ombos",
+      "Naqada",
+      "Semna",
+      "Soleb"
+    ],
+    "spyNames": [
+      "Refaat",
+      "Heba",
+      "Salah",
+      "Ahmed",
+      "Zakaria",
+      "Bastet",
+      "Ma'at",
+      "Nebhet",
+      "Tefenet",
+      "Neuth"
+    ]
+  },
+  {
+    "name": "England",
+    "leaderName": "Eleanor of Aquitaine (England)",
+    "adjective": [
+      "English"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "personality": "Elizabeth",
+    "agenda": "Diplomatic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      109,
+      2,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Sun Never Sets",
+    "uniques": [
+      "English unique Renaissance era naval unit that replaces the Privateer. Has a chance to capture defeated enemy ships. Can only be seen by other Naval Raiders unless adjacent to it. Reveals Naval Raiders within sight range.<Mercantilism>"
+    ],
+    "cities": [
+      "London",
+      "York",
+      "Nottingham",
+      "Hastings",
+      "Canterbury",
+      "Coventry",
+      "Warwick",
+      "Newcastle",
+      "Oxford",
+      "Liverpool",
+      "Dover",
+      "Brighton",
+      "Norwich",
+      "Leeds",
+      "Reading",
+      "Birmingham",
+      "Richmond",
+      "Exeter",
+      "Cambridge",
+      "Gloucester",
+      "Manchester",
+      "Bristol",
+      "Leicester",
+      "Carlisle",
+      "Ipswich",
+      "Portsmouth",
+      "Berwick",
+      "Bath",
+      "Mumbles",
+      "Southampton",
+      "Sheffield",
+      "Salisbury",
+      "Colchester",
+      "Plymouth",
+      "Lancaster",
+      "Blackpool",
+      "Winchester",
+      "Hull"
+    ],
+    "spyNames": [
+      "James",
+      "Scarlett",
+      "Mycroft",
+      "Charlotte",
+      "Gwendolyn",
+      "Mr. Eks",
+      "Dr. Grey",
+      "Andrew",
+      "Scott",
+      "Anne"
+    ],
+    "uniqueDistricts": [
+      "Royal Navy Dockyard"
+    ]
+  },
+  {
+    "name": "Ethiopia",
+    "leaderName": "Menelik II",
+    "adjective": [
+      "Ethiopian"
+    ],
+    "startBias": [
+      "Jungle"
+    ],
+    "preferredVictoryType": "Religious",
+    "personality": "Menelik II",
+    "agenda": "Piety",
+    "hiddenAgendas": [
+      "Cultured",
+      "Warmonger Hater",
+      "Nature Lover"
+    ],
+    "outerColor": [
+      18,
+      66,
+      22
+    ],
+    "innerColor": [
+      255,
+      56,
+      56
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Adwa",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Rock-Hewn Church, unique to Ethiopia.+1Faith. +1Faith for every adjacent Mountain and Hills tile. ProvidesTourism fromFaith, after researching Flight. +1 Appeal. Can only be pillaged (never destroyed) by natural disasters. Can only be built on Hills or Volcanic Soil not adjacent to another Rock-Hewn Church.",
+      "Ethiopian unique Medieval era light cavalry unit. Stronger and greater sight than the Courser that it replaces. Receives noMovement penalty from moving in Hills.<Castles>"
+    ],
+    "cities": [
+      "Addis Ababa",
+      "Harar",
+      "Adwa",
+      "Lalibela",
+      "Gondar",
+      "Axum",
+      "Dire Dawa",
+      "Bahir Dar",
+      "Adama",
+      "Mek'ele",
+      "Awasa",
+      "Jimma",
+      "Jijiga",
+      "Dessie",
+      "Debre Berhan",
+      "Shashamane",
+      "Debre Zeyit",
+      "Sodo",
+      "Hosaena",
+      "Nekemte",
+      "Asella",
+      "Dila",
+      "Adigrat",
+      "Debre Markos",
+      "Kombolcha",
+      "Debre Tabor",
+      "Sebeta",
+      "Shire",
+      "Ambo"
+    ],
+    "spyNames": [
+      "Mulu Ken",
+      "Wendimu",
+      "Li'ol",
+      "Demeke",
+      "Mulu Alem",
+      "Abebech",
+      "Zema",
+      "Mihret",
+      "Kebedech",
+      "Alemnesh"
+    ],
+    "uniqueBuildings": [
+      "Stele"
+    ]
+  },
+  {
+    "name": "France",
+    "leaderName": "Catherine de Medici (Black Queen)",
+    "adjective": [
+      "French"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Cultural",
+    "personality": "Napoleon",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      38,
+      98,
+      255
+    ],
+    "innerColor": [
+      239,
+      236,
+      148
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Ancien RÃ©gime",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Château, unique to France.+2Culture and +1Gold. +1 Appeal. +1Culture for every adjacent wonder (becomes +2 after researching Flight). +2Gold if on a tile containing a River edge. ProvidesTourism fromCulture after researching Flight. Must be placed adjacent to a Bonus or Luxury resource. Cannot be built adjacent to another Château.",
+      "French unique Industrial era melee unit that replaces the Line Infantry. +10Combat Strength when fighting on your capital's continent.Great General points for killing units.<Military Science>"
+    ],
+    "cities": [
+      "Paris",
+      "Orleans",
+      "Lyon",
+      "Troyes",
+      "Tours",
+      "Marseille",
+      "Chartres",
+      "Avignon",
+      "Rouen",
+      "Grenoble",
+      "Dijon",
+      "Amiens",
+      "Cherbourg",
+      "Poitiers",
+      "Toulouse",
+      "Bayonne",
+      "Strasbourg",
+      "Brest",
+      "Bordeaux",
+      "Rennes",
+      "Nice",
+      "Saint Etienne",
+      "Nantes",
+      "Reims",
+      "Le Mans",
+      "Montpellier",
+      "Limoges",
+      "Nancy",
+      "Lille",
+      "Caen",
+      "Toulon",
+      "Le Havre",
+      "Lourdes",
+      "Cannes",
+      "Aix-En-Provence",
+      "La Rochelle",
+      "Bourges",
+      "Calais"
+    ],
+    "spyNames": [
+      "Jean-Paul",
+      "Martine",
+      "Lucien",
+      "FranÃ§ois",
+      "Augustine",
+      "Monsieur X",
+      "Dr. Dupont",
+      "VipÃ¨re",
+      "Yvette",
+      "Renard"
+    ]
+  },
+  {
+    "name": "Gaul",
+    "leaderName": "Ambiorix",
+    "adjective": [
+      "Gallic"
+    ],
+    "startBias": [
+      "Forest"
+    ],
+    "preferredVictoryType": "Domination",
+    "personality": "Ambiorix",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Nature Lover",
+      "Warmonger Hater",
+      "Cultured"
+    ],
+    "outerColor": [
+      0,
+      90,
+      156
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Druidism",
+    "uniqueName": "Vercingetorix",
+    "uniques": [
+      "Gallic unique Ancient era unit that replaces the Warrior. This unit has increased cost and receives +10Combat Strength when fighting units with a higher base Combat Strength. +5Combat Strength vs. district defenses."
+    ],
+    "cities": [
+      "Gergovia",
+      "Alesia",
+      "Bibracte",
+      "Cenabum",
+      "Noviodunum",
+      "Durocotorum",
+      "Divodurum",
+      "Lugdunum",
+      "Avaricum",
+      "Gesocribate",
+      "Condevincum",
+      "Namnetum",
+      "Darioritum",
+      "Vorgium",
+      "Condate",
+      "Ratos",
+      "Corstopitum",
+      "Lemonum",
+      "Augustoritum",
+      "Argentomagus",
+      "Autricum",
+      "Cenomani",
+      "Andecavi",
+      "Veneti",
+      "Osismi",
+      "Redones",
+      "Curiosolites",
+      "Lexovii",
+      "Unelli",
+      "Abrincatui"
+    ],
+    "spyNames": [
+      "Vercingetorix",
+      "Critognatus",
+      "Sedullos",
+      "Epasnactos",
+      "Litaviccos",
+      "Cotuatus",
+      "Commius",
+      "Dumnorix",
+      "Diviciacus",
+      "Cardelios"
+    ],
+    "uniqueDistricts": [
+      "Oppidum"
+    ]
+  },
+  {
+    "name": "Georgia",
+    "leaderName": "Tamar",
+    "adjective": [
+      "Georgian"
+    ],
+    "startBias": [
+      "Hill"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Tamar",
+    "agenda": "Piety",
+    "hiddenAgendas": [
+      "Cultured",
+      "Warmonger Hater",
+      "Nature Lover"
+    ],
+    "outerColor": [
+      157,
+      0,
+      39
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Protector of the Georgian People",
+    "uniques": [
+      "Georgian unique Medieval Era unit that replaces the Man-At-Arms. +7Combat Strength bonus when fighting in hill terrain. NoMovement penalty in hill terrain.<Military Tactics>"
+    ],
+    "cities": [
+      "Tbilisi",
+      "Kutaisi",
+      "Batumi",
+      "Rustavi",
+      "Sokhumi",
+      "Zugdidi",
+      "Gori",
+      "Poti",
+      "Telavi",
+      "Akhaltsikhe",
+      "Mtskheta",
+      "Kvareli",
+      "Signagi",
+      "Borjomi",
+      "Ozurgeti",
+      "Marneuli",
+      "Kazbegi",
+      "Anaklia",
+      "Akhalkalaki",
+      "Tsaghveri",
+      "Stepantsminda",
+      "Kaspi",
+      "Dusheti",
+      "Lagodekhi",
+      "Abastumani",
+      "Ninotsminda",
+      "Tskhinvali",
+      "Oni",
+      "Ambrolauri",
+      "Chiatura"
+    ],
+    "spyNames": [
+      "Davit",
+      "Ketevan",
+      "Giorgi",
+      "Nino",
+      "Irakli",
+      "Tamar",
+      "Bagrat",
+      "Rusudan",
+      "Vakhtang",
+      "Mariam"
+    ]
+  },
+  {
+    "name": "Germany",
+    "leaderName": "Frederick Barbarossa",
+    "adjective": [
+      "German"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Scientific",
+    "personality": "Otto von Bismarck",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      179,
+      178,
+      184
+    ],
+    "innerColor": [
+      37,
+      43,
+      33
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Furor Teutonicus",
+    "uniques": [
+      "German unique Modern era naval unit that replaces the Submarine. Cheaper to produce, [+1] Sight, and +10Combat Strength when fighting on Ocean tiles. Able to reveal other stealthed units <after discovering [Electricity]>"
+    ],
+    "cities": [
+      "Berlin",
+      "Hamburg",
+      "Munich",
+      "Cologne",
+      "Frankfurt",
+      "Essen",
+      "Dortmund",
+      "Stuttgart",
+      "DÃ¼sseldorf",
+      "Bremen",
+      "Hannover",
+      "Duisburg",
+      "Leipzig",
+      "Dresden",
+      "Bonn",
+      "Bochum",
+      "Bielefeld",
+      "Karlsruhe",
+      "Gelsenkirchen",
+      "Wiesbaden",
+      "MÃ¼nster",
+      "Rostock",
+      "Chemnitz",
+      "Braunschweig",
+      "Halle",
+      "MÃ¶nchengladbach",
+      "Kiel",
+      "Wuppertal",
+      "Freiburg",
+      "Hagen",
+      "Erfurt",
+      "Kaiserslautern",
+      "Kassel",
+      "Oberhausen",
+      "Hamm",
+      "SaarbrÃ¼cken",
+      "Krefeld",
+      "Pirmasens",
+      "Potsdam",
+      "Solingen",
+      "OsnabrÃ¼ck",
+      "Ludwigshafen",
+      "Leverkusen",
+      "Oldenburg",
+      "Neuss",
+      "MÃ¼lheim",
+      "Darmstadt",
+      "Herne",
+      "WÃ¼rzburg",
+      "Recklinghausen",
+      "GÃ¶ttingen",
+      "Wolfsburg",
+      "Koblenz",
+      "Hildesheim",
+      "Erlangen"
+    ],
+    "spyNames": [
+      "Johann",
+      "Marlene",
+      "Wilhelm",
+      "Eva",
+      "Heinz",
+      "Horst",
+      "Carl",
+      "Viper",
+      "Albrecht",
+      "Anton"
+    ]
+  },
+  {
+    "name": "Gran",
+    "leaderName": "Simón Bolívar",
+    "adjective": [
+      "Gran Colombian"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Simon Bolivar",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      200,
+      0
+    ],
+    "innerColor": [
+      0,
+      0,
+      128
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Ejército Patriota",
+    "uniques": [
+      "Gran Colombian Industrial era unique unit that replaces the Cavalry.",
+      "A special type of Great Person that can be gained by reaching a Golden Age."
+    ],
+    "cities": [
+      "Bogotá",
+      "Caracas",
+      "Quito",
+      "Medellín",
+      "Cali",
+      "Guayaquil",
+      "Maracaibo",
+      "Barranquilla",
+      "Cartagena",
+      "Cúcuta",
+      "Bucaramanga",
+      "Pereira",
+      "Santa Marta",
+      "Ibagué",
+      "Manizales",
+      "Pasto",
+      "Neiva",
+      "Armenia",
+      "Popayán",
+      "Montería",
+      "Sincelejo",
+      "Valledupar",
+      "Tunja",
+      "Riohacha",
+      "Cumaná",
+      "Valencia",
+      "Barcelona",
+      "Mérida",
+      "San Cristóbal",
+      "Ciudad Guayana"
+    ],
+    "spyNames": [
+      "Bolívar",
+      "Sucre",
+      "Miranda",
+      "Nariño",
+      "Santander",
+      "Caldas",
+      "Córdoba",
+      "Páez",
+      "Marino",
+      "Zea"
+    ]
+  },
+  {
+    "name": "Greece",
+    "leaderName": "Gorgo",
+    "adjective": [
+      "Greek"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "personality": "Alexander",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "innerColor": [
+      65,
+      141,
+      254
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Hellenic League",
+    "uniques": [
+      "Greek unique Ancient era anti-cavalry unit that replaces the Spearman. +10Combat Strength if there is at least one adjacent Hoplite unit.<Bronze Working>"
+    ],
+    "cities": [
+      "Athens",
+      "Sparta",
+      "Corinth",
+      "Argos",
+      "Knossos",
+      "Mycenae",
+      "Pharsalos",
+      "Ephesus",
+      "Halicarnassus",
+      "Rhodes",
+      "Eretria",
+      "Pergamon",
+      "Miletos",
+      "Megara",
+      "Phocaea",
+      "Sicyon",
+      "Tiryns",
+      "Samos",
+      "Mytilene",
+      "Chios",
+      "Paros",
+      "Elis",
+      "Syracuse",
+      "Herakleia",
+      "Gortyn",
+      "Chalkis",
+      "Pylos",
+      "Pella",
+      "Naxos",
+      "Larissa",
+      "Apollonia",
+      "Messene",
+      "Orchomenos",
+      "Ambracia",
+      "Kos",
+      "Knidos",
+      "Amphipolis",
+      "Patras",
+      "Lamia",
+      "Nafplion",
+      "Apolyton"
+    ],
+    "spyNames": [
+      "Jason",
+      "Helena",
+      "Alexa",
+      "Cletus",
+      "Kassandra",
+      "Andres",
+      "Desdemona",
+      "Anthea",
+      "Aeneas",
+      "Leander"
+    ],
+    "uniqueDistricts": [
+      "Acropolis"
+    ]
+  },
+  {
+    "name": "Hungary",
+    "leaderName": "Matthias Corvinus",
+    "adjective": [
+      "Hungarian"
+    ],
+    "startBias": [
+      "Grassland"
+    ],
+    "preferredVictoryType": "Domination",
+    "personality": "Matthias Corvinus",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Cultured",
+      "Warmonger Hater",
+      "Piety"
+    ],
+    "outerColor": [
+      188,
+      0,
+      45
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Raven King",
+    "uniques": [
+      "Levied units gain an ability giving them +2Movement and +5Combat Strength. It costs 75% lessGold and resources to upgrade Levied units. If you Levy troops from a City-State receive 2Envoys with that City-State. Gain the Black Army unique unit when the Castles technology is researched.",
+      "Hungarian unique Industrial era unit that replaces Cavalry. +3Combat Strength for every active Alliance.<Military Science>"
+    ],
+    "cities": [
+      "Buda",
+      "Pest",
+      "Esztergom",
+      "Szekesfehervar",
+      "Debrecen",
+      "Szeged",
+      "Gyor",
+      "Miskolc",
+      "Pecs",
+      "Nyiregyhaza",
+      "Kecskemet",
+      "Szombathely",
+      "Szolnok",
+      "Tatabanya",
+      "Kaposvar",
+      "Veszprem",
+      "Bekescsaba",
+      "Zalaegerszeg",
+      "Eger",
+      "Nagykanizsa",
+      "Dunaujvaros",
+      "Hodmezovasarhely",
+      "Sopron",
+      "Mosonmagyarovar",
+      "Godollo",
+      "Keszthely",
+      "Vac",
+      "Salgotarjan",
+      "Ozd",
+      "Papa"
+    ],
+    "spyNames": [
+      "Matyas",
+      "Beatrix",
+      "Janos",
+      "Erzsebet",
+      "Istvan",
+      "Katalin",
+      "Laszlo",
+      "Anna",
+      "Miklos",
+      "Zsofia"
+    ],
+    "uniqueBuildings": [
+      "Thermal Bath"
+    ]
+  },
+  {
+    "name": "Inca",
+    "leaderName": "Pachacuti",
+    "adjective": [
+      "Incan"
+    ],
+    "startBias": [
+      "Hill"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Pachacuti",
+    "agenda": "Scientific",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      184,
+      33
+    ],
+    "innerColor": [
+      3,
+      115,
+      86
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Great Andean Road",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Terrace Farm, unique to the Inca.+1Food. Provides +1Housing. +1Food for each adjacent Mountain Tile. Gain +2Production for each adjacent Aqueduct district. Receive +1Production if adjacent to Fresh Water and not an Aqueduct district. AdditionalFood as you advance through the Civics and Technology Tree for adjacency with other Terrace Farms. Can be placed on Grassland Hills, Plains Hills, and Desert Hills.",
+      "Incan unique Medieval Era unit that replaces the Skirmisher. Stronger at ranged combat than the Skirmisher and +1 additional attack per turn.<Machinery>"
+    ],
+    "cities": [
+      "Cuzco",
+      "Tiwanaku",
+      "Machu",
+      "Ollantaytambo",
+      "Corihuayrachina",
+      "Huamanga",
+      "Rumicucho",
+      "Vilcabamba",
+      "Vitcos",
+      "Andahuaylas",
+      "Ica",
+      "Arequipa",
+      "Nasca",
+      "Atico",
+      "Juli",
+      "Chuito",
+      "Chuquiapo",
+      "Huanuco Pampa",
+      "Tamboccocha",
+      "Huaras",
+      "Riobamba",
+      "Caxamalca",
+      "Sausa",
+      "Tambo Colorado",
+      "Huaca",
+      "Tumbes",
+      "Chan Chan",
+      "Sipan",
+      "Pachacamac",
+      "Llactapata",
+      "Pisac",
+      "Kuelap",
+      "Pajaten",
+      "Chucuito",
+      "Choquequirao"
+    ],
+    "spyNames": [
+      "Amaru",
+      "Apichu",
+      "Pariapichiu",
+      "Puma",
+      "Quenti",
+      "Suyuntu",
+      "Uturuncu",
+      "Purutu",
+      "Ozcollo"
+    ]
+  },
+  {
+    "name": "India",
+    "leaderName": "Chandragupta",
+    "adjective": [
+      "Indian"
+    ],
+    "startBias": [
+      "Grassland"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Gandhi",
+    "agenda": "Piety",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      14,
+      113,
+      4
+    ],
+    "innerColor": [
+      255,
+      163,
+      71
+    ],
+    "favoredReligion": "Hinduism",
+    "uniqueName": "Population Growth",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Stepwell, unique to India.+1Food and +1Housing. +1Faith if adjacent to a Holy Site district. +1Food if adjacent to a Farm. AdditionalHousing,Faith, andFood as you advance through the Technology and Civics Tree. PreventsFood loss during Drought. Cannot be built on Hills or adjacent to another Stepwell.",
+      "Indian unique Classical era heavy cavalry unit.  Adjacent enemy units receive -5Combat Strength.<Horseback Riding>"
+    ],
+    "cities": [
+      "Delhi",
+      "Mumbai",
+      "Vijayanagara",
+      "Pataliputra",
+      "Varanasi",
+      "Agra",
+      "Calcutta",
+      "Lahore",
+      "Bangalore",
+      "Hyderabad",
+      "Madurai",
+      "Ahmedabad",
+      "Kolhapur",
+      "Prayaga",
+      "Ayodhya",
+      "Indraprastha",
+      "Mathura",
+      "Ujjain",
+      "Gulbarga",
+      "Jaunpur",
+      "Rajagriha",
+      "Sravasti",
+      "Tiruchirapalli",
+      "Thanjavur",
+      "Bodhgaya",
+      "Kushinagar",
+      "Amaravati",
+      "Gaur",
+      "Gwalior",
+      "Jaipur",
+      "Karachi"
+    ],
+    "spyNames": [
+      "Ashok",
+      "Shanx",
+      "Hormis",
+      "Sanjeev",
+      "Ananda",
+      "Rani",
+      "Parvati",
+      "Mukta",
+      "Karishma",
+      "Jyotsna"
+    ],
+    "uniqueBuildings": [
+      "Stepwell"
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "leaderName": "Gitarja",
+    "adjective": [
+      "Indonesian"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Gitarja",
+    "agenda": "Nature Lover",
+    "hiddenAgendas": [
+      "Cultured",
+      "Piety",
+      "Warmonger Hater"
+    ],
+    "outerColor": [
+      206,
+      24,
+      31
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Nusantara",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Kampung, unique to Indonesia.+1Production and +1Housing. +1Food for each adjacent Fishing Boat. AdditionalProduction,Housing, andTourism as you advance through the Technology and Civics Tree. Must be placed on a Coast or Lake tile adjacent to a sea resource.",
+      "Indonesian unique Medieval era naval unit that replaces the Frigate. Formation units all inherit escort'sMovement speed and +5Combat Strength when in a formation.<Mercenaries>"
+    ],
+    "cities": [
+      "Majapahit",
+      "Yogyakarta",
+      "Jakarta",
+      "Surabaya",
+      "Bandung",
+      "Medan",
+      "Semarang",
+      "Palembang",
+      "Makassar",
+      "Denpasar",
+      "Padang",
+      "Pontianak",
+      "Balikpapan",
+      "Banjarmasin",
+      "Manado",
+      "Ambon",
+      "Kupang",
+      "Samarinda",
+      "Jayapura",
+      "Banda Aceh",
+      "Mataram",
+      "Cirebon",
+      "Banten",
+      "Cilacap",
+      "Ternate",
+      "Tidore",
+      "Singaraja",
+      "Solo",
+      "Ciamis",
+      "Kediri"
+    ],
+    "spyNames": [
+      "Gajah",
+      "Sari",
+      "Wijaya",
+      "Dewi",
+      "Kenanga",
+      "Puspita",
+      "Bayu",
+      "Ratih",
+      "Teja",
+      "Kusuma"
+    ],
+    "uniqueBuildings": [
+      "Kampung"
+    ]
+  },
+  {
+    "name": "Japan",
+    "leaderName": "Hojo Tokimune",
+    "adjective": [
+      "Japanese"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Domination",
+    "personality": "Oda Nobunaga",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "innerColor": [
+      184,
+      0,
+      0
+    ],
+    "favoredReligion": "Shinto",
+    "uniqueName": "Bushido",
+    "uniques": [
+      "Japanese unique Medieval era melee unit that replaces the Man-At-Arms. Does not suffer combat penalties when damaged.<Feudalism>"
+    ],
+    "cities": [
+      "Kyoto",
+      "Osaka",
+      "Tokyo",
+      "Satsuma",
+      "Kagoshima",
+      "Nara",
+      "Nagoya",
+      "Izumo",
+      "Nagasaki",
+      "Yokohama",
+      "Shimonoseki",
+      "Matsuyama",
+      "Sapporo",
+      "Hakodate",
+      "Ise",
+      "Toyama",
+      "Fukushima",
+      "Suo",
+      "Bizen",
+      "Echizen",
+      "Izumi",
+      "Omi",
+      "Echigo",
+      "Kozuke",
+      "Sado",
+      "Kobe",
+      "Nagano",
+      "Hiroshima",
+      "Takayama",
+      "Akita",
+      "Fukuoka",
+      "Aomori",
+      "Kamakura",
+      "Kochi",
+      "Naha",
+      "Sendai",
+      "Gifu",
+      "Yamaguchi",
+      "Ota",
+      "Tottori"
+    ],
+    "spyNames": [
+      "Akaishi",
+      "Oki",
+      "Hattori",
+      "Morozumi",
+      "Momochi",
+      "Kawashima",
+      "Orin",
+      "Sakanishi",
+      "Kaede",
+      "Mochizuki"
+    ],
+    "uniqueBuildings": [
+      "Electronics Factory"
+    ]
+  },
+  {
+    "name": "Khmer",
+    "leaderName": "Jayavarman VII",
+    "adjective": [
+      "Khmer"
+    ],
+    "startBias": [
+      "Jungle"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Jayavarman VII",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Nature Lover",
+      "Piety",
+      "Warmonger Hater"
+    ],
+    "outerColor": [
+      12,
+      97,
+      45
+    ],
+    "innerColor": [
+      247,
+      211,
+      52
+    ],
+    "favoredReligion": "Buddhism",
+    "uniqueName": "Grand Baray",
+    "uniques": [
+      "Khmer unique Medieval era siege unit that replaces the Trebuchet. This unit has a higherMelee and Range Strength than the Trebuchet. It can move and shoot in the same turn and exerts zone of control.<Military Engineering>"
+    ],
+    "cities": [
+      "Angkor",
+      "YaÅ›odharapura",
+      "Chok Gargyar",
+      "Koh Ker",
+      "Banteay Srei",
+      "Preah Khan",
+      "Neak Pean",
+      "Ta Prohm",
+      "Beng Mealea",
+      "Kampong Thom",
+      "Sambor Prei Kuk",
+      "Phnom Penh",
+      "Battambang",
+      "Siem Reap",
+      "Kratie",
+      "Takeo",
+      "Pursat",
+      "Kampot",
+      "Svay Rieng",
+      "Prey Veng",
+      "Kompong Cham",
+      "Oddar Meanchey",
+      "Pailin",
+      "Ratanakiri",
+      "Mondulkiri",
+      "Stung Treng",
+      "Koh Kong",
+      "Sihanoukville",
+      "Kep",
+      "Banteay Meanchey"
+    ],
+    "spyNames": [
+      "Jayavarman",
+      "Indradevi",
+      "Tep",
+      "Suryakumari",
+      "Rajendravarman",
+      "Kamrateng",
+      "Sikhara",
+      "Cham",
+      "Vrah",
+      "Naga"
+    ],
+    "uniqueBuildings": [
+      "Prasat"
+    ]
+  },
+  {
+    "name": "Kongo",
+    "leaderName": "Mvemba a Nzinga",
+    "adjective": [
+      "Kongolese"
+    ],
+    "startBias": [
+      "Rainforest"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Mvemba a Nzinga",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      200,
+      16,
+      16
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Nkisi",
+    "uniques": [
+      "Kongo unique Classical era unit that replaces the Swordsman.  +10Combat Strength when defending against ranged attacks.  May move through and see through Woods and Rainforest."
+    ],
+    "cities": [
+      "Mbanza Kongo",
+      "São Salvador",
+      "Mpangu",
+      "Mbanza Mbata",
+      "Mpinda",
+      "Nkusu",
+      "Mbanza Soyo",
+      "Nsonso",
+      "Mbanza Vunda",
+      "Nkamba",
+      "Luvemba",
+      "Mbanza Nsundi",
+      "Mpangu",
+      "Lolo",
+      "Mbanza Mpangu",
+      "Wembo",
+      "Mbanza Mputu",
+      "Kwilu",
+      "Mbanza Kasi",
+      "Nsi",
+      "Mbanza Nseke",
+      "Mbata",
+      "Mbanza Siki",
+      "Kongo dia Ntotila",
+      "Nsundi",
+      "Mbanza Luvaka",
+      "Kinkanga",
+      "Mbanza Mboma",
+      "Kindonga",
+      "Mbanza Kinkanga"
+    ],
+    "spyNames": [
+      "Nzinga",
+      "Afonso",
+      "Henrique",
+      "Francisco",
+      "Diogo",
+      "Bernardo",
+      "Manuel",
+      "Pedro",
+      "António",
+      "Sebastião"
+    ]
+  },
+  {
+    "name": "Korea",
+    "leaderName": "Sejong",
+    "adjective": [
+      "Korean"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Seondeok",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Scientific",
+      "Piety",
+      "Nature Lover"
+    ],
+    "outerColor": [
+      0,
+      21,
+      84
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Buddhism",
+    "uniqueName": "Cheomseongdae",
+    "uniques": [
+      "Korean unique Renaissance Era unit that replaces the Field Cannon. HighRanged Attack Strength. Cannot move and attack in the same turn.<Gunpowder>"
+    ],
+    "cities": [
+      "Gyeongju",
+      "Seoul",
+      "Busan",
+      "Daegu",
+      "Pyongyang",
+      "Kaesong",
+      "Suwon",
+      "Gwangju",
+      "Gangneung",
+      "Hamhung",
+      "Wonju",
+      "Ulsan",
+      "Changwon",
+      "Andong",
+      "Gongju",
+      "Haeju",
+      "Cheongju",
+      "Mokpo",
+      "Dongducheon",
+      "Geoje",
+      "Suncheon",
+      "Jinju",
+      "Sangju",
+      "Rason",
+      "Gyeongju",
+      "Chungju",
+      "Sacheon",
+      "Gimje",
+      "Anju",
+      "Jeonju"
+    ],
+    "spyNames": [
+      "Kim",
+      "Park",
+      "Han",
+      "Na",
+      "Kong",
+      "Yu",
+      "Ahn",
+      "Da",
+      "Eun",
+      "Choe"
+    ]
+  },
+  {
+    "name": "Macedon",
+    "leaderName": "Alexander",
+    "adjective": [
+      "Macedonian"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Alexander",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      100,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Hellenistic Fusion",
+    "uniques": [
+      "Macedonian unique Classical era unit that replaces the Horseman.  +5Combat Strength when fighting against a civilization with a different Government.  May move after attacking.",
+      "Macedonian unique Classical era unit that replaces the Heavy Chariot.  Adjacent units +5Combat Strength and +1Movement.",
+      "All units +1Movement.  Encampment districts provide +1Science."
+    ],
+    "cities": [
+      "Pella",
+      "Aigai",
+      "Thessaloniki",
+      "Amphipolis",
+      "Philippi",
+      "Dion",
+      "Vergina",
+      "Pydna",
+      "Mieza",
+      "Stagira",
+      "Olynthos",
+      "Methone",
+      "Eordaea",
+      "Edessa",
+      "Heraklea",
+      "Pelagonia",
+      "Lyncestis",
+      "Elimia",
+      "Orestis",
+      "Tymphaia",
+      "Derriopos",
+      "Antigoneia",
+      "Kavala",
+      "Akanthos",
+      "Stageira",
+      "Arethousa",
+      "Apollonia",
+      "Potidaia"
+    ],
+    "spyNames": [
+      "Hephaestion",
+      "Parmenion",
+      "Antipater",
+      "Craterus",
+      "Perdiccas",
+      "Ptolemy",
+      "Seleucus",
+      "Lysimachus",
+      "Cassander",
+      "Demetrius"
+    ]
+  },
+  {
+    "name": "Mali",
+    "leaderName": "Mansa Musa",
+    "adjective": [
+      "Malian"
+    ],
+    "startBias": [
+      "Desert"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "personality": "Mansa Musa",
+    "agenda": "Diplomatic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      168,
+      157,
+      90
+    ],
+    "innerColor": [
+      66,
+      36,
+      13
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Songs of the Djeli",
+    "uniques": [
+      "Mali unique Medieval era unit that replaces the Knight.  +5Combat Strength when fighting units with less Movement.  Starts with the Medic promotion."
+    ],
+    "cities": [
+      "Niani",
+      "Timbuktu",
+      "Gao",
+      "Djenné",
+      "Kumbi Saleh",
+      "Tadmekka",
+      "Oualata",
+      "Awdaghost",
+      "Takedda",
+      "Sijilmasa",
+      "Kangaba",
+      "Kouroussa",
+      "Siguiri",
+      "Kankan",
+      "Kéla",
+      "Bamako",
+      "Ségou",
+      "Sikasso",
+      "Koutiala",
+      "Nyamina",
+      "Bourem",
+      "Tosaye",
+      "Ansongo",
+      "Menaka",
+      "Bamba",
+      "Bourem",
+      "Gourma-Rharous"
+    ],
+    "spyNames": [
+      "Sundiata",
+      "Mari Djata",
+      "Sakura",
+      "Kanku",
+      "Maghan",
+      "Sulayman",
+      "Qu",
+      "Muhammad",
+      "Musa",
+      "Sughand"
+    ]
+  },
+  {
+    "name": "Mapuche",
+    "leaderName": "Lautaro",
+    "adjective": [
+      "Mapuche"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Lautaro",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      50,
+      150
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Toqui",
+    "uniques": [
+      "Mapuche unique Industrial era unit that replaces the Cavalry.  +5Combat Strength when fighting in Hills."
+    ],
+    "cities": [
+      "Lautaro",
+      "Temuco",
+      "Villarrica",
+      "Valdivia",
+      "Osorno",
+      "Puerto Montt",
+      "Angol",
+      "Cautín",
+      "Imperial",
+      "Arauco",
+      "Cañete",
+      "Purén",
+      "Lebu",
+      "Lota",
+      "Coronel",
+      "Concepción",
+      "Talcahuano",
+      "Chillán",
+      "Los Ángeles",
+      "Pucón",
+      "Curarrehue",
+      "Lonquimay",
+      "Melipeuco",
+      "Pitrufquén",
+      "Gorbea",
+      "Loncoche",
+      "Toltén",
+      "Teodoro Schmidt"
+    ],
+    "spyNames": [
+      "Caupolicán",
+      "Colocolo",
+      "Galvarino",
+      "Lautaro",
+      "Millarapu",
+      "Paillamachu",
+      "Pelantaro",
+      "Rengo",
+      "Tucapel",
+      "Yanequeo"
+    ]
+  },
+  {
+    "name": "Maya",
+    "leaderName": "Lady Six Sky",
+    "adjective": [
+      "Maya"
+    ],
+    "startBias": [
+      "Jungle"
+    ],
+    "preferredVictoryType": "Scientific",
+    "personality": "Lady Six Sky",
+    "agenda": "Nature Lover",
+    "hiddenAgendas": [
+      "Cultured",
+      "Piety",
+      "Warmonger Hater"
+    ],
+    "outerColor": [
+      198,
+      141,
+      99
+    ],
+    "innerColor": [
+      24,
+      63,
+      66
+    ],
+    "favoredReligion": "Mayan",
+    "uniqueName": "Ix Mutal",
+    "uniques": [
+      "Mayan unique Ancient Era ranged unit that replaces the Archer. Strong ranged attack. +5Combat Strength when fighting a wounded opponent.<Archery>"
+    ],
+    "cities": [
+      "Naranjo",
+      "Tikal",
+      "Chichen Itza",
+      "Uxmal",
+      "Tulum",
+      "Copan",
+      "Coba",
+      "El Mirador",
+      "Calakmul",
+      "Edzna",
+      "Lamanai",
+      "Izapa",
+      "Uaxactun",
+      "Comalcalco",
+      "Piedras Negras",
+      "Cancuen",
+      "Yaxha",
+      "Quirigua",
+      "Q'umarkaj",
+      "Nakbe",
+      "Cerros",
+      "Xunantunich",
+      "Takalik Abaj",
+      "Cival",
+      "San Bartolo",
+      "Altar de Sacrificios",
+      "Seibal",
+      "Caracol"
+    ],
+    "spyNames": [
+      "Camazotz",
+      "Coyopa",
+      "Gukumatz",
+      "Hunahpu",
+      "Huracan",
+      "Ixchel",
+      "Ixtab",
+      "Kukulkï¿½n",
+      "Xbalanque",
+      "Zipacna"
+    ],
+    "uniqueBuildings": [
+      "Pyramid"
+    ]
+  },
+  {
+    "name": "Mongolia",
+    "leaderName": "Genghis Khan",
+    "adjective": [
+      "Mongolian"
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "preferredVictoryType": "Domination",
+    "personality": "Genghis Khan",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      81,
+      0,
+      9
+    ],
+    "innerColor": [
+      255,
+      120,
+      0
+    ],
+    "favoredReligion": "Tengriism",
+    "uniqueName": "Mongol Terror",
+    "uniques": [
+      "A building unique to Mongolia. Grants an ability that gives +1Movement to Heavy and Light Cavalry trained in this city. [+25]% combat experience for all cavalry and siege class units trained in this city.Strategic Resource Stockpiles increased +10 (on Standard Speed).May not be built in an Encampment district that already has a Barracks.",
+      "Mongolian unique Medieval Era Ranged Cavalry unit. Can escort moving civilian and support units at their higherMovement speed.<Stirrups>"
+    ],
+    "cities": [
+      "Karakorum",
+      "Beshbalik",
+      "Turfan",
+      "Hsia",
+      "Old Sarai",
+      "New Sarai",
+      "Tabriz",
+      "Tiflis",
+      "Otrar",
+      "Sanchu",
+      "Kazan",
+      "Almarikh",
+      "Ulaanbaatar",
+      "Hovd",
+      "Darhan",
+      "Dalandzadgad",
+      "Mandalgovi",
+      "Choybalsan",
+      "Erdenet",
+      "Tsetserieg",
+      "Baruun-Urt",
+      "Ereen",
+      "Batshireet",
+      "Choyr",
+      "Ulaangom",
+      "Tosontsengel",
+      "Altay",
+      "Uliastay",
+      "Bayanhongor",
+      "Har-Ayrag",
+      "Nalayh",
+      "Tes"
+    ],
+    "spyNames": [
+      "AsashÅryÅ«",
+      "TÃ¶mÃ¶riin",
+      "Zevegiin",
+      "Jigjidiin",
+      "Enkhbat",
+      "MÃ¶nkhbayar",
+      "GÃ¼ndegmaa",
+      "Ssima",
+      "Batachikhan",
+      "Chulunny"
+    ]
+  },
+  {
+    "name": "Māori",
+    "leaderName": "Kupe",
+    "adjective": [
+      "Māori"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Cultural",
+    "personality": "Kupe",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      200,
+      0,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Mana",
+    "uniques": [
+      "Enables [All] units to enter ocean tiles",
+      "Enables embarkation for land units",
+      "Unlocks the Toa ability to construct a Pā, unique to Māori.Occupying unit receives +4Defense Strength, and automatically gains 2 turns of fortification. A Māori unit occupying a Pā heals even if they just moved or attacked. Must be built on a Hill tile.",
+      "Māori unique Classical era melee unit. Adjacent enemy units receive -5Combat Strength. Can build the unique Pā improvement.<Construction>"
+    ],
+    "cities": [
+      "Rotorua",
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Hamilton",
+      "Tauranga",
+      "Napier",
+      "New Plymouth",
+      "Whangarei",
+      "Dunedin",
+      "Invercargill",
+      "Gisborne",
+      "Palmerston North",
+      "Nelson",
+      "Timaru",
+      "Masterton",
+      "Hastings",
+      "Blenheim",
+      "Queenstown",
+      "Kaikoura",
+      "Whakatane",
+      "Taupo",
+      "Raglan",
+      "Opotiki",
+      "Tokomaru Bay",
+      "Tolaga Bay",
+      "Hokianga",
+      "Muriwhenua"
+    ],
+    "spyNames": [
+      "Tupaea",
+      "Hone Heke",
+      "Te Rauparaha",
+      "Te Kooti",
+      "Rewi Maniapoto",
+      "Te Wherowhero",
+      "Potatau",
+      "Tawhiao",
+      "Mahuta",
+      "Te Rangi Hiroa"
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "leaderName": "Wilhelmina",
+    "adjective": [
+      "Dutch"
+    ],
+    "startBias": [
+      "Grassland"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Wilhelmina",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      255,
+      102,
+      0
+    ],
+    "innerColor": [
+      0,
+      38,
+      102
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Polder",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Polder, unique to Netherlands.+1Food, +1Production, and +0.5Housing. +1Food if adjacent to a Polder improvement. AdditionalProduction,Gold, andFood  as you advance through the Civics and Technology Tree. Must be placed on a Coast or Lake tile adjacent to 3 or more passable land tiles. IncreasesMovement Cost of tile to 3.",
+      "Netherlands unique Renaissance Era unit that replaces the Frigate. +7Combat Strength when attacking defensible districts.<Square Rigging>"
+    ],
+    "cities": [
+      "Amsterdam",
+      "Rotterdam",
+      "Utrecht",
+      "Groningen",
+      "Breda",
+      "Nijmegen",
+      "The Hague",
+      "Haarlem",
+      "Arnhem",
+      "Zutphen",
+      "Maastricht",
+      "Tilburg",
+      "Eindhoven",
+      "Dordrecht",
+      "Leiden",
+      "'s Hertogenbosch",
+      "Almere",
+      "Alkmaar",
+      "Brielle",
+      "Vlissingen",
+      "Apeldoorn",
+      "Enschede",
+      "Amersfoort",
+      "Zwolle",
+      "Venlo",
+      "Uden",
+      "Grave",
+      "Delft",
+      "Gouda",
+      "Nieuwstadt"
+    ],
+    "spyNames": [
+      "Joost",
+      "Hendrika",
+      "Marten",
+      "Anke",
+      "Guus",
+      "Willem",
+      "Thijs",
+      "Neef",
+      "Anna",
+      "Pieter"
+    ],
+    "uniqueImprovements": [
+      "Polder"
+    ]
+  },
+  {
+    "name": "Norway",
+    "leaderName": "Harald Hardrada (Varangian)",
+    "adjective": [
+      "Norway"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Harald Hardrada (Varangian)",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      39,
+      47,
+      116
+    ],
+    "innerColor": [
+      236,
+      66,
+      48
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Knarr",
+    "uniques": [
+      "Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology. Naval melee units heal in neutral territory. Units ignore additionalMovement costs from embarking and disembarking.",
+      "Enables [All] units to enter ocean tiles <after discovering [Shipbuilding]>",
+      "[1] Movement point cost to embark",
+      "[1] Movement point cost to disembark",
+      "Norwegian unique Medieval era melee unit that replaces the Man-At-Arms. 4Movement if this unit starts in enemy territory. +10Combat Strength when attacking and -5Combat Strength when defending against melee attacks.<Military Tactics>",
+      "Norwegian unique Ancient era naval unit that replaces the Galley. Can pillage enemy coastal lands and capture civilians if adjacent using its coastal raiding ability. 4Movement while in coastal waters.<Sailing>"
+    ],
+    "cities": [
+      "Oslo",
+      "Bergen",
+      "Trondheim",
+      "Stavanger",
+      "Tromsø",
+      "Kristiansand",
+      "Drammen",
+      "Sarpsborg",
+      "Skien",
+      "Alesund",
+      "Haugesund",
+      "Sandefjord",
+      "Bodo",
+      "Arendal",
+      "Hamar",
+      "Larvik",
+      "Halden",
+      "Lillehammer",
+      "Molde",
+      "Narvik",
+      "Alta",
+      "Kirkenes",
+      "Vadsø",
+      "Tønsberg",
+      "Fredrikstad",
+      "Namsos",
+      "Stjørdal",
+      "Moss"
+    ],
+    "spyNames": [
+      "Erik the Red",
+      "Leif Erikson",
+      "Olaf Tryggvason",
+      "Harald Hardrada",
+      "Cnut the Great",
+      "Magnus Barefoot",
+      "Sigurd the Crusader",
+      "Bjorn Ironside",
+      "Ivar the Boneless",
+      "Rollo"
+    ]
+  },
+  {
+    "name": "Nubia",
+    "leaderName": "Amanitore",
+    "adjective": [
+      "Nubian"
+    ],
+    "startBias": [
+      "Avoid [Tundra]"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Amanitore",
+    "agenda": "Nature Lover",
+    "hiddenAgendas": [
+      "Cultured",
+      "Piety",
+      "Warmonger Hater"
+    ],
+    "outerColor": [
+      192,
+      134,
+      46
+    ],
+    "innerColor": [
+      0,
+      48,
+      32
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Ta-Seti",
+    "uniques": [
+      "The Craftsmanship civic unlocks the Builder ability to construct a Nubian Pyramid, unique to Nubia.+1Food and +2Faith.Receives additional yields from adjacent districts:+2Food for the City Center,+2Science per adjacent Campus,+2Production per adjacent Industrial Zone,+2Culture per adjacent Theater Square,+2Faith per adjacent Holy Site,+2Gold per adjacent Commercial Hub and Harbor.Must be built on Desert, Desert Hills, Floodplains, Plains, or Grassland. Cannot be built next to another Nubian Pyramid.",
+      "Nubian unique Ancient era unit that replaces the Archer. Stronger than the Archer with extraMovement. Upgrades to Crossbowman.<Archery>"
+    ],
+    "cities": [
+      "Meroe",
+      "Napata",
+      "Kerma",
+      "Dongola",
+      "Kush",
+      "Soleb",
+      "Sedeinga",
+      "Gebel Barkal",
+      "Sanam",
+      "Karima",
+      "Shendi",
+      "Atbara",
+      "Berber",
+      "Ed-Dammer",
+      "Dabarosa",
+      "Hassaia",
+      "Kadero",
+      "Mograt",
+      "Tabo",
+      "Jebel Qeili",
+      "Musawwarat",
+      "Naqa",
+      "Basnaq",
+      "Umm Ruweim",
+      "ferke",
+      "Sai",
+      "Sudinga",
+      "Dangeil",
+      "Wad Ban Naga",
+      "el-Hobagi"
+    ],
+    "spyNames": [
+      "Amani",
+      "Aset",
+      "Khabash",
+      "Nasalsa",
+      "Arikepiankhi",
+      "Malaqaye",
+      "Talakhidamani",
+      "Amanikhalika",
+      "Yesebokheamani",
+      "Amanitaraqide"
+    ]
+  },
+  {
+    "name": "Ottomans",
+    "leaderName": "Suleiman (Kanuni)",
+    "adjective": [
+      "Ottomans"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Suleiman (Kanuni)",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      237,
+      215,
+      180
+    ],
+    "innerColor": [
+      135,
+      14,
+      14
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Great Turkish Bombard",
+    "uniques": [
+      "Ottoman unique Renaissance Era unit that replaces the Musketman. Starts with a free promotion. Stronger and cheaper than the Musketman. To train a Janissary a city must have a population of at least 2. If a city is founded by the Ottomans and trains a Janissary it loses a population.<Gunpowder>",
+      "Ottoman unique Medieval era naval unit that replaces the Privateer. It costs noMovement to coastal raid. Can only be seen by other Naval Raiders unless adjacent to it. Reveals Naval Raiders within sight range.<Medieval Faires>"
+    ],
+    "cities": [
+      "Istanbul",
+      "Edirne",
+      "Bursa",
+      "Ankara",
+      "Konya",
+      "Baghdad",
+      "Damascus",
+      "Cairo",
+      "Aleppo",
+      "Izmir",
+      "Sofia",
+      "Belgrade",
+      "Sarajevo",
+      "Athens",
+      "Skopje",
+      "Trabzon",
+      "Sivas",
+      "Kayseri",
+      "Erzurum",
+      "Van",
+      "Diyarbakir",
+      "Gaziantep",
+      "Urfa",
+      "Mosul",
+      "Jerusalem",
+      "Tripoli",
+      "Algiers",
+      "Tunis"
+    ],
+    "spyNames": [
+      "Mehmed",
+      "Selim",
+      "Murad",
+      "Bayezid",
+      "Osman",
+      "Kara Mustafa",
+      "Barbaros",
+      "Pargali Ibrahim",
+      "Sokollu Mehmed",
+      "Koprulu Mehmed"
+    ]
+  },
+  {
+    "name": "Persia",
+    "leaderName": "Cyrus",
+    "adjective": [
+      "Persian"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Scientific",
+    "personality": "Darius I",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      153,
+      5,
+      3
+    ],
+    "innerColor": [
+      244,
+      232,
+      54
+    ],
+    "favoredReligion": "Zoroastrianism",
+    "uniqueName": "Achaemenid Legacy",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Pairidaeza, unique to Persia.+1Culture and +2Gold. +1 Appeal. +1Culture for each adjacent Holy Site and Theater Square. +1Gold for each adjacent Commercial Hub and City Center. AdditionalCulture andTourism as you advance through the Technology and Civics Tree. Cannot be built on Snow, Tundra, Snow Hills, or Tundra Hills or adjacent to another Pairidaeza.",
+      "Persian unique melee unit that replaces the Swordsman. Melee class unit with a ranged attack,Range 2. Strong defense strength.<Iron Working>"
+    ],
+    "cities": [
+      "Persepolis",
+      "Parsagadae",
+      "Susa",
+      "Ecbatana",
+      "Tarsus",
+      "Gordium",
+      "Bactra",
+      "Sardis",
+      "Ergili",
+      "Dariushkabir",
+      "Ghulaman",
+      "Zohak",
+      "Istakhr",
+      "Jinjan",
+      "Borazjan",
+      "Herat",
+      "Dakyanus",
+      "Bampur",
+      "Turengtepe",
+      "Rey",
+      "Shiraz",
+      "Thuspa",
+      "Hasanlu",
+      "Gabae",
+      "Merv",
+      "Behistun",
+      "Kandahar",
+      "Altintepe",
+      "Bunyan",
+      "Charsadda",
+      "Uratyube",
+      "Dura Europos",
+      "Aleppo",
+      "Qatna",
+      "Kabul",
+      "Capisa",
+      "Kyreskhata",
+      "Marakanda",
+      "Peshawar",
+      "Van",
+      "Pteira",
+      "Arshada",
+      "Artakaona",
+      "Aspabota",
+      "Autiyara",
+      "Bagastana",
+      "Baxtri",
+      "Darmasa",
+      "Daphnai",
+      "Drapsaka",
+      "Eion",
+      "Gandutava",
+      "Gaugamela",
+      "Harmozeia",
+      "Ekatompylos",
+      "Izata",
+      "Kampada",
+      "Kapisa",
+      "Karmana",
+      "Kounaxa",
+      "Kuganaka",
+      "Nautaka",
+      "Paishiyauvada",
+      "Patigrbana",
+      "Phrada"
+    ],
+    "spyNames": [
+      "Azi",
+      "Dabir",
+      "Firuz",
+      "Gaspar",
+      "Shahzad",
+      "Aga",
+      "Marjane",
+      "Peri",
+      "Sartaj ",
+      "Yasmin"
+    ],
+    "uniqueBuildings": [
+      "Darb-i Imam"
+    ]
+  },
+  {
+    "name": "Phoenicia",
+    "leaderName": "Dido",
+    "adjective": [
+      "Phoenician"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Dido",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      220,
+      170,
+      40
+    ],
+    "innerColor": [
+      43,
+      20,
+      90
+    ],
+    "favoredReligion": "Canaanite",
+    "uniqueName": "Mediterranean Expansion",
+    "uniques": [
+      "Phoenician unique Ancient Era unit that replaces the Galley. IncreasedCombat Strength andMovement. Trader units are immune to being plundered if they are within 4 tiles of a Bireme and on a water tile.<Sailing>"
+    ],
+    "cities": [
+      "Tyre",
+      "Sidon",
+      "Byblos",
+      "Berytus",
+      "Arwad",
+      "Tripoli",
+      "Ugarit",
+      "Sarepta",
+      "Acre",
+      "Akko",
+      "Simyra",
+      "Aradus",
+      "Carthage",
+      "Gades",
+      "Utica",
+      "Lixus",
+      "Malaca",
+      "Motya",
+      "Panormus",
+      "Soluntum",
+      "Tharros",
+      "Karalis",
+      "Sulci",
+      "Heras",
+      "Tingis",
+      "Rusaddir",
+      "Sabratha",
+      "Lepcis",
+      "Oea",
+      "Ptolemais"
+    ],
+    "spyNames": [
+      "Hiram",
+      "Elissa",
+      "Mattan",
+      "Azemilcus",
+      "Pummay",
+      "Bodashtart",
+      "Yatonmilk",
+      "Gerashtart",
+      "Baal",
+      "Astarte"
+    ],
+    "uniqueDistricts": [
+      "Cothon"
+    ]
+  },
+  {
+    "name": "Poland",
+    "leaderName": "Jadwiga",
+    "adjective": [
+      "Polish"
+    ],
+    "startBias": [
+      "Grassland"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Jadwiga",
+    "agenda": "Piety",
+    "hiddenAgendas": [
+      "Cultured",
+      "Warmonger Hater",
+      "Nature Lover"
+    ],
+    "outerColor": [
+      220,
+      20,
+      60
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Golden Liberty",
+    "uniques": [
+      "Polish unique Renaissance era unit that replaces the Cuirassier. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.<Mercantilism>"
+    ],
+    "cities": [
+      "Krakow",
+      "Warsaw",
+      "Poznan",
+      "Gdansk",
+      "Wroclaw",
+      "Lodz",
+      "Lublin",
+      "Szczecin",
+      "Bydgoszcz",
+      "Katowice",
+      "Czestochowa",
+      "Torun",
+      "Bialystok",
+      "Gdynia",
+      "Radom",
+      "Sosnowiec",
+      "Kielce",
+      "Rzeszow",
+      "Gliwice",
+      "Olsztyn",
+      "Zielona Gora",
+      "Opole",
+      "Bytom",
+      "Bielsko-Biala",
+      "Zabrze",
+      "Tarnow",
+      "Kalisz",
+      "Legnica",
+      "Elblag",
+      "Koszalin"
+    ],
+    "spyNames": [
+      "Mikolaj",
+      "Jadwiga",
+      "Stanislaw",
+      "Anna",
+      "Kazimierz",
+      "Zofia",
+      "Piotr",
+      "Elzbieta",
+      "Jan",
+      "Katarzyna"
+    ],
+    "uniqueDistricts": [
+      "Stronghold"
+    ]
+  },
+  {
+    "name": "Portugal",
+    "leaderName": "João III",
+    "adjective": [
+      "Portuguese"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Joao III",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Piety",
+      "Nature Lover"
+    ],
+    "outerColor": [
+      0,
+      102,
+      0
+    ],
+    "innerColor": [
+      255,
+      204,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Casa da Ãndia",
+    "uniques": [
+      "Unlocks the Nau ability to construct a Feitoria, unique to Portugal.Provides +4Gold and +1Production. Trade routes sent to this city from Portugal gain +4Gold and +1Production. Can only be built adjacent to Luxury or Bonus resources in territory belonging to other Civilizations or City-States that you have Open Borders with. Must be built on a Coast or Lake tile adjacent to land and not adjacent to another Feitoria. Feitorias cannot be removed.",
+      "Portuguese unique naval melee unit that replaces the Caravel. Starts with 1 free Promotion and is less maintenance. Has two charges to build Feitorias.<Cartography>"
+    ],
+    "cities": [
+      "Lisbon",
+      "Porto",
+      "Braga",
+      "Coimbra",
+      "Funchal",
+      "Evora",
+      "Setubal",
+      "Aveiro",
+      "Faro",
+      "Guarda",
+      "Leiria",
+      "Viseu",
+      "Viana do Castelo",
+      "Beja",
+      "Castelo Branco",
+      "Braganca",
+      "Portalegre",
+      "Santarem",
+      "Angra",
+      "Ponta Delgada",
+      "Horta",
+      "Tomar",
+      "Covilha",
+      "Elvas",
+      "Chaves",
+      "Lamego",
+      "Mirandela",
+      "Vila Real",
+      "Silves",
+      "Tavira"
+    ],
+    "spyNames": [
+      "Joao",
+      "Isabel",
+      "Afonso",
+      "Catarina",
+      "Manuel",
+      "Beatriz",
+      "Pedro",
+      "Leonor",
+      "Henrique",
+      "Filipa"
+    ],
+    "uniqueBuildings": [
+      "Feitoria"
+    ],
+    "uniqueDistricts": [
+      "Torre de Belém"
+    ]
+  },
+  {
+    "name": "Rome",
+    "leaderName": "Julius Caesar",
+    "adjective": [
+      "Roman"
+    ],
+    "startBias": [
+      "Avoid [Tundra]",
+      "Avoid [Desert]"
+    ],
+    "preferredVictoryType": "Scientific",
+    "personality": "Augustus Caesar",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      70,
+      0,
+      118
+    ],
+    "innerColor": [
+      240,
+      199,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "The Glory of Rome",
+    "uniques": [
+      "Roman unique Classical era melee unit that replaces the Swordsman. Can build a Roman Fort.<Iron Working>"
+    ],
+    "cities": [
+      "Rome",
+      "Antium",
+      "Cumae",
+      "Neapolis",
+      "Ravenna",
+      "Arretium",
+      "Mediolanum",
+      "Arpinum",
+      "Circei",
+      "Setia",
+      "Satricum",
+      "Ardea",
+      "Ostia",
+      "Velitrae",
+      "Viroconium",
+      "Tarentum",
+      "Brundisium",
+      "Caesaraugusta",
+      "Caesarea",
+      "Palmyra",
+      "Signia",
+      "Aquileia",
+      "Clusium",
+      "Sutrium",
+      "Cremona",
+      "Placentia",
+      "Hispalis",
+      "Artaxata",
+      "Aurelianorum",
+      "Nicopolis",
+      "Agrippina",
+      "Verona",
+      "Corfinium",
+      "Treverii",
+      "Sirmium",
+      "Augustadorum",
+      "Curia",
+      "Interrama",
+      "Adria"
+    ],
+    "spyNames": [
+      "Flavius",
+      "Regula",
+      "Servius",
+      "Lucia",
+      "Cornelius",
+      "Licina",
+      "Canus",
+      "Serpens",
+      "Agrippa",
+      "Brutus"
+    ]
+  },
+  {
+    "name": "Russia",
+    "leaderName": "Peter",
+    "adjective": [
+      "Russian"
+    ],
+    "startBias": [
+      "Tundra"
+    ],
+    "preferredVictoryType": "Scientific",
+    "personality": "Catherine",
+    "agenda": "Scientific",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      239,
+      180,
+      0
+    ],
+    "innerColor": [
+      0,
+      0,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Siberian Riches",
+    "uniques": [
+      "Russian unique Industrial era unit that replaces Cavalry. Stronger than Cavalry, and gains +5Combat Strength when fighting in or adjacent to its home territory. Can move after attacking ifMovement points remain.<Military Science>"
+    ],
+    "cities": [
+      "Moscow",
+      "St. Petersburg",
+      "Novgorod",
+      "Rostov",
+      "Yaroslavl",
+      "Yekaterinburg",
+      "Yakutsk",
+      "Vladivostok",
+      "Smolensk",
+      "Orenburg",
+      "Krasnoyarsk",
+      "Khabarovsk",
+      "Bryansk",
+      "Tver",
+      "Novosibirsk",
+      "Magadan",
+      "Murmansk",
+      "Irkutsk",
+      "Chita",
+      "Samara",
+      "Arkhangelsk",
+      "Chelyabinsk",
+      "Tobolsk",
+      "Vologda",
+      "Omsk",
+      "Astrakhan",
+      "Kursk",
+      "Saratov",
+      "Tula",
+      "Vladimir",
+      "Perm",
+      "Voronezh",
+      "Pskov",
+      "Starayarussa",
+      "Kostoma",
+      "Nizhniy Novgorod",
+      "Suzdal",
+      "Magnitogorsk"
+    ],
+    "spyNames": [
+      "Alexei",
+      "Lena",
+      "Dmitry",
+      "Anastasia",
+      "Tatiana",
+      "Boris",
+      "Doktor Seriy",
+      "Mikhail",
+      "Natacha",
+      "Zmeya"
+    ],
+    "uniqueDistricts": [
+      "Lavra"
+    ]
+  },
+  {
+    "name": "Scotland",
+    "leaderName": "Robert the Bruce",
+    "adjective": [
+      "Scotland"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Scientific",
+    "personality": "Robert the Bruce",
+    "agenda": "Scientific",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      0,
+      128
+    ],
+    "innerColor": [
+      255,
+      255,
+      255
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Scottish Enlightenment",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Golf Course, unique to Scotland.+2Amenities and +2Gold. +1Culture if adjacent to a City Center district and +1Culture if adjacent to an Entertainment Complex district. AdditionalTourism andHousing as you advance through the Civics and Technology Tree. Cannot be placed on Desert or Desert Hills. One per city. Tiles with Golf Courses cannot be swapped. +1 Appeal.",
+      "Scottish unique Industrial Era unit that replaces the Ranger. Strong reconnaissance unit. +5Combat Strength bonus when fighting in Hill and Forest terrain.<Rifling>"
+    ],
+    "cities": [
+      "Edinburgh",
+      "Glasgow",
+      "Aberdeen",
+      "Dundee",
+      "Inverness",
+      "Stirling",
+      "Perth",
+      "Dumfries",
+      "Ayr",
+      "Dunfermline",
+      "Paisley",
+      "Falkirk",
+      "Livingston",
+      "Greenock",
+      "Kilmarnock",
+      "Coatbridge",
+      "Glenrothes",
+      "Airdrie",
+      "Hamilton",
+      "Cumbernauld",
+      "Elgin",
+      "Kirkwall",
+      "Lerwick",
+      "Fort William",
+      "Oban",
+      "St Andrews",
+      "Pitlochry",
+      "Braemar"
+    ],
+    "spyNames": [
+      "William Wallace",
+      "Andrew Moray",
+      "James Douglas",
+      "Thomas Randolph",
+      "Walter Stewart",
+      "John Comyn",
+      "David Bruce",
+      "Edward Bruce",
+      "James Stewart",
+      "John Balliol"
+    ]
+  },
+  {
+    "name": "Scythia",
+    "leaderName": "Tomyris",
+    "adjective": [
+      "Scythia"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Tomyris",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      255,
+      200,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "People of the Steppe",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Kurgan, unique to Scythia.+1Faith and +3Gold. +1Faith for each adjacent Pasture (becomes +2 after researching Stirrups). ProvidesTourism fromFaith after researching Flight. Cannot be built on Hills.",
+      "Scythian unique Classical era unit. Ranged unit with 4Movement with aRange of 1.<Horseback Riding>"
+    ],
+    "cities": [
+      "Scythian",
+      "Pazyryk",
+      "Chertomlyk",
+      "Solokha",
+      "Kul-Oba",
+      "Melgunov",
+      "Aleksandropol",
+      "Ordzhonikidze",
+      "Elizavetinskaya",
+      "Voronezh",
+      "Kelermes",
+      "Ulsky",
+      "Kostromskaya",
+      "Seven Brothers",
+      "Temir Gora",
+      "Ak-Burun",
+      "Zolotoy",
+      "Tsarsky",
+      "Moscow",
+      "Rostov",
+      "Kazan",
+      "Astrakhan",
+      "Ufa",
+      "Samara",
+      "Saratov",
+      "Volgograd",
+      "Krasnodar",
+      "Stavropol"
+    ],
+    "spyNames": [
+      "Tomyris",
+      "Idanthyrsus",
+      "Ariapeithes",
+      "Scyles",
+      "Octamasadas",
+      "Ateas",
+      "Spargapises",
+      "Shapour",
+      "Palak",
+      "Madyes"
+    ]
+  },
+  {
+    "name": "Spain",
+    "leaderName": "Philip II",
+    "adjective": [
+      "Spanish"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Domination",
+    "personality": "Isabella",
+    "agenda": "Piety",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      84,
+      26,
+      26
+    ],
+    "innerColor": [
+      255,
+      168,
+      168
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Seven Cities of Gold",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Mission, unique to Spain.+2Faith. +2Faith, +1Production, and +1Food if on a different continent than yourCapital. +1Science for every adjacent Campus and Holy Site district. AdditionalScience once Cultural Heritage is discovered. [+2] Loyalty per turn for cities with a Mission improvement adjacent to the City Center and not on your originalCapital's continent.",
+      "Spanish unique Renaissance era unit that replaces the Musketman. +10Combat Strength when there is a religious unit within one hex. If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion.<Gunpowder>"
+    ],
+    "cities": [
+      "Madrid",
+      "Barcelona",
+      "Seville",
+      "Cordoba",
+      "Toledo",
+      "Santiago",
+      "Salamanca",
+      "Murcia",
+      "Valencia",
+      "Zaragoza",
+      "Pamplona",
+      "Vitoria",
+      "Santander",
+      "Oviedo",
+      "Jaen",
+      "LogroÃ±o",
+      "Valladolid",
+      "Palma",
+      "Teruel",
+      "Almeria",
+      "Leon",
+      "Zamora",
+      "Mida",
+      "Lugo",
+      "Alicante",
+      "CÃ diz",
+      "Eiche",
+      "Alcorcon",
+      "Burgos",
+      "Vigo",
+      "Badajoz",
+      "La CoruÃ±a",
+      "Guadalquivir",
+      "Bilbao",
+      "San Sebastian",
+      "Granada",
+      "MÃ©rida",
+      "Huelva",
+      "Ibiza",
+      "Las Palmas",
+      "Tenerife"
+    ],
+    "spyNames": [
+      "Rodrigo",
+      "Esmeralda",
+      "Leon",
+      "Mathilda",
+      "Ramona",
+      "SeÃ±or X",
+      "Topolino",
+      "Serpiente",
+      "Garcia",
+      "El Lobo"
+    ]
+  },
+  {
+    "name": "Sumeria",
+    "leaderName": "Gilgamesh",
+    "adjective": [
+      "Sumerian"
+    ],
+    "startBias": [
+      "River"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Gilgamesh",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      180,
+      120,
+      30
+    ],
+    "innerColor": [
+      80,
+      40,
+      10
+    ],
+    "favoredReligion": "Sumerian",
+    "uniqueName": "Epic Quest",
+    "uniques": [
+      "Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.+2Science. +1Culture if next to River. Cannot be built on Hills but may be built on Floodplains.",
+      "Sumerian unique Ancient era unit. Stronger than all other starting units. No penalties against anti-cavalry units. 4Movement if this unit starts in open terrain."
+    ],
+    "cities": [
+      "Uruk",
+      "Ur",
+      "Kish",
+      "Lagash",
+      "Nippur",
+      "Eridu",
+      "Eshnunna",
+      "Adab",
+      "Umma",
+      "Shuruppak",
+      "Bad-tibira",
+      "Sippar",
+      "Girsu",
+      "Isin",
+      "Larsa",
+      "Mari",
+      "Akshak",
+      "Hamazi",
+      "Aratta",
+      "Awan",
+      "Kutha",
+      "Borsippa",
+      "Dilbat",
+      "Kazallu",
+      "Der",
+      "Zabalam",
+      "Kes",
+      "Apiak",
+      "Puzrish-Dagan",
+      "Walla"
+    ],
+    "spyNames": [
+      "Enkidu",
+      "Shamhat",
+      "Utnapishtim",
+      "Siduri",
+      "Humbaba",
+      "Ishtar",
+      "Enlil",
+      "Ninsun",
+      "Tammuz",
+      "Lugulbanda"
+    ],
+    "uniqueBuildings": [
+      "Ziggurat"
+    ]
+  },
+  {
+    "name": "Sweden",
+    "leaderName": "Kristina",
+    "adjective": [
+      "Swedish"
+    ],
+    "startBias": [
+      "Tundra"
+    ],
+    "preferredVictoryType": "Cultural",
+    "personality": "Kristina",
+    "agenda": "Cultured",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Piety",
+      "Nature Lover"
+    ],
+    "outerColor": [
+      8,
+      8,
+      166
+    ],
+    "innerColor": [
+      249,
+      247,
+      3
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Queen of the North",
+    "uniques": [
+      "Unlocks the Builder ability to construct an Open-Air Museum, unique to Sweden.Provides [+2] Loyalty per turn in this city. +2Culture and +2Tourism for each type of terrain (Snow, Tundra, Desert, Plains or Grassland) in which at least one Swedish city is founded. One per city. Tiles with Open-Air Museums cannot be swapped.",
+      "Swedish unique Renaissance Era unit that replaces the Pike and Shot. Faster than the Pike and Shot. +3Combat Strength per unusedMovement.<Metal Casting>"
+    ],
+    "cities": [
+      "Stockholm",
+      "Uppsala",
+      "Gothenburg",
+      "Malmo",
+      "Linkoping",
+      "Vasteras",
+      "Norrkoping",
+      "Orebro",
+      "Helsingborg",
+      "Jonkoping",
+      "Lund",
+      "Umea",
+      "Gavle",
+      "Boras",
+      "Sundsvall",
+      "Halmstad",
+      "Karlstad",
+      "Vaxjo",
+      "Kalmar",
+      "Skovde",
+      "Ostersund",
+      "Falun",
+      "Vastervik",
+      "Lulea",
+      "Karlskrona",
+      "Koping",
+      "Enkoping",
+      "Sodertalje",
+      "Mora",
+      "Kiruna"
+    ],
+    "spyNames": [
+      "Leif",
+      "Ingegard",
+      "SÃ¶ren",
+      "Ragnhild",
+      "Lars",
+      "Lina",
+      "Magnus",
+      "Vilma",
+      "Kusin",
+      "Herr GrÃ¥"
+    ]
+  },
+  {
+    "name": "Vietnam",
+    "leaderName": "Bà Triệu",
+    "adjective": [
+      "Vietnamese"
+    ],
+    "startBias": [
+      "Jungle"
+    ],
+    "preferredVictoryType": "Domination",
+    "personality": "Ba Trieu",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Nature Lover",
+      "Cultured",
+      "Warmonger Hater"
+    ],
+    "outerColor": [
+      218,
+      36,
+      28
+    ],
+    "innerColor": [
+      255,
+      200,
+      0
+    ],
+    "favoredReligion": "Buddhism",
+    "uniqueName": "Nine Dragon River Delta",
+    "uniques": [
+      "Vietnamese unique Medieval era ranged unit that replaces the Crossbowman. These units have additional movement and can move after attacking. They are also stronger when defending, more expensive, and have greater sight.<Machinery>"
+    ],
+    "cities": [
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Hai Phong",
+      "Da Nang",
+      "Hue",
+      "Can Tho",
+      "Nha Trang",
+      "Bien Hoa",
+      "Hue",
+      "Vinh",
+      "Qui Nhon",
+      "Nam Dinh",
+      "Thai Nguyen",
+      "Vung Tau",
+      "Dong Hoi",
+      "Ha Long",
+      "Cam Ranh",
+      "Rach Gia",
+      "My Tho",
+      "Long Xuyen",
+      "Ben Tre",
+      "Tuy Hoa",
+      "Phan Thiet",
+      "Dong Nai",
+      "Bac Ninh",
+      "Thanh Hoa",
+      "Hoa Binh",
+      "Lao Cai",
+      "Son La",
+      "Ca Mau"
+    ],
+    "spyNames": [
+      "Trieu",
+      "Trung",
+      "Nhac",
+      "Phung",
+      "Le",
+      "Nguyen",
+      "Tran",
+      "Pham",
+      "Hoang",
+      "Vo"
+    ],
+    "uniqueDistricts": [
+      "Thành"
+    ]
+  },
+  {
+    "name": "Zulu",
+    "leaderName": "Shaka",
+    "adjective": [
+      "Zulu"
+    ],
+    "startBias": [],
+    "preferredVictoryType": "Domination",
+    "personality": "Shaka",
+    "agenda": "Militaristic",
+    "hiddenAgendas": [
+      "Warmonger Hater",
+      "Nature Lover",
+      "Piety"
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      255,
+      255,
+      0
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Isibongo",
+    "uniques": [
+      "Zulu unique Medieval Era unit that replaces the Pikeman. Increased Flanking bonus, low cost and low maintenance. Earns XP faster.<Military Tactics>"
+    ],
+    "cities": [
+      "Ulundi",
+      "KwaDukuza",
+      "Nodwengu",
+      "Bulawayo",
+      "Mahlabathini",
+      "Nongoma",
+      "Eshowe",
+      "Hlobane",
+      "Isandlwana",
+      "Rorke's Drift",
+      "Gingindlovu",
+      "Ndondakusuka",
+      "Mgungundlovu",
+      "Entumeni",
+      "Melmoth",
+      "Babanango",
+      "Vryheid",
+      "Utrecht",
+      "Newcastle",
+      "Dundee",
+      "Glencoe",
+      "Ladysmith",
+      "Colenso",
+      "Helpmekaar",
+      "Greytown",
+      "Pietermaritzburg",
+      "Richmond",
+      "Port Shepstone"
+    ],
+    "spyNames": [
+      "Shaka",
+      "Dingane",
+      "Mpande",
+      "Cetshwayo",
+      "Dinuzulu",
+      "Mbuyazi",
+      "Mhlangana",
+      "Sigujana",
+      "Senzangakhona",
+      "Mkabayi"
+    ]
+  },
+  {
+    "name": "Geneva",
+    "cityStateType": "Scientific",
+    "outerColor": [200, 16, 46],
+    "innerColor": [255, 209, 0],
+    "cities": ["Geneva"],
+    "uniques": ["[+15]% [Science] [in capital] <when not at war>"],
+    "spyNames": ["Henri", "Marie", "Pierre", "Sophie"]
+  },
+  {
+    "name": "Seoul",
+    "cityStateType": "Scientific",
+    "outerColor": [0, 47, 135],
+    "innerColor": [255, 255, 255],
+    "cities": ["Seoul"],
+    "uniques": ["[+2 Science] [in all cities]"],
+    "spyNames": ["Min-jun", "Soo-yeon", "Ji-ho", "Eun-ji"]
+  },
+  {
+    "name": "Stockholm",
+    "cityStateType": "Scientific",
+    "outerColor": [0, 64, 128],
+    "innerColor": [255, 204, 0],
+    "cities": ["Stockholm"],
+    "uniques": ["[+1] [Science] from [Mountain] tiles [in all cities]"],
+    "spyNames": ["Erik", "Anna", "Lars", "Ingrid"]
+  },
+  {
+    "name": "Buenos Aires",
+    "cityStateType": "Cultured",
+    "outerColor": [102, 147, 188],
+    "innerColor": [255, 255, 255],
+    "cities": ["Buenos Aires"],
+    "uniques": ["[+2] [Amenities] from [Luxury resource] tiles [in all cities]"],
+    "spyNames": ["Carlos", "Maria", "Jose", "Elena"]
+  },
+  {
+    "name": "Brussels",
+    "cityStateType": "Cultured",
+    "outerColor": [32, 32, 148],
+    "innerColor": [255, 200, 0],
+    "cities": ["Brussels"],
+    "uniques": ["[+15]% Production when constructing [Wonder] wonders [in all cities]"],
+    "spyNames": ["Jean", "Lucas", "Emma", "Hugo"]
+  },
+  {
+    "name": "Kumasi",
+    "cityStateType": "Cultured",
+    "outerColor": [223, 178, 65],
+    "innerColor": [2, 111, 2],
+    "cities": ["Kumasi"],
+    "uniques": ["[+1] [Culture] from [Jungle] tiles [in all cities]"],
+    "spyNames": ["Kwame", "Ama", "Kofi", "Yaa"]
+  },
+  {
+    "name": "Lisbon",
+    "cityStateType": "Maritime",
+    "outerColor": [255, 0, 0],
+    "innerColor": [255, 255, 255],
+    "cities": ["Lisbon"],
+    "uniques": ["[+1] [Gold] from [Water resource] tiles [in all cities]"],
+    "spyNames": ["Manuel", "Isabel", "Pedro", "Filipa"]
+  },
+  {
+    "name": "Venice",
+    "cityStateType": "Maritime",
+    "outerColor": [218, 165, 32],
+    "innerColor": [0, 82, 136],
+    "cities": ["Venice"],
+    "uniques": ["[+25]% [Gold] from Trade Routes"],
+    "spyNames": ["Marco", "Lucia", "Antonio", "Giulia"]
+  },
+  {
+    "name": "Auckland",
+    "cityStateType": "Maritime",
+    "outerColor": [0, 128, 64],
+    "innerColor": [0, 0, 128],
+    "cities": ["Auckland"],
+    "uniques": ["[+2] [Production] from [Water] tiles [in all cities]"],
+    "spyNames": ["James", "Sarah", "Tom", "Emily"]
+  },
+  {
+    "name": "Amsterdam",
+    "cityStateType": "Mercantile",
+    "outerColor": [243, 97, 0],
+    "innerColor": [255, 255, 255],
+    "cities": ["Amsterdam"],
+    "uniques": ["[+25]% [Gold] from Trade Routes"],
+    "spyNames": ["Willem", "Sophie", "Jan", "Lotte"]
+  },
+  {
+    "name": "Zanzibar",
+    "cityStateType": "Mercantile",
+    "outerColor": [0, 128, 0],
+    "innerColor": [0, 0, 0],
+    "cities": ["Zanzibar"],
+    "uniques": ["[+1] [Gold] from [Luxury resource] tiles [in all cities]"],
+    "spyNames": ["Ali", "Fatima", "Hassan", "Zahara"]
+  },
+  {
+    "name": "Hong Kong",
+    "cityStateType": "Mercantile",
+    "outerColor": [255, 0, 0],
+    "innerColor": [255, 255, 255],
+    "cities": ["Hong Kong"],
+    "uniques": ["[+1] [Gold] from [Strategic resource] tiles [in all cities]"],
+    "spyNames": ["Wei", "Ling", "Chen", "Mei"]
+  },
+  {
+    "name": "Carthage",
+    "cityStateType": "Militaristic",
+    "outerColor": [105, 3, 105],
+    "innerColor": [255, 51, 51],
+    "cities": ["Carthage"],
+    "uniques": ["[+1] [Production] from [Bonus resource] tiles [in all cities]"],
+    "spyNames": ["Hannibal", "Dido", "Hasdrubal", "Sophonisba"]
+  },
+  {
+    "name": "Kabul",
+    "cityStateType": "Militaristic",
+    "outerColor": [0, 102, 0],
+    "innerColor": [255, 255, 255],
+    "cities": ["Kabul"],
+    "uniques": ["[+1] [Production] from [Strategic resource] tiles [in all cities]"],
+    "spyNames": ["Ahmad", "Zarina", "Rashid", "Laila"]
+  },
+  {
+    "name": "Valletta",
+    "cityStateType": "Militaristic",
+    "outerColor": [255, 255, 255],
+    "innerColor": [255, 0, 0],
+    "cities": ["Valletta"],
+    "uniques": ["[+1] [Faith] from [Mountain] tiles [in all cities]"],
+    "spyNames": ["Paolo", "Elena", "Matteo", "Carmen"]
+  },
+  {
+    "name": "Jerusalem",
+    "cityStateType": "Religious",
+    "outerColor": [177, 135, 29],
+    "innerColor": [255, 255, 255],
+    "cities": ["Jerusalem"],
+    "uniques": ["[+1] [Faith] from [Natural Wonder] tiles [in all cities]"],
+    "spyNames": ["David", "Rachel", "Yosef", "Miriam"]
+  },
+  {
+    "name": "Kandy",
+    "cityStateType": "Religious",
+    "outerColor": [0, 82, 136],
+    "innerColor": [255, 255, 0],
+    "cities": ["Kandy"],
+    "uniques": ["[+1] [Faith] from [Mountain] tiles [in all cities]"],
+    "spyNames": ["Rajitha", "Nadeeka", "Saman", "Anushka"]
+  },
+  {
+    "name": "Vatican City",
+    "cityStateType": "Religious",
+    "outerColor": [160, 120, 10],
+    "innerColor": [255, 255, 255],
+    "cities": ["Vatican City"],
+    "uniques": ["[+1] [Culture] from [Natural Wonder] tiles [in all cities]"],
+    "spyNames": ["Francesco", "Giovanni", "Paolo", "Angelo"]
+  },
+  {
+    "name": "Bradford",
+    "cityStateType": "Industrial",
+    "outerColor": [0, 82, 136],
+    "innerColor": [255, 255, 255],
+    "cities": ["Bradford"],
+    "uniques": ["[+1] [Production] from [Mine] tiles [in all cities]", "[+2] [Production] from [Quarry] tiles [in all cities]"],
+    "spyNames": ["Harold", "Clara", "Edwin", "Beatrice"]
+  },
+  {
+    "name": "Johannesburg",
+    "cityStateType": "Industrial",
+    "outerColor": [218, 165, 32],
+    "innerColor": [0, 0, 0],
+    "cities": ["Johannesburg"],
+    "uniques": ["[+1] [Production] from [Strategic resource] tiles [in all cities]"],
+    "spyNames": ["Thabo", "Zanele", "Sipho", "Nomsa"]
+  },
+  {
+    "name": "Monterrey",
+    "cityStateType": "Industrial",
+    "outerColor": [0, 128, 0],
+    "innerColor": [255, 255, 255],
+    "cities": ["Monterrey"],
+    "uniques": ["[+1] [Production] from [Strategic resource] tiles [in all cities]"],
+    "spyNames": ["Carlos", "Maria", "Jose", "Ana"]
+  },
+  {
+    "name": "Ayutthaya",
+    "cityStateType": "Entertainment",
+    "outerColor": [139, 96, 255],
+    "innerColor": [255, 255, 0],
+    "cities": ["Ayutthaya"],
+    "uniques": ["[+1] [Amenities] from [Luxury resource] tiles [in all cities]"],
+    "spyNames": ["Somchai", "Niran", "Prasert", "Siriporn"]
+  },
+  {
+    "name": "Mexico City",
+    "cityStateType": "Entertainment",
+    "outerColor": [0, 128, 0],
+    "innerColor": [255, 255, 255],
+    "cities": ["Mexico City"],
+    "uniques": ["[+1] [Faith] from [Natural Wonder] tiles [in all cities]"],
+    "spyNames": ["Fernando", "Lucia", "Diego", "Sofia"]
+  },
+  {
+    "name": "Monaco",
+    "cityStateType": "Entertainment",
+    "outerColor": [140, 110, 20],
+    "innerColor": [255, 255, 255],
+    "cities": ["Monaco"],
+    "uniques": ["[+15]% [Gold] [in capital]"],
+    "spyNames": ["Pierre", "Antoine", "Marie", "Camille"]
+  }
+]

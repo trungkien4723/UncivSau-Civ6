@@ -1,0 +1,2023 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 25,
+    "buildingCost": 60,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Pottery",
+        "row": 2,
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9",
+        "civilopediaText": [
+          {
+            "text": "Developed the ability to cultivate wheat and rice, enabling the rise of agriculture and permanent settlements."
+          },
+          {
+            "text": "Unlocks: Granary (building), enables Irrigation and Writing technologies."
+          }
+        ],
+        "column": {
+          "columnNumber": 0
+        }
+      },
+      {
+        "name": "Animal Husbandry",
+        "row": 5,
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Pasture] improvement>"
+        ],
+        "quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4",
+        "civilopediaText": [
+          {
+            "text": "Tamed cattle and sheep, providing reliable sources of food, wool, and labor for early civilizations."
+          },
+          {
+            "text": "Unlocks: Camp, Pasture (improvements); reveals Horses resource; enables Archery and Horseback Riding."
+          }
+        ],
+        "column": {
+          "columnNumber": 0
+        }
+      },
+      {
+        "name": "Archery",
+        "row": 7,
+        "uniques": [
+          "[-50]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon gaining a [Warrior] unit>"
+        ],
+        "quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop",
+        "civilopediaText": [
+          {
+            "text": "Mastered the bow and arrow, giving ranged combat capability against enemy units."
+          },
+          {
+            "text": "Unlocks: Archer (unit); boosted by killing a unit with a Slinger."
+          }
+        ],
+        "column": {
+          "columnNumber": 0
+        }
+      },
+      {
+        "name": "Mining",
+        "row": 9,
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon building a [Farm] improvement>"
+        ],
+        "quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty",
+        "civilopediaText": [
+          {
+            "text": "Learned to chop forests and extract copper, revealing vital ore deposits for tool-making."
+          },
+          {
+            "text": "Unlocks: Mine, Quarry (improvements); reveals Iron resource; enables Bronze Working, Masonry, Wheel."
+          }
+        ],
+        "column": {
+          "columnNumber": 0
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Ancient era",
+    "techCost": 50,
+    "buildingCost": 65,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Astrology",
+        "row": 1,
+        "prerequisites": [
+          "Pottery"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon finding a [Natural Wonder]>"
+        ],
+        "quote": "'The soul without imagination is what an observatory would be without a telescope.' - Henry Ward Beecher",
+        "civilopediaText": [
+          {
+            "text": "Studied the stars to understand celestial patterns, often guiding the placement of religious sites and wonders like Stonehenge."
+          },
+          {
+            "text": "Unlocks: Shrine (building), Stonehenge (wonder), Holy Site (district); boosted by finding a Natural Wonder."
+          }
+        ],
+        "column": {
+          "columnNumber": 1
+        }
+      },
+      {
+        "name": "Irrigation",
+        "row": 3,
+        "prerequisites": [
+          "Pottery"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon improving a resource with a [Farm]>"
+        ],
+        "quote": "'Water is the best of all things.' - Pindar",
+        "civilopediaText": [
+          {
+            "text": "Learned to clear marshes and farm resources efficiently, supporting agricultural expansion and the Hanging Gardens."
+          },
+          {
+            "text": "Unlocks: Plantation (improvement), Hanging Gardens (wonder); enables Feudalism (civic); boosted by improving a resource with a Farm."
+          }
+        ],
+        "column": {
+          "columnNumber": 1
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Ancient era",
+    "techCost": 50,
+    "buildingCost": 75,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Sailing",
+        "row": 1,
+        "prerequisites": [
+          "Pottery"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon founding a city>"
+        ],
+        "quote": "'He who commands the sea has command of everything.' - Themistocles",
+        "civilopediaText": [
+          {
+            "text": "Enabled builders to embark on water and allowed coastal city founding with fishing boats and galley units."
+          },
+          {
+            "text": "Unlocks: Fishing Boats (improvement), Galley (unit), Lighthouse (building), Harbor (district), Shipyard (building), Royal Navy Dockyard (district); enables Shipbuilding and Celestial Navigation; builders can embark."
+          }
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+            {
+        "name": "Writing",
+        "row": 3,
+        "prerequisites": [
+          "Pottery"
+        ],
+        "uniques": [
+          "Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>",
+          "Eureka: [40]% of the cost of this technology <upon constructing [Monument]>"
+        ],
+        "quote": "'He who destroys a good book kills reason itself.' - John Milton",
+        "civilopediaText": [
+          {
+            "text": "Developed systems of record-keeping and communication, enabling libraries, campuses, and diplomacy with other civilizations."
+          },
+          {
+            "text": "Unlocks: Library (building), Campus (district); enables Currency, Education, Recorded History (civic); boosted by meeting another civilization."
+          }
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+      {
+        "name": "Wheel",
+        "cost": 80,
+        "row": 7,
+        "prerequisites": [
+          "Animal Husbandry",
+          "Archery"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon building a [Mine] improvement>"
+        ],
+        "quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb",
+        "civilopediaText": [
+          {
+            "text": "One of humanitys greatest inventions - unlocked water mills, heavy chariots, and resource mining."
+          },
+          {
+            "text": "Unlocks: Water Mill (building), Heavy Chariot (unit); enables Engineering; boosted by mining a resource."
+          }
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+      {
+        "name": "Masonry",
+        "cost": 80,
+        "row": 9,
+        "prerequisites": [
+          "Mining"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Quarry] improvement>"
+        ],
+        "quote": "'How happy are those whose walls already rise!' - Virgil",
+        "civilopediaText": [
+          {
+            "text": "Mastered stone-cutting and quarrying, enabling the construction of ancient walls, pyramids, and battering rams."
+          },
+          {
+            "text": "Unlocks: Ancient Walls (building), Pyramids (wonder), Battering Ram (unit); enables Construction; boosted by building a Quarry."
+          }
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+      {
+        "name": "Bronze Working",
+        "cost": 80,
+        "row": 10,
+        "prerequisites": [
+          "Mining"
+        ],
+        "uniques": [
+          "[+50]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon gaining a [Warrior] unit>"
+        ],
+        "quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer",
+        "civilopediaText": [
+          {
+            "text": "Introduced the Bronze Age - chopping rainforests reveals iron deposits and unlocks military units like the Spearman."
+          },
+          {
+            "text": "Unlocks: Barracks (building), Encampment (district), Spearman (unit); reveals Iron resource; enables Iron Working and Machinery; boosted by killing 3 Barbarians."
+          }
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Classical era",
+    "techCost": 120,
+    "buildingCost": 100,
+    "wonderCost": 250,
+    "techs": [
+      {
+        "name": "Celestial Navigation",
+        "row": 1,
+        "prerequisites": [
+          "Sailing"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon meeting another civilization>"
+        ],
+        "quote": "'The sea is everything. It covers seven tenths of the terrestrial globe.' - Jules Verne",
+        "civilopediaText": [
+          {
+            "text": "Enabled traders to embark on sea voyages, harvesting fish from ocean resources. Also unlocked the Royal Navy Dockyard."
+          },
+          {
+            "text": "Unlocks: Great Lighthouse (wonder); Traders can embark; boosted by improving 2 sea resources."
+          }
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Horseback Riding",
+        "row": 5,
+        "prerequisites": [
+          "Wheel"
+        ],
+        "uniques": [
+          "[+50]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon building a [Pasture] improvement>"
+        ],
+        "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)",
+        "civilopediaText": [
+          {
+            "text": "Tamed the horse for transportation and warfare - unlocked the Stable, Knights, and Pastures."
+          },
+          {
+            "text": "Unlocks: Stable (building), Horseman (unit); enables Stirrups, Apprenticeship, Construction; boosted by building a Pasture."
+          }
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Mathematics",
+        "row": 7,
+        "prerequisites": [
+          "Wheel"
+        ],
+        "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon",
+        "civilopediaText": [
+          {
+            "text": "Advanced mathematical knowledge that boosts naval movement speed and enables specialty district construction."
+          },
+          {
+            "text": "Unlocks: Petra (wonder); +1 Movement for all naval units; enables Military Tactics, Buttress (GS), Education; boosted by building 3 different specialty districts."
+          }
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Construction",
+        "row": 9,
+        "prerequisites": [
+          "Masonry",
+          "Wheel"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe",
+        "civilopediaText": [
+          {
+            "text": "Engineering fundamentals enabling the construction of water mills, siege towers, and the Terracotta Army."
+          },
+          {
+            "text": "Unlocks: Terracotta Army (wonder), Siege Tower (unit); enables Castles, Military Engineering; boosted by building a Water Mill."
+          }
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Classical era",
+    "techCost": 200,
+    "buildingCost": 100,
+    "wonderCost": 250,
+    "techs": [
+      {
+        "name": "Shipbuilding",
+        "row": 2,
+        "prerequisites": [
+          "Sailing"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon improving [2] tiles with [Lumber mill]>",
+          "Enables embarkation for land units"
+        ],
+        "quote": "'A ship is nothing but a floating piece of wood, but it carries the dreams of men.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Advanced naval architecture allowing all land units to embark across oceans. Unlocked the Colossus and Quadrireme."
+          },
+          {
+            "text": "Unlocks: Colossus (wonder), Quadrireme (unit); all land units can embark across ocean; enables Buttress (GS); boosted by owning 2 Galleys."
+          }
+        ],
+        "column": {
+          "columnNumber": 4
+        }
+      },
+      {
+        "name": "Currency",
+        "row": 7,
+        "prerequisites": [
+          "Mathematics"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions",
+          "Eureka: [40]% of the cost of this technology <upon building a [Plantation] improvement>"
+        ],
+        "quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope",
+        "civilopediaText": [
+          {
+            "text": "Standardized trade with minted money - the foundation of commerce, banks, and the Commercial Hub district."
+          },
+          {
+            "text": "Unlocks: Market (building), Commercial Hub (district); enables Banking, Economics, Guilds (civic); boosted by making a Trade Route."
+          }
+        ],
+        "column": {
+          "columnNumber": 4
+        }
+      },
+      {
+        "name": "Engineering",
+        "row": 8,
+        "prerequisites": [
+          "Mathematics",
+          "Construction"
+        ],
+        "uniques": [
+          "Roads connect tiles across rivers",
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci",
+        "civilopediaText": [
+          {
+            "text": "Foundational engineering - enabled aqueducts, catapults, and ancient wall construction."
+          },
+          {
+            "text": "Unlocks: Aqueduct (district), Catapult (unit); enables Machinery, Apprenticeship; boosted by building Ancient Walls."
+          }
+        ],
+        "column": {
+          "columnNumber": 4
+        }
+      },
+      {
+        "name": "Iron Working",
+        "row": 10,
+        "prerequisites": [
+          "Bronze Working"
+        ],
+        "uniques": [
+          "[-50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats",
+        "civilopediaText": [
+          {
+            "text": "Mastered iron smelting - revealed iron deposits and unlocked the Swordsman and Iron Mine."
+          },
+          {
+            "text": "Unlocks: Swordsman (unit); reveals Niter resource; enables Machinery and Military Engineering; boosted by building an Iron Mine."
+          }
+        ],
+        "column": {
+          "columnNumber": 4
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Medieval era",
+    "techCost": 300,
+    "buildingCost": 120,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "Buttress",
+        "row": 1,
+        "prerequisites": [
+          "Engineering"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Ancient Walls]>"
+        ],
+        "quote": "'A building is a struggle, not a miracle. Buttresses are the result of that struggle.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Architectural supports reinforcing walls, enabling the construction of taller structures, dams, and grand cathedrals with stained glass."
+          },
+          {
+            "text": "Unlocks: Dam (improvement), Hydroelectric Dam (improvement), Hagia Sophia (wonder); enables Cartography, Mass Production; boosted by building a Classical era or later wonder. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Military Engineering",
+        "cost": 390,
+        "row": 3,
+        "prerequisites": [
+          "Siege Tactics"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Military Engineer] unit>"
+        ],
+        "quote": "'Engineer, be thou still more careful.' - John Ruskin",
+        "civilopediaText": [
+          {
+            "text": "Applied engineering to warfare - enabled aqueducts, the Armory, and the Military Engineer."
+          },
+          {
+            "text": "Unlocks: Armory (building), Military Engineer (unit); enables Siege Tactics, Steel; boosted by building an Aqueduct."
+          }
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Stirrups",
+        "row": 5,
+        "prerequisites": [
+          "Horseback Riding"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Stable] building>"
+        ],
+        "quote": "'The stirrup was the first step toward the knight in shining armor.' - Lynn White Jr.",
+        "civilopediaText": [
+          {
+            "text": "The invention of the stirrup revolutionized cavalry warfare in feudal times, unlocking the Knight."
+          },
+          {
+            "text": "Unlocks: Knight (unit); enables Military Science, Gunpowder; boosted by having the Feudalism civic."
+          }
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Military Tactics",
+        "row": 7,
+        "prerequisites": [
+          "Iron Working"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon killing a unit with a [Spearman]>"
+        ],
+        "quote": "'In war, the victorious strategist only seeks battle after the victory has been won.' - Sun Tzu",
+        "civilopediaText": [
+          {
+            "text": "Developed military formations and strategies for organized warfare, unlocking the Pikeman."
+          },
+          {
+            "text": "Unlocks: Pikeman (unit); enables Siege Tactics, Mass Production; boosted by killing a unit with a Spearman."
+          }
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Metal Casting",
+        "cost": 660,
+        "row": 9,
+        "prerequisites": [
+          "Engineering",
+          "Iron Working"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib",
+        "civilopediaText": [
+          {
+            "text": "Pouring molten metal into molds - a transformative technique enabling mass production of identical metal objects, weapons, and tools."
+          },
+          {
+            "text": "Unlocks: Bombard (unit); enables Ballistics, Economics; boosted by owning 2 Crossbowmen."
+          }
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Medieval era",
+    "techCost": 300,
+    "buildingCost": 160,
+    "wonderCost": 400,
+    "techs": [
+      {
+        "name": "Education",
+        "cost": 390,
+        "row": 3,
+        "prerequisites": [
+          "Currency"
+        ],
+        "uniques": [
+          "Enables conversion of city production to [Science]",
+          "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>",
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Education is the best provision for old age.' - Aristotle",
+        "civilopediaText": [
+          {
+            "text": "Formalized learning and scholarship - earned Great Scientists, Hagia Sophia, and universities."
+          },
+          {
+            "text": "Unlocks: University (building), Hagia Sophia (wonder); enables Banking, Astronomy, Scientific Theory; boosted by earning a Great Scientist."
+          }
+        ],
+        "column": {
+          "columnNumber": 6
+        }
+      },
+      {
+        "name": "Apprenticeship",
+        "row": 1,
+        "prerequisites": [
+          "Mathematics"
+        ],
+        "uniques": [
+          "[+1 Production] from [Mine] tiles [in all cities]",
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "civilopediaText": [
+          {
+            "text": "Systematic training of craftsmen and workers increased mine production and enabled the Industrial Zone."
+          },
+          {
+            "text": "Unlocks: Workshop (building), Industrial Zone (district); +1 Production to Mine improvements; enables Military Science, Industrialization; boosted by building 3 Mines."
+          }
+        ],
+        "column": {
+          "columnNumber": 6
+        }
+      },
+      {
+        "name": "Castles",
+        "cost": 390,
+        "row": 4,
+        "prerequisites": [
+          "Currency"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "civilopediaText": [
+          {
+            "text": "Medieval fortification knowledge provided culture bonuses from the Great Wall and expanded spy capacity under Catherine."
+          },
+          {
+            "text": "Unlocks: Medieval Walls (building), Alhambra (wonder); enables Siege Tactics; boosted by adopting a government with 6 policy slots."
+          }
+        ],
+        "column": {
+          "columnNumber": 6
+        }
+      },
+      {
+        "name": "Machinery",
+        "row": 8,
+        "prerequisites": [
+          "Engineering",
+          "Currency"
+        ],
+        "uniques": [
+          "Improves movement speed on roads"
+        ],
+        "quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson",
+        "civilopediaText": [
+          {
+            "text": "Mechanical innovation powered the crossbowman and lumber mill - key medieval advancements."
+          },
+          {
+            "text": "Unlocks: Crossbowman (unit), Lumber mill (improvement); enables Printing, Ballistics; boosted by owning 3 Archers."
+          }
+        ],
+        "column": {
+          "columnNumber": 6
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Renaissance era",
+    "techCost": 540,
+    "buildingCost": 200,
+    "wonderCost": 500,
+    "techs": [
+      {
+        "name": "Cartography",
+        "row": 1,
+        "prerequisites": [
+          "Celestial Navigation"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Lighthouse]>",
+          "Enables [All] units to enter ocean tiles"
+        ],
+        "quote": "'The map is not the territory.' - Alfred Korzybski",
+        "civilopediaText": [
+          {
+            "text": "Advanced map-making that boosted fishing boat gold, enabled ocean navigation for all naval units, and unlocked the Caravel."
+          },
+          {
+            "text": "Unlocks: Caravel (unit); +1 Gold from Fishing Boats; all naval/embarked units can enter Ocean tiles; +1 Movement for embarked units; enables Square Rigging, Astronomy; boosted by building 2 Harbors."
+          }
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Astronomy",
+        "cost": 660,
+        "row": 2,
+        "uniques": [
+          "[+1] Movement <for [Embarked] units>",
+          "Enables [Embarked] units to enter ocean tiles",
+          "[+50]% weight to this choice for AI decisions"
+        ],
+        "prerequisites": [
+          "Sailing",
+          "Education"
+        ],
+        "quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer",
+        "civilopediaText": [
+          {
+            "text": "Scientific study of celestial bodies - enabled Potala Palace and university placement advantages."
+          },
+          {
+            "text": "Unlocks: Potala Palace (wonder); enables Scientific Theory, Flight; boosted by building a University adjacent to a Mountain."
+          }
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Banking",
+        "row": 6,
+        "prerequisites": [
+          "Education"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau",
+        "civilopediaText": [
+          {
+            "text": "Financial innovation that boosted quarry production and enabled banks and the Great Zimbabwe."
+          },
+          {
+            "text": "Unlocks: Bank (building), Great Zimbabwe (wonder); +1 Gold from Quarry improvements; enables Economics, Chemistry; boosted by having the Guilds civic."
+          }
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Mass Production",
+        "row": 4,
+        "prerequisites": [
+          "Shipbuilding"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Workshop]>"
+        ],
+        "quote": "'The way to become rich is to put all your eggs in one basket and watch that basket.' - Andrew Carnegie",
+        "civilopediaText": [
+          {
+            "text": "Industrial-scale production techniques enabled shipyard construction and the Venetian Arsenal."
+          },
+          {
+            "text": "Unlocks: Shipyard (building), Venetian Arsenal (wonder); enables Steel, Industrialization; boosted by building a Lumber Mill."
+          }
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Printing",
+        "row": 8,
+        "prerequisites": [
+          "Machinery"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times",
+        "civilopediaText": [
+          {
+            "text": "The printing press expanded diplomatic visibility and doubled tourism from Great Works of Writing - unlocked the Forbidden City."
+          },
+          {
+            "text": "Unlocks: Forbidden City (wonder); +1 Diplomatic Visibility; Tourism from Great Works of Writing doubled; enables Military Science, Industrialization; boosted by building 2 Universities."
+          }
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Gunpowder",
+        "row": 10,
+        "prerequisites": [
+          "Steel",
+          "Machinery"
+        ],
+        "uniques": [
+          "[-50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel",
+        "civilopediaText": [
+          {
+            "text": "Revolutionary discovery of niter and gunpowder - unlocked the Armory and the Musketman."
+          },
+          {
+            "text": "Unlocks: Musketman (unit), Armory (building); reveals Niter resource; enables Metal Casting, Military Science; boosted by building an Armory."
+          }
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Renaissance era",
+    "techCost": 660,
+    "buildingCost": 250,
+    "wonderCost": 625,
+    "techs": [
+      {
+        "name": "Square Rigging",
+        "row": 2,
+        "prerequisites": [
+          "Cartography"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Harbor] district>"
+        ],
+        "quote": "'A ship under sail is the loveliest thing in the world.' - Donald McKay",
+        "civilopediaText": [
+          {
+            "text": "Advanced sailing technology enabling ocean-going Frigates - a key naval combat unit."
+          },
+          {
+            "text": "Unlocks: Frigate (unit); enables Rifling, Steel; boosted by killing a unit with a Musketman."
+          }
+        ],
+        "column": {
+          "columnNumber": 8
+        }
+      },
+       {
+        "name": "Siege Tactics",
+        "row": 4,
+        "prerequisites": [
+          "Banking"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Siege Workshop] building>"
+        ],
+        "quote": "'The soldier above all others prays for peace.' - Douglas MacArthur",
+        "civilopediaText": [
+          {
+            "text": "Specialized knowledge for constructing and operating fortifications and siege weapons."
+          },
+          {
+            "text": "Unlocks: Renaissance Walls (building), Fort (improvement); enables Field Cannon, Advanced Ballistics; boosted by owning 2 Bombards."
+          }
+        ],
+        "column": {
+          "columnNumber": 8
+        }
+      },
+      {
+        "name": "Economics",
+        "cost": 925,
+        "row": 6,
+        "prerequisites": [
+          "Banking",
+          "Printing"
+        ],
+        "uniques": [
+          "[+50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein",
+        "civilopediaText": [
+          {
+            "text": "Economic theory and finance enabled stock exchanges, Big Ben, and enhanced trade networks."
+          },
+          {
+            "text": "Unlocks: Stock Exchange (building), Big Ben (wonder); enables Replaceable Parts, Radio; boosted by building 2 Banks."
+          }
+        ],
+        "column": {
+          "columnNumber": 8
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 9,
+    "era": "Industrial era",
+    "techCost": 805,
+    "buildingCost": 300,
+    "wonderCost": 750,
+    "techs": [
+      {
+        "name": "Scientific Theory",
+        "row": 4,
+        "prerequisites": [
+          "Economics"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey",
+        "civilopediaText": [
+          {
+            "text": "The scientific method unlocked Research Agreements and boosted plantation food."
+          },
+          {
+            "text": "Enables Research Agreement diplomatic action; +1 Food from Plantation improvements; enables Sanitation, Electricity, Chemistry; boosted by having The Enlightenment civic."
+          }
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      },
+      {
+        "name": "Industrialization",
+        "row": 6,
+        "prerequisites": [
+          "Economics"
+        ],
+        "uniques": [
+          "[+50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch",
+        "civilopediaText": [
+          {
+            "text": "The Industrial Revolution - boosted mine production and enabled Factories and the Ruhr Valley wonder."
+          },
+          {
+            "text": "Unlocks: Factory (building), Ruhr Valley (wonder); +1 Production to Mine improvements; enables Steel, Flight, Advanced Flight; boosted by building 3 Workshops."
+          }
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      },
+      {
+        "name": "Rifling",
+        "cost": 925,
+        "row": 7,
+        "prerequisites": [
+          "Economics",
+          "Steel"
+        ],
+        "uniques": [
+          "[-50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee",
+        "civilopediaText": [
+          {
+            "text": "Grooved barrel technology - enabled niter mines and the Ranger skirmisher unit."
+          },
+          {
+            "text": "Unlocks: Ranger (unit); reveals Niter resource; enables Steel, Refining (GS); boosted by building a Niter Mine."
+          }
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      },
+      {
+        "name": "Military Science",
+        "row": 9,
+        "prerequisites": [
+          "Chemistry"
+        ],
+        "quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton",
+        "civilopediaText": [
+          {
+            "text": "Advanced military academy practices - unlocked Cavalry, Redcoats, and the Military Academy."
+          },
+          {
+            "text": "Unlocks: Cavalry (unit), Redcoat (unit), Military Academy (building); enables Steel, Combustion; boosted by killing a unit with a Knight."
+          }
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 10,
+    "era": "Industrial era",
+    "techCost": 925,
+    "buildingCost": 360,
+    "wonderCost": 900,
+    "techs": [
+      {
+        "name": "Sanitation",
+        "row": 1,
+        "prerequisites": [
+          "Electricity"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Sewer] building>"
+        ],
+        "quote": "'Sanitation is more important than independence.' - Mahatma Gandhi",
+        "civilopediaText": [
+          {
+            "text": "Public health infrastructure - stepwells gained extra housing, and the sewer and medic units were unlocked."
+          },
+          {
+            "text": "Unlocks: Sewer (building), Medic (unit); Stepwell improvements +1 Housing; enables Neighborhood (district); boosted by building 2 Neighborhoods."
+          }
+        ],
+        "column": {
+          "columnNumber": 10
+        }
+      },
+      {
+        "name": "Electricity",
+        "cost": 1135,
+        "row": 3,
+        "prerequisites": [
+          "Scientific Theory"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne",
+        "civilopediaText": [
+          {
+            "text": "Harnessing electrical power - enabled power plants, seaports, submarines, and privateer naval units."
+          },
+          {
+            "text": "Unlocks: Power Plant (building), Seaport (building), Submarine (unit); enables Radio, Nuclear Fission; boosted by owning 3 Privateers."
+          }
+        ],
+        "column": {
+          "columnNumber": 10
+        }
+      },
+      {
+        "name": "Steam Power",
+        "row": 6,
+        "uniques": [
+          "[+1] Movement <for [Embarked] units>"
+        ],
+        "prerequisites": [
+          "Industrialization",
+          "Scientific Theory",
+          "Rifling"
+        ],
+        "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris",
+        "civilopediaText": [
+          {
+            "text": "Harnessed steam power - granted increased movement to embarked units, revealed coal, and unlocked Ironclads."
+          },
+          {
+            "text": "Unlocks: Ironclad (unit); +2 Movement for embarked units; reveals Coal resource; enables Sanitation, Advanced Flight, Combustion; boosted by building 2 Shipyards."
+          }
+        ],
+        "column": {
+          "columnNumber": 10
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 11,
+    "era": "Modern era",
+    "techCost": 1035,
+    "buildingCost": 500,
+    "wonderCost": 1060,
+    "techs": [
+      {
+        "name": "Refining",
+        "row": 1,
+        "prerequisites": [
+          "Chemistry"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Mine] on a [Strategic] resource>"
+        ],
+        "quote": "'Oil is the blood of modern civilization.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Processing raw materials into refined products - extracting niter from saltpeter and enabling advanced chemical manufacturing."
+          },
+          {
+            "text": "Unlocks: Coal Power Plant (building); enables Combustion, Plastics; boosted by building 1 Coal Power Plant. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Radio",
+        "cost": 1135,
+        "row": 3,
+        "prerequisites": [
+          "Electricity"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen",
+        "civilopediaText": [
+          {
+            "text": "Wireless communication revolution - enabled national parks, broadcast centers, and seaside resorts."
+          },
+          {
+            "text": "Unlocks: Broadcast Center (building), Seaside Resort (improvement); enables National Park; enables Advanced Flight, Computers; boosted by building a National Park."
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Replaceable Parts",
+        "row": 4,
+        "prerequisites": [
+          "Electricity",
+          "Steam Power"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford",
+        "civilopediaText": [
+          {
+            "text": "Mass production of standardized components upgraded farms to mechanized agriculture and unlocked Infantry."
+          },
+          {
+            "text": "Unlocks: Infantry (unit); Farms upgraded to Mechanized Agriculture; +1 Food adjacency for adjacent Farms; enables Advanced Ballistics, Computers, Combustion; boosted by owning 3 Musketmen."
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Flight",
+        "row": 6,
+        "prerequisites": [
+          "Steam Power"
+        ],
+        "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky",
+        "civilopediaText": [
+          {
+            "text": "Pioneer aviation - boosted tourism from cultural improvements and unlocked hangars, airfields, and aircraft."
+          },
+          {
+            "text": "Unlocks: Biplane (unit), Observation Balloon (unit), Hangar (building), Aerodrome (district); Tourism bonus to improvements with Culture; enables Advanced Flight, Radar (GS); boosted by building an Industrial era or later wonder."
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Steel",
+        "row": 7,
+        "prerequisites": [
+          "Metal Casting"
+        ],
+        "uniques": [
+          "[-50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man",
+        "civilopediaText": [
+          {
+            "text": "Advanced metallurgy for stronger weapons and infrastructure - unlocked the Eiffel Tower, Artillery, and Battleships."
+          },
+          {
+            "text": "Unlocks: Artillery (unit), Battleship (unit), Eiffel Tower (wonder); +1 Production from Lumber Mills; enables Advanced Ballistics, Combined Arms, Combustion, Nuclear Fission; boosted by building a Coal Mine."
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Railroads",
+        "row": 8,
+        "prerequisites": [
+          "Steam Power",
+          "Chemistry"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
+        "civilopediaText": [
+          {
+            "text": "Railway transportation networks enabling rapid movement of troops, goods, and people across vast distances."
+          },
+          {
+            "text": "Unlocks: Railroads (allows units to move freely on rail networks); enables Advanced Ballistics. (Rise and Fall)"
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Chemistry",
+        "cost": 1135,
+        "row": 9,
+        "prerequisites": [
+          "Gunpowder"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge",
+        "civilopediaText": [
+          {
+            "text": "Understood chemical processes - unlocked research laboratories and anti-tank crews."
+          },
+          {
+            "text": "Unlocks: Research Lab (building), AT Crew (unit); enables Plastics, Nuclear Fission, Guidance Systems; boosted by completing a Research Agreement."
+          }
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 12,
+    "era": "Modern era",
+    "techCost": 1480,
+    "buildingCost": 500,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Plastics",
+        "row": 3,
+        "prerequisites": [
+          "Radio",
+          "Replaceable Parts"
+        ],
+        "uniques": [
+          "[+200]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate",
+        "civilopediaText": [
+          {
+            "text": "Synthetic polymer chemistry - boosted fishing boat output and enabled offshore oil rigs."
+          },
+          {
+            "text": "Unlocks: Offshore Oil Rig (improvement); +1 Food to Fishing Boats; enables Composites, Nanotechnology, Satellites; boosted by building an Oil Well."
+          }
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      },
+      {
+        "name": "Ballistics",
+        "row": 6,
+        "prerequisites": [
+          "Flight"
+        ],
+        "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul",
+        "civilopediaText": [
+          {
+            "text": "Study of projectile motion - enabled fortified positions and the Field Cannon."
+          },
+          {
+            "text": "Unlocks: Field Cannon (unit); enables Advanced Ballistics, Rifling; boosted by having 2 Forts in territory."
+          }
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      },
+      {
+        "name": "Combustion",
+        "row": 8,
+        "prerequisites": [
+          "Railroads"
+        ],
+        "uniques": [
+          "[-50]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein",
+        "civilopediaText": [
+          {
+            "text": "Internal combustion engine - enabled oil extraction, tank production, and revealed oil deposits."
+          },
+          {
+            "text": "Unlocks: Tank (unit), Oil well (improvement); +1 Movement for embarked units; reveals Oil resource; enables Advanced Flight, Plastics, Synthetic Materials; boosted by extracting an Artifact."
+          }
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 13,
+    "era": "Atomic era",
+    "techCost": 1950,
+    "buildingCost": 500,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Advanced Flight",
+        "row": 1,
+        "prerequisites": [
+          "Radio",
+          "Flight"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Aerodrome] district>"
+        ],
+        "quote": "'The air is the only place free from prejudices.' - Wilbur Wright",
+        "civilopediaText": [
+          {
+            "text": "Modern aviation technology - revealed aluminum and unlocked bombers and fighters with airports."
+          },
+          {
+            "text": "Unlocks: Bomber (unit), Fighter (unit), Airport (building); reveals Aluminum resource; enables Rocketry, Satellites, Nuclear Fission; boosted by building 3 Biplanes."
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Synthetic Materials",
+        "row": 3,
+        "prerequisites": [
+          "Plastics"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Factory] building>"
+        ],
+        "quote": "'Plastics have become the universal material of our age.' - Roland Barthes",
+        "civilopediaText": [
+          {
+            "text": "Man-made materials - boosted camp gold and enabled helicopter production and aerodromes."
+          },
+          {
+            "text": "Unlocks: Helicopter (unit); +1 Gold to Camps; enables Nanotechnology, Robotics; boosted by building 2 Aerodromes."
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Pharmaceuticals",
+        "row": 2,
+        "prerequisites": [
+          "Plastics",
+          "Refrigeration"
+        ],
+        "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
+        "civilopediaText": [
+          {
+            "text": "Scientific study of medicinal compounds enabling the production of modern drugs and medical treatments for civilians and soldiers."
+          },
+          {
+            "text": "Unlocks: None directly; enables other modern technologies. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+       {
+        "name": "Atomic Theory",
+        "row": 4,
+        "prerequisites": [
+          "Plastics"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein",
+        "civilopediaText": [
+          {
+            "text": "Understanding the fundamental structure of matter - unlocking nuclear energy and revealing uranium deposits."
+          },
+          {
+            "text": "Unlocks: Reveals Uranium; enables Nuclear Fission. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Refrigeration",
+        "row": 5,
+        "prerequisites": [
+          "Electricity",
+          "Chemistry"
+        ],
+        "uniques": [
+          "[-75]% weight to this choice for AI decisions"
+        ],
+        "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth",
+        "civilopediaText": [
+          {
+            "text": "Controlled cooling technology enabling food preservation, climate-controlled buildings, and industrial cold chains."
+          },
+          {
+            "text": "Enables other modern technologies. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Radar",
+        "row": 6,
+        "prerequisites": [
+          "Ballistics",
+          "Radio"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift",
+        "civilopediaText": [
+          {
+            "text": "Radio-based detection and ranging technology for identifying objects at a distance - revolutionizing navigation and military operations."
+          },
+          {
+            "text": "Unlocks: None directly; enables Advanced Flight, Guidance Systems. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Combined Arms",
+        "row": 8,
+        "prerequisites": [
+          "Ballistics",
+          "Combustion"
+        ],
+        "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises",
+        "civilopediaText": [
+          {
+            "text": "Integrated military doctrine - enabled aircraft carriers and destroyers from aerodromes."
+          },
+          {
+            "text": "Unlocks: Aircraft Carrier (unit), Destroyer (unit); enables Robotics, Nanotechnology; boosted by building an Airstrip."
+          }
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 14,
+    "era": "Atomic era",
+    "techCost": 2500,
+    "buildingCost": 500,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Ecology",
+        "row": 2,
+        "prerequisites": [
+          "Atomic Theory",
+          "Pharmaceuticals"
+        ],
+        "quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson",
+        "civilopediaText": [
+          {
+            "text": "Scientific study of organisms and their environment - enabling pollution management and sustainable resource policies."
+          },
+          {
+            "text": "Unlocks: Recycling Center (building); enables Offworld Mission, Seasteads. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Nuclear Fission",
+        "row": 4,
+        "prerequisites": [
+          "Atomic Theory",
+          "Radar"
+        ],
+        "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer",
+        "civilopediaText": [
+          {
+            "text": "Atomic energy - revealed uranium and enabled nuclear devices and the Manhattan Project."
+          },
+          {
+            "text": "Unlocks: Nuclear Device (project), Manhattan Project (project); reveals Uranium resource; enables Nuclear Fusion, Thermonuclear Device; boosted by Great Scientist or Spy."
+          }
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Rocketry",
+        "row": 6,
+        "prerequisites": [
+          "Radar"
+        ],
+        "uniques": [
+          "[+100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937",
+        "civilopediaText": [
+          {
+            "text": "Space-age propulsion - boosted quarry production and enabled spaceports, missile silos, and satellite launches."
+          },
+          {
+            "text": "Unlocks: Spaceport (district), Launch Earth Satellite (project); +1 Production from Quarries; enables Guidance Systems, Nuclear Fusion; boosted by Great Scientist or Spy."
+          }
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Computers",
+        "row": 8,
+        "prerequisites": [
+          "Combined Arms",
+          "Radar"
+        ],
+        "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell",
+        "civilopediaText": [
+          {
+            "text": "Digital computing revolution - granted additional spy capacity and doubled all tourism yields."
+          },
+          {
+            "text": "Unlocks: Additional Spy capacity; All Tourism yields doubled; enables Robotics, Telecommunications, Nuclear Fusion; boosted by having a government with 8 policy slots."
+          }
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 15,
+    "era": "Information era",
+    "techCost": 3000,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Telecommunications",
+        "row": 2,
+        "prerequisites": [
+          "Ecology"
+        ],
+        "quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly",
+        "civilopediaText": [
+          {
+            "text": "Global communication networks - enabled nuclear submarines and dual broadcast center construction."
+          },
+          {
+            "text": "Unlocks: Nuclear Submarine (unit); enables Satellites, Lasers; boosted by building 2 Broadcast Centers."
+          }
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Advanced Ballistics",
+        "row": 5,
+        "prerequisites": [
+          "Nuclear Fission",
+          "Rocketry"
+        ],
+        "quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' â€“ Martin Luther King Jr.",
+        "civilopediaText": [
+          {
+            "text": "Precision-guided weaponry - enabled anti-air guns and machine guns with power plant infrastructure."
+          },
+          {
+            "text": "Unlocks: Anti-Air Gun (unit), Machine Gun (unit); enables Robotics, Lasers; boosted by building 2 Power Plants."
+          }
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Satellites",
+        "row": 6,
+        "prerequisites": [
+          "Rocketry"
+        ],
+        "uniques": [
+          "Reveals the entire map",
+          "[+200]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson",
+        "civilopediaText": [
+          {
+            "text": "Orbital technology - boosted space program progress enabling moon landings and mechanized infantry."
+          },
+          {
+            "text": "Unlocks: Launch Moon Landing (project), Mechanized Infantry (unit); enables Robotics, Nanotechnology, Nuclear Fusion; boosted by Great Scientist or Spy."
+          }
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Robotics",
+        "row": 7,
+        "prerequisites": [
+          "Rocketry",
+          "Computers"
+        ],
+        "quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov",
+        "civilopediaText": [
+          {
+            "text": "Automated manufacturing - boosted pasture production and enabled Mars habitation projects."
+          },
+          {
+            "text": "Unlocks: Launch Mars Habitation (project); +1 Production to Pastures; enables Offworld Mission (GS); boosted by having the Globalization civic."
+          }
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Lasers",
+        "row": 8,
+        "prerequisites": [
+          "Computers"
+        ],
+        "uniques": [
+          "[-100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12",
+        "civilopediaText": [
+          {
+            "text": "Light amplification technology - unlocked jet fighters and missile cruisers."
+          },
+          {
+            "text": "Unlocks: Jet Fighter (unit), Missile Cruiser (unit); enables Nuclear Fusion, Robotics; boosted by Great Scientist or Spy."
+          }
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 16,
+    "era": "Information era",
+    "techCost": 3500,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Composites",
+        "row": 1,
+        "prerequisites": [
+          "Robotics"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Hydroelectric Dam] building>"
+        ],
+        "quote": "'Composite materials are the future of aerospace, automotive, and construction.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Advanced material science for modern armor - unlocked modern armor and anti-tank units."
+          },
+          {
+            "text": "Unlocks: Modern Armor (unit), Modern AT (unit); enables Nanotechnology, Stealth Technology; boosted by owning 3 Tanks."
+          }
+        ],
+        "column": {
+          "columnNumber": 16
+        }
+      },
+      {
+        "name": "Guidance Systems",
+        "row": 3,
+        "prerequisites": [
+          "Advanced Ballistics"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Missile Silo] building>"
+        ],
+        "quote": "'The guidance system is the mind of the missile.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Precision targeting technology - enabled mobile SAMs and rocket artillery."
+          },
+          {
+            "text": "Unlocks: Mobile SAM (unit), Rocket Artillery (unit); enables Robotics, Lasers; boosted by killing a Fighter."
+          }
+        ],
+        "column": {
+          "columnNumber": 16
+        }
+      },
+      {
+        "name": "Nuclear Fusion",
+        "row": 6,
+        "prerequisites": [
+          "Advanced Ballistics",
+          "Satellites",
+          "Robotics"
+        ],
+        "uniques": [
+          "[-100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein",
+        "civilopediaText": [
+          {
+            "text": "Controlled fusion energy - enabled thermonuclear devices, Mars reactors, and the Operation Ivy project."
+          },
+          {
+            "text": "Unlocks: Thermonuclear Device (project), Launch Mars Reactor (project), Operation Ivy (project); enables Offworld Mission (GS); boosted by Great Scientist or Spy."
+          }
+        ],
+        "column": {
+          "columnNumber": 16
+        }
+      },
+      {
+        "name": "Nanotechnology",
+        "row": 7,
+        "prerequisites": [
+          "Robotics"
+        ],
+        "quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz",
+        "civilopediaText": [
+          {
+            "text": "Molecular-level manufacturing - enabled aluminum mines and Mars hydroponics projects."
+          },
+          {
+            "text": "Unlocks: Launch Mars Hydroponics (project); reveals Aluminum resource; enables Offworld Mission (GS); boosted by building an Aluminum Mine."
+          }
+        ],
+        "column": {
+          "columnNumber": 16
+        }
+      },
+      {
+        "name": "Stealth Technology",
+        "row": 8,
+        "prerequisites": [
+          "Robotics",
+          "Lasers"
+        ],
+        "uniques": [
+          "[-100]% weight to this choice for AI decisions"
+        ],
+        "quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu",
+        "civilopediaText": [
+          {
+            "text": "Cutting-edge radar evasion and stealth design - unlocked the Jet Bomber."
+          },
+          {
+            "text": "Unlocks: Jet Bomber (unit); enables Nanotechnology; boosted by Great Scientist or Spy."
+          }
+        ],
+        "column": {
+          "columnNumber": 16
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 17,
+    "era": "Future era",
+    "techCost": 4000,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Advanced AI",
+        "row": 1,
+        "prerequisites": [
+          "Nanotechnology"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Research Lab] building>"
+        ],
+        "quote": "'Artificial intelligence is the new electricity.' - Andrew Ng",
+        "civilopediaText": [
+          {
+            "text": "Sophisticated artificial intelligence capable of learning, reasoning, and autonomous decision-making."
+          },
+          {
+            "text": "Unlocks: None directly; Future Era technology. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 17
+        }
+      },
+      {
+        "name": "Advanced Power Cells",
+        "row": 2,
+        "prerequisites": [
+          "Synthetic Materials"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Rocket Engine] building>"
+        ],
+        "quote": "'The battery is the heart of the portable revolution.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Next-generation energy storage beyond lithium-ion - enabling longer-lasting portable and vehicular power."
+          },
+          {
+            "text": "Unlocks: None directly; Future Era technology. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 17
+        }
+      },
+      {
+        "name": "Smart Materials",
+        "row": 3,
+        "prerequisites": [
+          "Composites",
+          "Nanotechnology"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Wonder] building>"
+        ],
+        "quote": "'Materials that think for themselves - that is the future.' - Unknown",
+        "civilopediaText": [
+          {
+            "text": "Adaptive materials that respond to environmental stimuli - self-healing, shape-memory, and temperature-regulating substances."
+          },
+          {
+            "text": "Unlocks: None directly; Future Era technology. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 17
+        }
+      },
+      {
+        "name": "Future Tech",
+        "row": 5,
+        "prerequisites": [
+          "Nuclear Fusion",
+          "Nanotechnology",
+          "Stealth Technology"
+        ],
+        "uniques": [
+          "Can be continually researched"
+        ],
+        "quote": "'I think we agree, the past is over.' - George W. Bush",
+        "civilopediaText": [
+          {
+            "text": "Theoretical science beyond current understanding - can be researched repeatedly for score victory benefits."
+          },
+          {
+            "text": "Unlocks: +5% Production towards city projects (repeatable); Can be completed multiple times, increasing points towards Score Victory."
+          }
+        ],
+        "column": {
+          "columnNumber": 17
+        }
+      },
+      {
+        "name": "Cybernetics",
+        "row": 7,
+        "prerequisites": [
+          "Nanotechnology"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Military Academy] building>"
+        ],
+        "quote": "'The combination of human and machine will define the 21st century.' - Klaus Schwab",
+        "civilopediaText": [
+          {
+            "text": "Integration of technology with biological systems - enhancing human capabilities through neural interfaces and prosthetics."
+          },
+          {
+            "text": "Unlocks: None directly; Future Era technology. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 17
+        }
+      },
+      {
+        "name": "Offworld Mission",
+        "row": 9,
+        "prerequisites": [
+          "Satellites",
+          "Advanced AI"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon building a [Spaceport] district>"
+        ],
+        "quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong",
+        "civilopediaText": [
+          {
+            "text": "Crewed interplanetary missions establishing human presence beyond Earth - a critical step toward becoming a spacefaring civilization."
+          },
+          {
+            "text": "Unlocks: Exoplanet Expedition (project); part of Science Victory. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 17
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 18,
+    "era": "Information era",
+    "techCost": 4500,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": [
+      {
+        "name": "Seasteads",
+        "row": 4,
+        "prerequisites": [
+          "Electricity"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Seastead] improvement>"
+        ],
+        "quote": "'The sea, upon balance, has always fed, clothed and housed more people than any other resource.' - Anonymous",
+        "civilopediaText": [
+          {
+            "text": "Permanent ocean-based settlements - floating cities that provide new territory and resources beyond national jurisdictions."
+          },
+          {
+            "text": "Unlocks: Seastead (improvement); provides housing and production on coast tiles. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 18
+        }
+      },
+      {
+        "name": "Predictive Systems",
+        "row": 6,
+        "prerequisites": [
+          "Robotics"
+        ],
+        "uniques": [
+          "Eureka: [40]% of the cost of this technology <upon constructing a [Spaceport] district>"
+        ],
+        "quote": "'The best way to predict the future is to invent it.' - Alan Kay",
+        "civilopediaText": [
+          {
+            "text": "Advanced modeling and simulation technology enabling accurate forecasting of weather, economic trends, and societal patterns."
+          },
+          {
+            "text": "Unlocks: None directly; Future Era technology. (Gathering Storm)"
+          }
+        ],
+        "column": {
+          "columnNumber": 18
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 19,
+    "era": "Information era",
+    "techCost": 6000,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": []
+  },
+  {
+    "columnNumber": 20,
+    "era": "Information era",
+    "techCost": 7500,
+    "buildingCost": 750,
+    "wonderCost": 1250,
+    "techs": []
+  }
+]

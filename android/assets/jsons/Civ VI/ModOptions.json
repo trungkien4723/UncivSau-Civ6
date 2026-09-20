@@ -1,0 +1,7 @@
+{
+    "isBaseRuleset": true,
+    "uniques": [
+        "Suppress warning [*for each adjacent [Moai]*]",
+        "Suppress warning [*for each adjacent [Mountain]*]"
+    ]
+}

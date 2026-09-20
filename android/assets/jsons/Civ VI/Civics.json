@@ -1,0 +1,900 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "civicCost": 20,
+    "civics": [
+      {
+        "name": "Code of Laws",
+        "row": 3,
+        "quote": "'Wherever law ends, tyranny begins.' - John Locke",
+        "column": {
+          "columnNumber": 0
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Ancient era",
+    "civicCost": 40,
+    "civics": [
+      {
+        "name": "Craftsmanship",
+        "row": 2,
+        "prerequisites": [
+          "Code of Laws"
+        ],
+        "quote": "'Every artist was first an amateur.' - Ralph Waldo Emerson",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [3] [Tile improvements]>"
+        ],
+        "column": {
+          "columnNumber": 1
+        }
+      },
+      {
+        "name": "Foreign Trade",
+        "row": 4,
+        "prerequisites": [
+          "Code of Laws"
+        ],
+        "quote": "'Commerce with all nations, alliance with none.' - Thomas Jefferson",
+        "uniques": [
+          "+1 Trade Route capacity",
+          "Inspiration: [40]% of the cost of this civic <upon discovering a [Continental Divide]>"
+        ],
+        "column": {
+          "columnNumber": 1
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Ancient era",
+    "civicCost": 60,
+    "civics": [
+      {
+        "name": "Military Tradition",
+        "row": 2,
+        "prerequisites": [
+          "Craftsmanship"
+        ],
+        "quote": "'The soldier above all others prays for peace.' - Douglas MacArthur",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon clearing a [Barbarian] encampment>"
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+      {
+        "name": "State Workforce",
+        "row": 3,
+        "prerequisites": [
+          "Craftsmanship"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [District]>"
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+      {
+        "name": "Early Empire",
+        "row": 4,
+        "prerequisites": [
+          "Foreign Trade"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon reaching [6] [Population] in a city>"
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      },
+      {
+        "name": "Mysticism",
+        "row": 5,
+        "prerequisites": [
+          "Foreign Trade"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon gaining a [Great Prophet] unit>"
+        ],
+        "column": {
+          "columnNumber": 2
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Classical era",
+    "civicCost": 120,
+    "civics": [
+      {
+        "name": "Games and Recreation",
+        "row": 2,
+        "prerequisites": [
+          "State Workforce"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon researching [Construction]>"
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Political Philosophy",
+        "row": 3,
+        "prerequisites": [
+          "State Workforce",
+          "Early Empire"
+        ],
+        "quote": "'Man is by nature a political animal.' - Aristotle",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon meeting [3] [City-States]>"
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Drama and Poetry",
+        "row": 4,
+        "prerequisites": [
+          "Early Empire"
+        ],
+        "quote": "'Poetry is when an emotion has found its thought and the thought has found words.' - Robert Frost",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [Wonder]>"
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Military Training",
+        "row": 5,
+        "prerequisites": [
+          "Military Tradition"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing an [Encampment] district>"
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      },
+      {
+        "name": "Theology",
+        "row": 6,
+        "prerequisites": [
+          "Mysticism"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon founding a religion>"
+        ],
+        "column": {
+          "columnNumber": 3
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Classical era",
+    "civicCost": 175,
+    "civics": [
+      {
+        "name": "Recorded History",
+        "row": 2,
+        "prerequisites": [
+          "Political Philosophy",
+          "Drama and Poetry"
+        ],
+        "quote": "'History is written by the victors.' - Winston Churchill",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Campus] districts>"
+        ],
+        "column": {
+          "columnNumber": 4
+        }
+      },
+      {
+        "name": "Defensive Tactics",
+        "row": 4,
+        "prerequisites": [
+          "Political Philosophy"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon being the target of a [Declaration of War]>"
+        ],
+        "column": {
+          "columnNumber": 4
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Medieval era",
+    "civicCost": 250,
+    "civics": [
+      {
+        "name": "Naval Tradition",
+        "row": 1,
+        "prerequisites": [
+          "Defensive Tactics"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon killing a [Naval] unit>"
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Feudalism",
+        "row": 2,
+        "prerequisites": [
+          "Defensive Tactics"
+        ],
+        "quote": "'No man is above the law and no man is below it.' - Theodore Roosevelt",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [6] [Farm] improvements>"
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Civil Service",
+        "row": 3,
+        "prerequisites": [
+          "Recorded History"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon reaching [10] [Population] in a city>"
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Mercenaries",
+        "row": 4,
+        "prerequisites": [
+          "Military Training"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon training [8] [Military] units>"
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      },
+      {
+        "name": "Divine Right",
+        "row": 5,
+        "prerequisites": [
+          "Theology"
+        ],
+        "quote": "'The King can do no wrong.' - Sir William Blackstone",
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Temple] buildings>"
+        ],
+        "column": {
+          "columnNumber": 5
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Medieval era",
+    "civicCost": 400,
+    "civics": [
+      {
+        "name": "Medieval Faires",
+        "row": 2,
+        "prerequisites": [
+          "Feudalism"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon establishing [4] [Trade Route]s>"
+        ],
+        "column": {
+          "columnNumber": 6
+        }
+      },
+      {
+        "name": "Guilds",
+        "row": 4,
+        "prerequisites": [
+          "Civil Service"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Market] buildings>"
+        ],
+        "column": {
+          "columnNumber": 6
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Renaissance era",
+    "civicCost": 500,
+    "civics": [
+      {
+        "name": "Exploration",
+        "row": 2,
+        "prerequisites": [
+          "Medieval Faires",
+          "Mercenaries"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Caravel] units>"
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Humanism",
+        "row": 3,
+        "prerequisites": [
+          "Exploration"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon gaining a [Great Artist] unit>"
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Diplomatic Service",
+        "row": 4,
+        "prerequisites": [
+          "Guilds"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon forming an [Alliance]>"
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      },
+      {
+        "name": "Reformed Church",
+        "row": 5,
+        "prerequisites": [
+          "Divine Right"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon converting [6] [City]s to your religion>"
+        ],
+        "column": {
+          "columnNumber": 7
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Renaissance era",
+    "civicCost": 700,
+    "civics": [
+      {
+        "name": "Mercantilism",
+        "row": 2,
+        "prerequisites": [
+          "Humanism",
+          "Reformed Church"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon gaining a [Great Merchant] unit>",
+          "Can spend Gold to annex or puppet a City-State that has been your Ally for [3] turns"
+        ],
+        "column": {
+          "columnNumber": 8
+        }
+      },
+      {
+        "name": "The Enlightenment",
+        "row": 4,
+        "prerequisites": [
+          "Humanism",
+          "Diplomatic Service"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon gaining a [Great Scientist] unit>"
+        ],
+        "column": {
+          "columnNumber": 8
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 9,
+    "era": "Industrial era",
+    "civicCost": 850,
+    "civics": [
+      {
+        "name": "Colonialism",
+        "row": 1,
+        "prerequisites": [
+          "Mercantilism"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon researching [Astronomy]>"
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      },
+      {
+        "name": "Opera and Ballet",
+        "row": 3,
+        "prerequisites": [
+          "The Enlightenment"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing an [Art Museum] building>"
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      },
+      {
+        "name": "Civil Engineering",
+        "row": 4,
+        "prerequisites": [
+          "Mercantilism"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [7] [District]s>"
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      },
+      {
+        "name": "Nationalism",
+        "row": 5,
+        "prerequisites": [
+          "The Enlightenment"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon declaring a [War] of aggression>"
+        ],
+        "column": {
+          "columnNumber": 9
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 10,
+    "era": "Industrial era",
+    "civicCost": 1050,
+    "civics": [
+      {
+        "name": "Natural History",
+        "row": 2,
+        "prerequisites": [
+          "Colonialism",
+          "Opera and Ballet"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing an [Archaeological Museum] building>"
+        ],
+        "column": {
+          "columnNumber": 10
+        }
+      },
+      {
+        "name": "Urbanization",
+        "row": 3,
+        "prerequisites": [
+          "Civil Engineering",
+          "Nationalism"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon reaching [15] [Population] in a city>"
+        ],
+        "column": {
+          "columnNumber": 10
+        }
+      },
+      {
+        "name": "Scorched Earth",
+        "row": 5,
+        "prerequisites": [
+          "Nationalism"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [Field Cannon] unit>"
+        ],
+        "column": {
+          "columnNumber": 10
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 11,
+    "era": "Modern era",
+    "civicCost": 1400,
+    "civics": [
+      {
+        "name": "Conservation",
+        "row": 1,
+        "prerequisites": [
+          "Natural History",
+          "Urbanization"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [Neighborhood] district with [Breathtaking] appeal>"
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Mass Media",
+        "row": 2,
+        "prerequisites": [
+          "Urbanization"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon researching [Radio]>"
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Mobilization",
+        "row": 3,
+        "prerequisites": [
+          "Urbanization"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon training [3] [Corps]>"
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Capitalism",
+        "row": 4,
+        "prerequisites": [
+          "Mass Media"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Stock Exchange] buildings>"
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      },
+      {
+        "name": "Nuclear Program",
+        "row": 5,
+        "prerequisites": [
+          "Mass Media"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [Research Lab] building>"
+        ],
+        "column": {
+          "columnNumber": 11
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 12,
+    "era": "Modern era",
+    "civicCost": 1640,
+    "civics": [
+      {
+        "name": "Ideology",
+        "row": 1,
+        "prerequisites": [
+          "Capitalism",
+          "Mobilization"
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      },
+      {
+        "name": "Suffrage",
+        "row": 2,
+        "prerequisites": [
+          "Nuclear Program"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [4] [Sewer] buildings>"
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      },
+      {
+        "name": "Totalitarianism",
+        "row": 3,
+        "prerequisites": [
+          "Ideology"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [3] [Military Academy] buildings>"
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      },
+      {
+        "name": "Class Struggle",
+        "row": 4,
+        "prerequisites": [
+          "Ideology"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [3] [Factory] buildings>"
+        ],
+        "column": {
+          "columnNumber": 12
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 13,
+    "era": "Atomic era",
+    "civicCost": 2200,
+    "civics": [
+      {
+        "name": "Cultural Heritage",
+        "row": 1,
+        "prerequisites": [
+          "Conservation"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon [Theming] a [Museum]>"
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Cold War",
+        "row": 2,
+        "prerequisites": [
+          "Ideology"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon researching [Nuclear Fission]>"
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Professional Sports",
+        "row": 3,
+        "prerequisites": [
+          "Mass Media"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Entertainment Complex] districts>"
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Rapid Deployment",
+        "row": 4,
+        "prerequisites": [
+          "Cold War"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing an [Aerodrome] district>"
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      },
+      {
+        "name": "Space Race",
+        "row": 5,
+        "prerequisites": [
+          "Cold War"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [Spaceport] district>"
+        ],
+        "column": {
+          "columnNumber": 13
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 14,
+    "era": "Information era",
+    "civicCost": 2900,
+    "civics": [
+      {
+        "name": "Globalization",
+        "row": 1,
+        "prerequisites": [
+          "Rapid Deployment",
+          "Space Race"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Social Media",
+        "row": 2,
+        "prerequisites": [
+          "Professional Sports"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon researching [Telecommunications]>"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Environmentalism",
+        "row": 3,
+        "prerequisites": [
+          "Cultural Heritage"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing [2] [Solar Farm] improvements>"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Near Future Governance",
+        "row": 4,
+        "prerequisites": [
+          "Environmentalism"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Venture Politics",
+        "row": 5,
+        "prerequisites": [
+          "Globalization"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon constructing a [Mine] over [Uranium]>"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Distributed Sovereignty",
+        "row": 6,
+        "prerequisites": [
+          "Social Media"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon gaining a [Rock Band] unit>"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      },
+      {
+        "name": "Optimization Imperative",
+        "row": 7,
+        "prerequisites": [
+          "Social Media"
+        ],
+        "uniques": [
+          "Inspiration: [40]% of the cost of this civic <upon researching [Robotics]>"
+        ],
+        "column": {
+          "columnNumber": 14
+        }
+      }
+    ]
+  },
+  {
+    "columnNumber": 15,
+    "era": "Future era",
+    "civicCost": 3500,
+    "civics": [
+      {
+        "name": "Future Civic",
+        "row": 1,
+        "prerequisites": [
+          "Globalization",
+          "Social Media"
+        ],
+        "quote": "'The future is already here â€” it's just not very evenly distributed.' - William Gibson",
+        "uniques": [
+          "Can be continually researched"
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Cultural Hegemony",
+        "row": 2,
+        "prerequisites": [
+          "Future Civic"
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Smart Power Doctrine",
+        "row": 3,
+        "prerequisites": [
+          "Future Civic"
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Information Warfare",
+        "row": 4,
+        "prerequisites": [
+          "Future Civic"
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Global Warming Mitigation",
+        "row": 5,
+        "prerequisites": [
+          "Future Civic"
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      },
+      {
+        "name": "Exodus Imperative",
+        "row": 6,
+        "prerequisites": [
+          "Future Civic"
+        ],
+        "column": {
+          "columnNumber": 15
+        }
+      }
+    ]
+  }
+]

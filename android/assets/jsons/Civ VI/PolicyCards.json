@@ -1,0 +1,554 @@
+[
+    {
+        "name": "God King",
+        "slotType": "Economic",
+        "requiredCivic": "Code of Laws",
+        "uniques": ["[+1 Faith] [in all cities]"]
+    },
+    {
+        "name": "Military Tradition",
+        "slotType": "Military",
+        "requiredCivic": "Military Tradition",
+        "uniques": ["[+2 Production] towards [Military] units [in all cities]"]
+    },
+    {
+        "name": "Discipline",
+        "slotType": "Military",
+        "requiredCivic": "Code of Laws",
+        "uniques": ["[+5] Strength <vs [Barbarians] units>"]
+    },
+    {
+        "name": "Urban Planning",
+        "slotType": "Economic",
+        "requiredCivic": "Code of Laws",
+        "uniques": ["[+1 Production] [in all cities]"]
+    },
+    {
+        "name": "Foreign Trade",
+        "slotType": "Economic",
+        "requiredCivic": "Foreign Trade",
+        "uniques": ["[+2 Gold] [in all cities]"]
+    },
+    {
+        "name": "Land Surveyors",
+        "slotType": "Economic",
+        "requiredCivic": "Craftsmanship",
+        "uniques": ["[+1 Food] from [Farm] tiles [in all cities]"]
+    },
+    {
+        "name": "Diplomatic League",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Political Philosophy",
+        "uniques": ["[+1 Culture] [in all cities]"]
+    },
+    {
+        "name": "War Effort",
+        "slotType": "Military",
+        "requiredCivic": "Feudalism",
+        "uniques": ["[+3 Production] towards [Military] units [in all cities]"]
+    },
+    {
+        "name": "Medieval Faires",
+        "slotType": "Economic",
+        "requiredCivic": "Feudalism",
+        "uniques": ["[+2 Gold] [in all cities]"]
+    },
+    {
+        "name": "Divine Right",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Divine Right",
+        "uniques": ["[+2 Faith] [in all cities]"]
+    },
+    {
+        "name": "Recorded History",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Recorded History",
+        "uniques": ["[+1 Culture] [in all cities]"]
+    },
+    {
+        "name": "Insulae",
+        "slotType": "Economic",
+        "requiredCivic": "Drama and Poetry",
+        "uniques": ["[+2 Gold] [in all cities]"]
+    },
+    {
+        "name": "Survey",
+        "slotType": "Military",
+        "requiredCivic": "Code of Laws",
+        "uniques": ["[+50% Experience] gained by [Recon] units [in all cities]"]
+    },
+    {
+        "name": "Agoge",
+        "slotType": "Military",
+        "requiredCivic": "Craftsmanship",
+        "uniques": ["[+50% Production] towards [Ancient era / Classical era] [Melee] / [Ranged] / [Anti Cavalry] units [in all cities]"]
+    },
+    {
+        "name": "Maneuver",
+        "slotType": "Military",
+        "requiredCivic": "Military Tradition",
+        "uniques": ["[+50% Production] towards [Light Cavalry] / [Heavy Cavalry] units [in all cities]"]
+    },
+    {
+        "name": "Conscription",
+        "slotType": "Military",
+        "requiredCivic": "State Workforce",
+        "uniques": ["[-1 Gold] [Unit maintenance] [in all cities]"]
+    },
+    {
+        "name": "Corvee",
+        "slotType": "Military",
+        "requiredCivic": "State Workforce",
+        "uniques": ["[+15% Production] towards [Wonder]s [in all cities]"]
+    },
+    {
+        "name": "Limes",
+        "slotType": "Military",
+        "requiredCivic": "Defensive Tactics",
+        "uniques": ["[+100% Production] towards [Ancient era / Classical era] [City Center] [Walls] [in all cities]"]
+    },
+    {
+        "name": "Craftsmen",
+        "slotType": "Military",
+        "requiredCivic": "Defensive Tactics",
+        "uniques": ["[+50% Production] towards [Ancient era / Classical era] [Siege] units [in all cities]"]
+    },
+    {
+        "name": "Serfdom",
+        "slotType": "Economic",
+        "requiredCivic": "Feudalism",
+        "uniques": ["[+2 Builder] build charges [in all cities]"]
+    },
+    {
+        "name": "Feudal Contract",
+        "slotType": "Military",
+        "requiredCivic": "Feudalism",
+        "uniques": ["[+100% Production] towards [Ancient era / Classical era] [Melee] units [in all cities]"]
+    },
+    {
+        "name": "Squires",
+        "slotType": "Military",
+        "requiredCivic": "Military Training",
+        "uniques": ["[+50% Production] towards [Medieval era / Renaissance era] [Cavalry] units [in all cities]"]
+    },
+    {
+        "name": "Chivalry",
+        "slotType": "Military",
+        "requiredCivic": "Guilds",
+        "uniques": ["[+50% Production] towards [Medieval era / Renaissance era] [Melee] units [in all cities]"]
+    },
+    {
+        "name": "Knight Command",
+        "slotType": "Military",
+        "requiredCivic": "Guilds",
+        "uniques": ["[+50% Production] towards [Medieval era / Renaissance era] [Cavalry] units [in all cities]"]
+    },
+    {
+        "name": "Retainers",
+        "slotType": "Military",
+        "requiredCivic": "Reformed Church",
+        "uniques": ["[+100% Production] towards [Renaissance era] [Melee] units [in all cities]"]
+    },
+    {
+        "name": "Professional Army",
+        "slotType": "Military",
+        "requiredCivic": "Mercenaries",
+        "uniques": ["[-50]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Levee en Masse",
+        "slotType": "Military",
+        "requiredCivic": "Mobilization",
+        "uniques": ["[-2 Gold] [Unit maintenance] [in all cities]"]
+    },
+    {
+        "name": "National Identity",
+        "slotType": "Military",
+        "requiredCivic": "Nationalism",
+        "uniques": ["[+100% Production] towards [Military] units [in all cities]"]
+    },
+    {
+        "name": "Total War",
+        "slotType": "Military",
+        "requiredCivic": "Scorched Earth",
+        "uniques": ["[+100]% Yield from pillaging tiles"]
+    },
+    {
+        "name": "Logistics",
+        "slotType": "Military",
+        "requiredCivic": "Mobilization",
+        "uniques": ["[+1 Movement] for all [Military] units [in all cities]"]
+    },
+    {
+        "name": "Provisioning",
+        "slotType": "Military",
+        "requiredCivic": "Class Struggle",
+        "uniques": ["[+1 Housing] from [Encampment] [in all cities]"]
+    },
+    {
+        "name": "Public Works",
+        "slotType": "Economic",
+        "requiredCivic": "Civil Engineering",
+        "uniques": ["[+2 Builder] build charges [in all cities]", "[+30% Production] towards [Builder]s [in all cities]"]
+    },
+    {
+        "name": "Strategic Command",
+        "slotType": "Military",
+        "requiredCivic": "Cold War",
+        "uniques": ["[+1 Range] for all [Military] units [in all cities]"]
+    },
+    {
+        "name": "Military First",
+        "slotType": "Military",
+        "requiredCivic": "Ideology",
+        "uniques": ["[+20% Production] towards [Military] units [in all cities]"]
+    },
+    {
+        "name": "Lightning Warfare",
+        "slotType": "Military",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+1 Movement] for all [Military] units [in all cities]"]
+    },
+    {
+        "name": "Ilkum",
+        "slotType": "Economic",
+        "requiredCivic": "Craftsmanship",
+        "uniques": ["[+30% Production] towards [Builder]s [in all cities]"]
+    },
+    {
+        "name": "Caravansaries",
+        "slotType": "Economic",
+        "requiredCivic": "Foreign Trade",
+        "uniques": ["[+2 Gold] per [Trade Route] [in all cities]"]
+    },
+    {
+        "name": "Maritime Industries",
+        "slotType": "Economic",
+        "requiredCivic": "Foreign Trade",
+        "uniques": ["[+100% Production] towards [Ancient era / Classical era] [Naval] units [in all cities]"]
+    },
+    {
+        "name": "Triangular Trade",
+        "slotType": "Economic",
+        "requiredCivic": "Mercantilism",
+        "uniques": ["[+4 Gold] per [Trade Route] [in all cities]", "[+1 Faith] per [Trade Route] [in all cities]"]
+    },
+    {
+        "name": "Colonization",
+        "slotType": "Economic",
+        "requiredCivic": "Early Empire",
+        "uniques": ["[+50% Production] towards [Settler]s [in all cities]"]
+    },
+    {
+        "name": "Guilds",
+        "slotType": "Economic",
+        "requiredCivic": "Guilds",
+        "uniques": ["[+2 Gold] [in all cities]"]
+    },
+    {
+        "name": "Merchant Confederation",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Medieval Faires",
+        "uniques": ["[+1 Gold] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "Economic Union",
+        "slotType": "Economic",
+        "requiredCivic": "Capitalism",
+        "uniques": ["[+4 Gold] [in all cities]"]
+    },
+    {
+        "name": "Free Market",
+        "slotType": "Economic",
+        "requiredCivic": "Capitalism",
+        "uniques": ["[+100% Gold] [in all cities]"]
+    },
+    {
+        "name": "Market Economy",
+        "slotType": "Economic",
+        "requiredCivic": "Mercantilism",
+        "uniques": ["[+2 Gold] per [District] [in all cities]"]
+    },
+    {
+        "name": "Five-Year Plan",
+        "slotType": "Economic",
+        "requiredCivic": "Totalitarianism",
+        "uniques": ["[+20% Production] [in all cities]"]
+    },
+    {
+        "name": "Collectivization",
+        "slotType": "Economic",
+        "requiredCivic": "Class Struggle",
+        "uniques": ["[+15% Food] [in all cities]"]
+    },
+    {
+        "name": "Space Race",
+        "slotType": "Economic",
+        "requiredCivic": "Globalization",
+        "uniques": ["[+20% Science] towards [Space Race] projects [in all cities]"]
+    },
+    {
+        "name": "Robotics Protocol",
+        "slotType": "Economic",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+20% Production] [in all cities]"]
+    },
+    {
+        "name": "International Waters",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Naval Tradition",
+        "uniques": ["[+100% Production] towards [Naval] units [in all cities]"]
+    },
+    {
+        "name": "Military Research",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Diplomatic Service",
+        "uniques": ["Gain [1] Envoys per turn"]
+    },
+    {
+        "name": "Rapacious Plans",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Exploration",
+        "uniques": ["[+2 Gold] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "Pious Donations",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Reformed Church",
+        "uniques": ["[+1 Faith] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "Foreign Exchange",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Exploration",
+        "uniques": ["[+2 Gold] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "Aesthetics",
+        "slotType": "Economic",
+        "requiredCivic": "Medieval Faires",
+        "uniques": ["[+100]% [Theater Square] district adjacency bonuses"]
+    },
+    {
+        "name": "Cultural Diplomacy",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+2 Culture] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "Open Societies",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Globalization",
+        "uniques": ["[+1 Amenity] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "World Government",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Globalization",
+        "uniques": ["[+1 Culture] [in all cities]"]
+    },
+    {
+        "name": "Environmental Diplomacy",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Conservation",
+        "uniques": ["Gain [1] Envoys per turn"]
+    },
+    {
+        "name": "Inspiration",
+        "slotType": "Wildcard",
+        "requiredCivic": "Mysticism",
+        "uniques": ["[+2 Great Scientist] points [in all cities]"]
+    },
+    {
+        "name": "Revelation",
+        "slotType": "Wildcard",
+        "requiredCivic": "Mysticism",
+        "uniques": ["[+2 Great Prophet] points [in all cities]"]
+    },
+    {
+        "name": "Strategos",
+        "slotType": "Wildcard",
+        "requiredCivic": "Military Tradition",
+        "uniques": ["[+2 Great General] points [in all cities]"]
+    },
+    {
+        "name": "Scripture",
+        "slotType": "Economic",
+        "requiredCivic": "Theology",
+        "uniques": ["[+100]% [Holy Site] district adjacency bonuses"]
+    },
+    {
+        "name": "Theocracy",
+        "slotType": "Wildcard",
+        "requiredCivic": "Reformed Church",
+        "uniques": ["[+2 Great Prophet] points [in all cities]"]
+    },
+    {
+        "name": "Simultaneum",
+        "slotType": "Economic",
+        "requiredCivic": "Reformed Church",
+        "uniques": ["[+100]% [Faith] from every [Holy Site]"]
+    },
+    {
+        "name": "Hachiman",
+        "slotType": "Wildcard",
+        "requiredCivic": "Military Training",
+        "uniques": ["[+2 Great Admiral] points [in all cities]"]
+    },
+    {
+        "name": "Opera and Ballet",
+        "slotType": "Wildcard",
+        "requiredCivic": "Opera and Ballet",
+        "uniques": ["[+2 Great Musician] points [in all cities]"]
+    },
+    {
+        "name": "Arts Council",
+        "slotType": "Wildcard",
+        "requiredCivic": "Cultural Heritage",
+        "uniques": ["[+2 Great Artist] points [in all cities]"]
+    },
+    {
+        "name": "Penumbra Protocol",
+        "slotType": "Wildcard",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+2 Great Scientist] points [in all cities]"]
+    },
+    {
+        "name": "Curie Society",
+        "slotType": "Wildcard",
+        "requiredCivic": "Nuclear Program",
+        "uniques": ["[+2 Great Scientist] points [in all cities]"]
+    },
+    {
+        "name": "Satellite Broadcast",
+        "slotType": "Wildcard",
+        "requiredCivic": "Cultural Hegemony",
+        "uniques": ["[+2 Great Musician] points [in all cities]"]
+    },
+    {
+        "name": "Cloud Computing",
+        "slotType": "Wildcard",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+2 Great Scientist] points [in all cities]"]
+    },
+    {
+        "name": "Heritage Tourism",
+        "slotType": "Wildcard",
+        "requiredCivic": "Cultural Heritage",
+        "uniques": ["[+100]% Tourism [in all cities]"]
+    },
+    {
+        "name": "Online Communities",
+        "slotType": "Wildcard",
+        "requiredCivic": "Social Media",
+        "uniques": ["[+2 Great Writer] points [in all cities]"]
+    },
+    {
+        "name": "Conservation",
+        "slotType": "Wildcard",
+        "requiredCivic": "Conservation",
+        "uniques": ["[+2 Great Merchant] points [in all cities]"]
+    },
+    {
+        "name": "Recycling",
+        "slotType": "Wildcard",
+        "requiredCivic": "Conservation",
+        "uniques": ["[+1 Production] [in all cities]"]
+    },
+    {
+        "name": "Send Aid",
+        "slotType": "Wildcard",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+1 Gold] per [City-State] [in all cities]"]
+    },
+    {
+        "name": "Public Transport",
+        "slotType": "Wildcard",
+        "requiredCivic": "Scorched Earth",
+        "uniques": ["[+1 Amenity] per [District] [in all cities]"]
+    },
+    {
+        "name": "Brain Trust",
+        "slotType": "Wildcard",
+        "requiredCivic": "Globalization",
+        "uniques": ["[+2 Great Scientist] points [in all cities]"]
+    },
+    {
+        "name": "Earthquake Engineering",
+        "slotType": "Wildcard",
+        "requiredCivic": "Conservation",
+        "uniques": ["[+1 Housing] [in all cities]"]
+    },
+    {
+        "name": "Space Procurements",
+        "slotType": "Wildcard",
+        "requiredCivic": "Globalization",
+        "uniques": ["[+20% Production] towards [Space Race] projects [in all cities]"]
+    },
+    {
+        "name": "Prefabrication",
+        "slotType": "Wildcard",
+        "requiredCivic": "Rapid Deployment",
+        "uniques": ["[+25% Production] towards [District]s [in all cities]"]
+    },
+    {
+        "name": "Smart Power Doctrine",
+        "slotType": "Wildcard",
+        "requiredCivic": "Smart Power Doctrine",
+        "uniques": ["[+1 Culture] [in all cities]"]
+    },
+    {
+        "name": "Raid",
+        "slotType": "Military",
+        "requiredCivic": "Military Training",
+        "uniques": ["[+100]% Yield from pillaging tiles"]
+    },
+    {
+        "name": "Veterancy",
+        "slotType": "Military",
+        "requiredCivic": "Military Training",
+        "uniques": ["[+30% Production] towards [Encampment]s [in all cities]", "[+30% Production] towards [Harbor]s [in all cities]"]
+    },
+    {
+        "name": "Natural Philosophy",
+        "slotType": "Economic",
+        "requiredCivic": "Recorded History",
+        "uniques": ["[+100]% [Campus] district adjacency bonuses"]
+    },
+    {
+        "name": "Charismatic Leader",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Political Philosophy",
+        "uniques": ["Gain [2] Envoys per turn"]
+    },
+    {
+        "name": "Praetorium",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Recorded History",
+        "uniques": ["[+2] extra Loyalty per turn from Governors"]
+    },
+    {
+        "name": "Literary Tradition",
+        "slotType": "Wildcard",
+        "requiredCivic": "Drama and Poetry",
+        "uniques": ["[+2 Great Writer] points [in all cities]"]
+    },
+    {
+        "name": "Town Charters",
+        "slotType": "Economic",
+        "requiredCivic": "Guilds",
+        "uniques": ["[+100]% [Commercial Hub] district adjacency bonuses"]
+    },
+    {
+        "name": "Machiavellianism",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Diplomatic Service",
+        "uniques": ["[+50% Production] towards [Spy] units [in all cities]"]
+    },
+    {
+        "name": "Gunboat Diplomacy",
+        "slotType": "Diplomatic",
+        "requiredCivic": "Ideology",
+        "uniques": ["Gain [4] Envoys per turn"]
+    }
+]

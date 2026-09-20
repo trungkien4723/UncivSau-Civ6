@@ -1,0 +1,384 @@
+[
+    {
+        "name":"Tutorial Task: [Move unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Move a unit!", "centered":true},
+            {"extraImage":"Tutorials/Move unit", "imageSize":140},
+            {"text":"Click on a unit → Click on a destination → Click the arrow popup."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Units] is more than [0]>",
+            "Unavailable <if tutorial [Move unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Found city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Found a city!", "centered":true},
+            {"extraImage":"Tutorials/Found city", "imageSize":140},
+            {"text":"Select the Settler → Click on 'Found city'."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Settler] Units] is more than [0]>",
+            "Unavailable <if tutorial [Found city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Enter city screen]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Enter the city screen!", "centered":true},
+            {"extraImage":"Tutorials/Enter city screen", "imageSize":100},
+            {"text":"Click the city button twice."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Enter city screen] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick technology]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Pick a technology to research!", "centered":true},
+            {"extraImage":"Tutorials/Pick technology", "imageSize":180},
+            {"text":"Click on the tech button → Select technology → Click 'Research' (bottom right)."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <if tutorial [Found city] is completed>",
+            "Unavailable <if tutorial [Pick technology] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick construction]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Pick a construction!", "centered":true},
+            {"extraImage":"Tutorials/Pick construction", "imageSize":120},
+            {"text":"Enter city screen → Click on a unit or building → Click 'add to queue'."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Pick construction] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pass a turn]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Pass a turn!", "centered":true},
+            {"extraImage":"Tutorials/Pass a turn", "imageSize":180},
+            {"text":"Cycle through units with 'Next unit' → Click 'Next turn'."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is less than [3]>",
+            "Unavailable <if tutorial [Pass a turn] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Reassign worked tiles]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Reassign worked tiles!", "centered":true},
+            {"extraImage":"Tutorials/Reassign worked tiles", "imageSize":140},
+            {"text":"Enter city screen → Click the assigned tile to unassign → Click an unassigned tile to assign population."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Reassign worked tiles] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Meet another civilization]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Meet another civilization!", "centered": true},
+            {"extraImage":"Tutorials/Meet another civilization", "imageSize":160},
+            {"text":"Explore the map until you encounter another civilization!"}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is more than [1]>",
+            "Unavailable <if tutorial [Meet another civilization] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [Meet another civilization] complete"],
+            },
+        ]
+    },
+    {
+        "name": "Natural Disaster: Flood",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Rising Waters!", "centered": true},
+            {"text": "River flooding affects tiles adjacent to waterways. Can pillage improvements, reduce population, and damage units. Wonders are protected from flooding damage."},
+            {"text": "Floods spread from adjacent flooded tiles (typically +2 from rivers).", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:Flood]",
+            "Triggers natural disaster flood effect",
+            "Affects [tileFilter:rivers]",
+            "Pillage tile improvements",
+            "-[1] Population [in affected cities]",
+            "Unit damage"
+        ]
+    },
+    {
+        "name": "Natural Disaster: Volcano",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Eruption!", "centered": true},
+            {"text": "Volcanic eruptions destroy terrain, create volcanic soil, and damage nearby cities and units. Air units are immune to volcanic ash."},
+            {"text": "Erupts in volcanic regions with 3+ adjacent volcanoes.", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:Volcano]",
+            "Triggers natural disaster volcano effect",
+            "Destroy terrain and create [tileType:Volcanic Soil]",
+            "-[5] Population [in affected cities]",
+            "[tileType:Volcanic Soil] grows [Food] faster",
+            "Unit damage"
+        ]
+    },
+    {
+        "name": "Natural Disaster: Storm",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Incoming Storm!", "centered": true},
+            {"text": "Storms disrupt movement, damage units, and scatter Great Person points. After passing, yields improve in affected tiles."},
+            {"text": "Storm movement penalty: -80% movement speed.", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:Storm]",
+            "Triggers natural disaster storm effect",
+            "-[4] Sight <for [all] units>",
+            "Unit damage",
+            "Great Person points lost or scattered",
+            "[+10]% [Production] after storm passes"
+        ]
+    },
+    {
+        "name": "Natural Disaster: Drought",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Drought!", "centered": true},
+            {"text": "Droughts reduce food production, can pillage improvements, and increase gold maintenance costs. Deserts expand from affected tiles.", "centered": true},
+            {"text": "Reduces food from [tileFilter:plains] and [tileFilter:grassland] by 50%.", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:Drought]",
+            "Triggers natural disaster drought effect",
+            "-[50]% [Food] from plains and grassland tiles",
+            "Pillage tile improvements",
+            "[+10]% [Gold] maintenance costs",
+            "Expands desert to adjacent tiles"
+        ]
+    },
+    {
+        "name": "Natural Disaster: Solar Flare",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Solar Flare!", "centered": true},
+            {"text": "Solar flares damage technology and culture networks. Great People abilities disabled, research slowed, and cultural output reduced for the affected civilization.", "centered": true},
+            {"text": "Ended by discovering a technology that generates enough Great Person points.", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:SolarFlare]",
+            "Triggers apocalypse level 1 disaster",
+            "-[50]% [Science] and [Culture]",
+            "Great Person abilities disabled",
+            "Research slowed by 25%",
+            "After getting [stats:Great Person] points, disabled state ends"
+        ]
+    },
+    {
+        "name": "Natural Disaster: Tornado",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Tornado!", "centered": true},
+            {"text": "Tornadoes damage all units in their path, destroy buildings, and uproot trees. Allows air units to move at double speed.", "centered": true},
+            {"text": "Tornadoes can form in storm regions.", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:Tornado]",
+            "Triggers natural disaster tornado effect",
+            "Unit damage",
+            "Destroy buildings and improvements",
+            "Air units have +200% movement"
+        ]
+    },
+    {
+        "name": "Natural Disaster: Blizzard",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Blizzard!", "centered": true},
+            {"text": "Blizzards halt all land unit movement, reduce visibility, and scatter Great Person points. Air units are immune.", "centered": true},
+            {"text": "Blizzard stops all non-air unit movement.", "centered": true}
+        ],
+        "uniques": [
+            "[disasterType:Blizzard]",
+            "Triggers natural disaster blizzard effect",
+            "Stops land unit movement",
+            "-[6] Sight <for [all] units>",
+            "Great Person points scattered",
+            "Air units unaffected"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Open the options table]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Open the options dialog!", "centered":true},
+            {"extraImage":"Tutorials/Open the options table", "imageSize":130},
+            {"text":"Click the menu button (top left) → Click 'Options'."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [Open the options table] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Construct an improvement]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Construct an improvement!", "centered":true},
+            {"extraImage":"Tutorials/Construct an improvement", "imageSize":150},
+            {"text":"Construct a Builder unit → Move it to a Plains or Grassland tile → Click 'Create [improvement]' → Choose the farm. The improvement is built instantly and the Builder spends one of its charges."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Construct an improvement] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Create a trade route]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Create a trade route!", "centered":true},
+            {"extraImage":"Tutorials/Create a trade route", "imageSize":120},
+            {"text":"Establish trade routes between your cities to move goods and gold across your empire."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [1]>",
+            "Unavailable <if tutorial [Create a trade route] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Conquer a city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Conquer a city!", "centered":true},
+            {"extraImage":"Tutorials/Conquer a city", "imageSize":160},
+            {"text":"Bring an enemy city down to low health → Enter the city with a melee unit."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when at war>",
+            "Unavailable <if tutorial [Conquer a city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Move an air unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"Move an air unit!", "centered":true},
+            {"extraImage":"Tutorials/Move an air unit", "imageSize":140},
+            {"text":"Select an air unit → Select another city within range → Move the unit to the other city."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Air] Units] is more than [0]>",
+            "Unavailable <if tutorial [Move an air unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [See your stats breakdown]",
+        "presentation":"Floating",
+        "civilopediaText":[
+            {"text":"See your stats breakdown!", "centered":true},
+            {"extraImage":"Tutorials/See your stats breakdown", "imageSize":140},
+            {"text":"Enter the Overview screen (top right corner) → Click on 'Stats'."}
+        ],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [See your stats breakdown] is completed>"
+        ],
+    },
+{
+        "name": "Rock Band Rock Concert",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Rock Band Rock Concert!", "centered": true},
+            {"text": "A rock band performs a spectacular concert! This creates worldwide tourism, generates Great Musician points, and creates a cultural renaissance across all cities.", "centered": true},
+            {"text": "Rock concerts with authentic performance create global cultural impact and lasting tourism value.", "centered": true}
+        ],
+        "uniques": [
+            "Great Musician performs [in this city]",
+            "[+25] [Tourism] [in this city]",
+            "[+10] [Great Musician] points per turn [in this city]",
+            "[+50]% [Tourism] to foreign civilizations",
+            "Rock concerts generate massive cultural influence"
+        ]
+    },
+    {
+        "name": "Era Transition: Golden Age",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Golden Age Achieved!", "centered": true},
+            {"text": "Your civilization has entered a Golden Age! Cities gain +3 Loyalty, +1 Policy Slot, and increased production. Dedications provide powerful bonuses.", "centered": true},
+            {"text": "Choose a dedication to guide your Golden Age: Hic Sunt Dracones, Wonders of the Ancient World, Civic Pride, or Bodyguard of Lies.", "centered": true}
+        ],
+        "uniques": [
+            "TriggerUponEnteringGoldenAge",
+            "[+3] [Loyalty] [in all cities]",
+            "[1] Extra Policy Slot [in all cities]",
+            "[+15]% [Production] [in all cities]",
+            "Select Dedication for this Golden Age"
+        ]
+    },
+    {
+        "name": "Era Transition: Dark Age",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Dark Age Begins!", "centered": true},
+            {"text": "Your civilization has fallen into a Dark Age! Cities lose -4 Loyalty and -1 Policy Slot. But Dark Ages allow unique Dark Age policies and can lead to a Heroic Age.", "centered": true},
+            {"text": "Choose a dedication to survive the Dark Age: Exodus of the Evangelists, Penitent, Commune, or Inquisition.", "centered": true}
+        ],
+        "uniques": [
+            "TriggerUponEnteringDarkAge",
+            "[-4] [Loyalty] [in all cities]",
+            "[-1] Policy Slot [in all cities]",
+            "[-15]% [Production] [in all cities]",
+            "Select Dedication for this Dark Age"
+        ]
+    },
+    {
+        "name": "Era Transition: Heroic Age",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Heroic Age Achieved!", "centered": true},
+            {"text": "From the ashes of a Dark Age, your civilization has risen to a Heroic Age! Gain +6 Loyalty, +2 Policy Slots, and three dedications from both Dark and Golden Age options.", "centered": true},
+            {"text": "Choose three dedications: Heroic Epic, Age of Discovery, Monumentality, and Free Inquiry.", "centered": true}
+        ],
+        "uniques": [
+            "TriggerUponEnteringHeroicAge",
+            "[+6] [Loyalty] [in all cities]",
+            "[2] Extra Policy Slots [in all cities]",
+            "[+30]% [Production] [in all cities]",
+            "Select Three Dedications for this Heroic Age"
+        ]
+    },
+    {
+        "name": "Era Transition: Normal Age",
+        "presentation": "Alert",
+        "civilopediaText": [
+            {"text": "Normal Age Continues", "centered": true},
+            {"text": "Your civilization enters a Normal Age. No special bonuses or penalties. Choose a dedication to guide your era: Heartbeat of Steam, To Arms!, Monumentality, Free Inquiry, or Bodyguard of Lies.", "centered": true}
+        ],
+        "uniques": [
+            "TriggerUponEnteringGoldenAge",
+            "Select Dedication for this Normal Age"
+        ]
+    }
+]

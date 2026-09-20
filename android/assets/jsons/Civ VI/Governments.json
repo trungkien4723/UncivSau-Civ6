@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Chiefdom",
+        "influencePerTurn": 1,
+        "militarySlots": 1,
+        "economicSlots": 1,
+        "diplomaticSlots": 0,
+        "wildcardSlots": 0,
+        "uniques": []
+    },
+    {
+        "name": "Autocracy",
+        "influencePerTurn": 3,
+"requiredCivic": "Political Philosophy",
+        "militarySlots": 2,
+        "economicSlots": 1,
+        "diplomaticSlots": 0,
+        "wildcardSlots": 1,
+        "uniques": ["[+1 Culture] [in all cities]"]
+    },
+    {
+        "name": "Classical Republic",
+        "influencePerTurn": 3,
+"requiredCivic": "Political Philosophy",
+        "militarySlots": 1,
+        "economicSlots": 1,
+        "diplomaticSlots": 1,
+        "wildcardSlots": 1,
+        "uniques": ["[-1 Unrest] [in all cities]", "[+1 Food] [in all cities]"]
+    },
+    {
+        "name": "Oligarchy",
+        "influencePerTurn": 3,
+"requiredCivic": "Political Philosophy",
+        "militarySlots": 2,
+        "economicSlots": 1,
+        "diplomaticSlots": 0,
+        "wildcardSlots": 1,
+        "uniques": ["[+1 Production] from [Mine] tiles [in all cities]", "[+1 Production] from [Lumber Mill] tiles [in all cities]"]
+    },
+    {
+        "name": "Monarchy",
+        "influencePerTurn": 5,
+"requiredCivic": "Divine Right",
+        "militarySlots": 2,
+        "economicSlots": 1,
+        "diplomaticSlots": 1,
+        "wildcardSlots": 1,
+        "uniques": ["[+50]% [Gold] [in all cities]", "[+50]% [Food] [in all cities]"]
+    },
+    {
+        "name": "Theocracy",
+        "influencePerTurn": 5,
+"requiredCivic": "Reformed Church",
+        "militarySlots": 1,
+        "economicSlots": 1,
+        "diplomaticSlots": 2,
+        "wildcardSlots": 1,
+        "uniques": ["[+1 Faith] [in all cities]"]
+    },
+    {
+        "name": "Merchant Republic",
+        "influencePerTurn": 5,
+"requiredCivic": "Exploration",
+        "militarySlots": 1,
+        "economicSlots": 3,
+        "diplomaticSlots": 1,
+        "wildcardSlots": 1,
+        "uniques": ["[+100]% [Gold] [in all cities]"]
+    },
+    {
+        "name": "Democracy",
+        "influencePerTurn": 6,
+"requiredCivic": "Ideology",
+        "militarySlots": 1,
+        "economicSlots": 2,
+        "diplomaticSlots": 2,
+        "wildcardSlots": 2,
+        "uniques": ["[+50]% [Food] [in all cities]", "[-1 Unrest] [in all cities]"]
+    },
+    {
+        "name": "Fascism",
+        "influencePerTurn": 6,
+"requiredCivic": "Ideology",
+        "militarySlots": 4,
+        "economicSlots": 1,
+        "diplomaticSlots": 0,
+        "wildcardSlots": 2,
+        "uniques": ["[+1 Production] [in all cities]", "[+1 Culture] [in all cities]"]
+    },
+    {
+        "name": "Communism",
+        "influencePerTurn": 6,
+"requiredCivic": "Ideology",
+        "militarySlots": 2,
+        "economicSlots": 2,
+        "diplomaticSlots": 1,
+        "wildcardSlots": 2,
+        "uniques": ["[+2 Production] [in all cities]", "[+2 Food] [in all cities]"]
+    }
+]

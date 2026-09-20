@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Warmonger Hater",
+        "dislikes": "At War",
+        "uniques": []
+    },
+    {
+        "name": "Nature Lover",
+        "likes": "CityState",
+        "uniques": []
+    },
+    {
+        "name": "Cultured",
+        "likes": "More Culture",
+        "uniques": []
+    },
+    {
+        "name": "Piety",
+        "likes": "Same Religion",
+        "uniques": []
+    },
+    {
+        "name": "Militaristic",
+        "likes": "At War",
+        "uniques": ["Wants to be at war with a civilization that is not at war with any other civilization", "Unhappy if not at war with any civilization", "Will never give up pursuing a city of another major civilization that is closer to its capital than to that civilization's capital"]
+    },
+    {
+        "name": "Diplomatic",
+        "likes": "Friendly",
+        "uniques": ["Wants to be friends with all civilizations", "Unhappy if not allied with at least [1] City-State"]
+    },
+    {
+        "name": "Scientific",
+        "dislikes": "More Science",
+        "uniques": ["Wants to be the first to discover a technology", "Unhappy if another civilization has researched more technologies"]
+    },
+    {
+        "name": "Science Enthusiast",
+        "dislikes": "More Science",
+        "uniques": ["Wants to have the most Science per turn", "Unhappy if another civilization has more Science per turn"]
+    },
+    {
+        "name": "Culture Enthusiast",
+        "dislikes": "More Culture",
+        "uniques": ["Wants to have the most Culture per turn", "Unhappy if another civilization has more Culture per turn"]
+    },
+    {
+        "name": "Faith Enthusiast",
+        "dislikes": "More Faith",
+        "uniques": ["Wants to have the most Faith per turn", "Unhappy if another civilization has more Faith per turn"]
+    },
+    {
+        "name": "Expansionist",
+        "dislikes": "More Cities",
+        "uniques": ["Wants to have the most cities", "Unhappy if another civilization has more cities"]
+    },
+    {
+        "name": "City-State Ally",
+        "likes": "CityState",
+        "uniques": ["Wants to be suzerain of the most City-States"]
+    },
+    {
+        "name": "Religious Convert",
+        "likes": "Same Religion",
+        "dislikes": "Different Religion",
+        "uniques": ["Wants other civilizations to follow its Religion", "Unhappy if another civilization follows a different Religion"]
+    },
+    {
+        "name": "Peacekeeper",
+        "dislikes": "At War",
+        "uniques": ["Wants to maintain peace with all civilizations", "Unhappy if at war with any civilization"]
+    },
+    {
+        "name": "Warmonger",
+        "likes": "At War",
+        "uniques": ["Wants to be at war with civilizations that are not at war with others"]
+    }
+]
