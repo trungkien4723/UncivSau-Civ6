@@ -1,0 +1,15 @@
+[
+    {"name": "Library", "cost": 90, "requiredDistrict": "Campus", "requiredPopulation": 1, "yields": {"Science": 2}},
+    {"name": "University", "cost": 200, "requiredDistrict": "Campus", "requiredPopulation": 4, "yields": {"Science": 4}},
+    {"name": "Research Lab", "cost": 300, "requiredDistrict": "Campus", "requiredPopulation": 10, "yields": {"Science": 6}},
+    {"name": "Shrine", "cost": 80, "requiredDistrict": "Holy Site", "requiredPopulation": 1, "yields": {"Faith": 2}},
+    {"name": "Temple", "cost": 180, "requiredDistrict": "Holy Site", "requiredPopulation": 4, "yields": {"Faith": 4}},
+    {"name": "Market", "cost": 120, "requiredDistrict": "Commercial Hub", "requiredPopulation": 1, "yields": {"Gold": 3}},
+    {"name": "Bank", "cost": 220, "requiredDistrict": "Commercial Hub", "requiredPopulation": 4, "yields": {"Gold": 5}},
+    {"name": "Workshop", "cost": 150, "requiredDistrict": "Industrial Zone", "requiredPopulation": 1, "yields": {"Production": 3}},
+    {"name": "Factory", "cost": 250, "requiredDistrict": "Industrial Zone", "requiredPopulation": 7, "yields": {"Production": 5}, "isRegional": true},
+    {"name": "Granary", "cost": 65, "requiredDistrict": "City Center", "housing": 2, "yields": {"Food": 1}},
+    {"name": "Sewer", "cost": 200, "requiredDistrict": "City Center", "housing": 2},
+    {"name": "Arena", "cost": 150, "requiredDistrict": "Entertainment Complex", "amenities": 1},
+    {"name": "Zoo", "cost": 250, "requiredDistrict": "Entertainment Complex", "amenities": 1, "isRegional": true}
+]

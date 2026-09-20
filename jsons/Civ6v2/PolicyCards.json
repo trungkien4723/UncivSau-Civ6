@@ -1,0 +1,12 @@
+[
+    {"name": "Discipline", "slotType": "Military", "bonus": {"VsBarbarian": 5}},
+    {"name": "Urban Planning", "slotType": "Economic", "bonus": {"ProductionAllCities": 1}},
+    {"name": "Agoge", "slotType": "Military", "bonus": {"MeleeProduction": 50}},
+    {"name": "Caravansaries", "slotType": "Economic", "bonus": {"GoldTradeRoute": 2}},
+    {"name": "Conscription", "slotType": "Military", "bonus": {"UnitMaintenanceDiscount": 1}},
+    {"name": "Revelation", "slotType": "Economic", "bonus": {"GreatProphetPoints": 2}},
+    {"name": "Scripture", "slotType": "Economic", "bonus": {"HolySiteAdjacencyMultiplier": 100}},
+    {"name": "Triangular Trade", "slotType": "Economic", "bonus": {"GoldTradeRoute": 4, "FaithTradeRoute": 1}},
+    {"name": "Propaganda", "slotType": "Diplomatic", "bonus": {"WarWearinessReduction": 25}},
+    {"name": "Raj", "slotType": "Diplomatic", "bonus": {"SuzerainBonus": 1}}
+]

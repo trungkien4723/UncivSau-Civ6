@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Campus",
+        "cost": 60,
+        "populationRequirement": 1,
+        "adjacencyBonuses": [
+            {"type": "Mountain", "yieldType": "Science", "amount": 1, "perCount": 1},
+            {"type": "Rainforest", "yieldType": "Science", "amount": 0.5, "perCount": 2},
+            {"type": "District", "yieldType": "Science", "amount": 0.5, "perCount": 2}
+        ]
+    },
+    {
+        "name": "Holy Site",
+        "cost": 60,
+        "populationRequirement": 1,
+        "adjacencyBonuses": [
+            {"type": "NaturalWonder", "yieldType": "Faith", "amount": 2, "perCount": 1},
+            {"type": "Mountain", "yieldType": "Faith", "amount": 1, "perCount": 1},
+            {"type": "District", "yieldType": "Faith", "amount": 0.5, "perCount": 2}
+        ]
+    },
+    {
+        "name": "Commercial Hub",
+        "cost": 60,
+        "populationRequirement": 1,
+        "adjacencyBonuses": [
+            {"type": "River", "yieldType": "Gold", "amount": 2, "perCount": 1},
+            {"type": "District", "yieldType": "Gold", "amount": 0.5, "perCount": 2}
+        ]
+    },
+    {
+        "name": "Harbor",
+        "cost": 60,
+        "terrainRequirement": ["Coast"],
+        "populationRequirement": 1,
+        "adjacencyBonuses": [
+            {"type": "CoastalResource", "yieldType": "Gold", "amount": 1, "perCount": 1},
+            {"type": "District", "yieldType": "Gold", "amount": 0.5, "perCount": 2}
+        ]
+    },
+    {
+        "name": "Industrial Zone",
+        "cost": 60,
+        "populationRequirement": 1,
+        "adjacencyBonuses": [
+            {"type": "MineOrQuarry", "yieldType": "Production", "amount": 1, "perCount": 1},
+            {"type": "District", "yieldType": "Production", "amount": 0.5, "perCount": 2}
+        ]
+    },
+    {
+        "name": "Theater Square",
+        "cost": 60,
+        "populationRequirement": 1,
+        "adjacencyBonuses": [
+            {"type": "Wonder", "yieldType": "Culture", "amount": 1, "perCount": 1},
+            {"type": "District", "yieldType": "Culture", "amount": 0.5, "perCount": 2}
+        ]
+    },
+    {
+        "name": "Aqueduct",
+        "cost": 60,
+        "populationRequirement": 1,
+        "terrainRequirement": ["River", "Mountain"]
+    },
+    {
+        "name": "Neighborhood",
+        "cost": 200,
+        "populationRequirement": 7
+    }
+]

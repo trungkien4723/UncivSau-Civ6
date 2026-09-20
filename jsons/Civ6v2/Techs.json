@@ -1,0 +1,10 @@
+[
+    {"name": "Pottery", "cost": 25, "column": 1, "era": "Ancient", "prerequisites": [], "eurekaCondition": "Build 1 Farm", "unlocks": ["Granary"]},
+    {"name": "Animal Husbandry", "cost": 25, "column": 1, "era": "Ancient", "prerequisites": [], "eurekaCondition": "Improve 1 Pasture", "unlocks": ["Pasture"]},
+    {"name": "Mining", "cost": 25, "column": 1, "era": "Ancient", "prerequisites": [], "eurekaCondition": "Build 1 Mine", "unlocks": ["Mine"]},
+    {"name": "Astrology", "cost": 25, "column": 1, "era": "Ancient", "prerequisites": [], "eurekaCondition": "Find Natural Wonder", "unlocks": ["Holy Site"]},
+    {"name": "Bronze Working", "cost": 35, "column": 2, "era": "Ancient", "prerequisites": ["Mining"], "eurekaCondition": "Kill 3 Barbarians", "unlocks": ["Encampment", "Spearman"]},
+    {"name": "Writing", "cost": 35, "column": 2, "era": "Ancient", "prerequisites": ["Pottery"], "eurekaCondition": "Meet 1 City-State", "unlocks": ["Campus", "Library"]},
+    {"name": "Irrigation", "cost": 35, "column": 2, "era": "Ancient", "prerequisites": ["Pottery"], "eurekaCondition": "Settle near River", "unlocks": ["Aqueduct"]},
+    {"name": "Celestial Navigation", "cost": 50, "column": 3, "era": "Ancient", "prerequisites": ["Astrology"], "eurekaCondition": "Build Harbor", "unlocks": ["Harbor", "Galley"]}
+]

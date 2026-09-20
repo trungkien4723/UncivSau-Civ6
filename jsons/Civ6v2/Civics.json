@@ -1,0 +1,9 @@
+[
+    {"name": "Code of Laws", "cost": 20, "column": 1, "era": "Ancient", "prerequisites": [], "inspirationCondition": "Build 1 District", "unlocksGovernment": "Chiefdom", "unlocksPolicyCards": ["Discipline", "Urban Planning"]},
+    {"name": "Craftsmanship", "cost": 25, "column": 1, "era": "Ancient", "prerequisites": ["Code of Laws"], "inspirationCondition": "Improve 3 Tiles", "unlocksPolicyCards": ["Agoge", "Colonization"]},
+    {"name": "Foreign Trade", "cost": 25, "column": 1, "era": "Ancient", "prerequisites": ["Code of Laws"], "inspirationCondition": "Discover 2 Continents", "unlocksPolicyCards": ["Caravansaries", "Charismatic Leader"]},
+    {"name": "State Workforce", "cost": 35, "column": 2, "era": "Ancient", "prerequisites": ["Craftsmanship"], "inspirationCondition": "Build 1 District", "unlocksGovernment": "Oligarchy", "unlocksPolicyCards": ["Conscription", "Corvee"]},
+    {"name": "Early Empire", "cost": 35, "column": 2, "era": "Ancient", "prerequisites": ["State Workforce"], "inspirationCondition": "Reach Pop 6", "unlocksGovernor": "Magnus", "unlocksPolicyCards": ["Colonization"]},
+    {"name": "Mysticism", "cost": 35, "column": 2, "era": "Ancient", "prerequisites": ["Code of Laws"], "inspirationCondition": "Found Pantheon", "unlocksPolicyCards": ["Revelation", "Scripture"]},
+    {"name": "Political Philosophy", "cost": 60, "column": 3, "era": "Ancient", "prerequisites": ["State Workforce", "Early Empire"], "inspirationCondition": "Build 1 Government", "unlocksGovernment": "Classical Republic", "unlocksPolicyCards": ["Pentathlon"]}
+]

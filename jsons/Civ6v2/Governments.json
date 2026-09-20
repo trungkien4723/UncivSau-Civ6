@@ -1,0 +1,8 @@
+[
+    {"name": "Chiefdom", "era": "Ancient", "slots": {"Military": 1, "Economic": 1}, "inherentBonus": {}},
+    {"name": "Autocracy", "era": "Classical", "slots": {"Military": 1, "Economic": 1, "Diplomatic": 1, "Wildcard": 1}, "requiredCivic": "Political Philosophy", "inherentBonus": {"WonderProduction": 10}},
+    {"name": "Oligarchy", "era": "Classical", "slots": {"Military": 1, "Economic": 1, "Diplomatic": 1, "Wildcard": 1}, "requiredCivic": "Political Philosophy", "inherentBonus": {"MeleeStrength": 4}},
+    {"name": "Classical Republic", "era": "Classical", "slots": {"Military": 1, "Economic": 2, "Diplomatic": 1, "Wildcard": 1}, "requiredCivic": "Political Philosophy", "inherentBonus": {"Amenities": 1, "GreatPeoplePoints": 15}},
+    {"name": "Monarchy", "era": "Medieval", "slots": {"Military": 2, "Economic": 1, "Diplomatic": 1, "Wildcard": 1}, "requiredCivic": "Divine Right", "inherentBonus": {"Housing": 2}},
+    {"name": "Merchant Republic", "era": "Medieval", "slots": {"Military": 1, "Economic": 2, "Diplomatic": 1, "Wildcard": 1}, "requiredCivic": "Exploration", "inherentBonus": {"TradeRoutes": 2, "GoldDiscount": 15}}
+]

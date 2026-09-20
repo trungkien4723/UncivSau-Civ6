@@ -1,0 +1,9 @@
+[
+    {"name": "Housing", "civilopediaText": [{"text": "Housing limits population. Fresh water +3, Aqueduct +6. Check CityScreen housing."}]},
+    {"name": "Districts", "civilopediaText": [{"text": "1 district per type per city, slots 1,4,7,10. Adjacency +0.5 per district. Place via CityScreen."}]},
+    {"name": "TechCivic", "civilopediaText": [{"text": "2 trees: Technology (Science) and Civic (Culture). Eureka/Inspiration +50%."}]},
+    {"name": "Government", "civilopediaText": [{"text": "Slots Military/Economic/Diplomatic/Wildcard. Switch government clears slots free."}]},
+    {"name": "Combat", "civilopediaText": [{"text": "Walls give HP only, not strength. Siege -17 vs land, not vs city."}]},
+    {"name": "Loyalty", "civilopediaText": [{"text": "Loyalty 0-100, foreign pressure flips to Free City. Governor +8."}]},
+    {"name": "MultiplayerWorker", "civilopediaText": [{"text": "Multiplayer via Cloudflare Worker flagfish/horse: save to KV, realtime WS, push."}]}
+]
